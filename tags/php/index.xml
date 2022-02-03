@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>php on Jan Malčák</title>
-    <link>https://malja.github.io/tags/php/</link>
+    <link>https://jan.malcak.cz/tags/php/</link>
     <description>Recent content in php on Jan Malčák</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Po nocích píše Honza</copyright>
-    <lastBuildDate>Thu, 31 Aug 2017 22:14:00 +0200</lastBuildDate><atom:link href="https://malja.github.io/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Aug 2017 22:14:00 +0200</lastBuildDate><atom:link href="https://jan.malcak.cz/tags/php/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PHP: Validace bankovního čísla</title>
-      <link>https://malja.github.io/php-validace-bankovniho-cisla/</link>
+      <link>https://jan.malcak.cz/php-validace-bankovniho-cisla/</link>
       <pubDate>Thu, 31 Aug 2017 22:14:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/php-validace-bankovniho-cisla/</guid>
+      <guid>https://jan.malcak.cz/php-validace-bankovniho-cisla/</guid>
       <description></description>
       <content>&lt;!-- raw HTML omitted --&gt;
 </content>
@@ -20,10 +20,10 @@
     
     <item>
       <title>Generování HTML z PHP polí</title>
-      <link>https://malja.github.io/generovani-html-z-php-poli/</link>
+      <link>https://jan.malcak.cz/generovani-html-z-php-poli/</link>
       <pubDate>Wed, 28 Aug 2013 10:53:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/generovani-html-z-php-poli/</guid>
+      <guid>https://jan.malcak.cz/generovani-html-z-php-poli/</guid>
       <description>Při výpisu objemných PHP polí byli mými nejlepšími společníky funkce print_r() a var_dump(). Výpis z nich se navíc musí dále obalit přinejmenším do tagů pre, aby výstup byl alespoň trochu čitelný. Navíc postup, který jsem k tomu používal:
 echo &amp;#34;&amp;lt;pre&amp;gt;&amp;#34;;print_r($promenna);echo &amp;#34;&amp;lt;/pre&amp;gt;&amp;#34;; se mi v kódu vůbec nelíbil. Proto jsem si vytvořil třídu, která formátování obstará za mě. Tak vznikla třída Tabletizer. Díky ní je vytvoření pěkné tabulky otázkou pár řádků:</description>
       <content>&lt;p&gt;Při výpisu objemných PHP polí byli mými nejlepšími společníky funkce &lt;code&gt;print_r()&lt;/code&gt; a &lt;code&gt;var_dump()&lt;/code&gt;. Výpis z nich se navíc musí dále obalit přinejmenším do tagů &lt;code&gt;pre&lt;/code&gt;, aby výstup byl alespoň trochu čitelný. Navíc postup, který jsem k tomu používal:&lt;/p&gt;

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linux on Jan Malčák</title>
-    <link>https://malja.github.io/tags/linux/</link>
+    <link>https://jan.malcak.cz/tags/linux/</link>
     <description>Recent content in linux on Jan Malčák</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Po nocích píše Honza</copyright>
-    <lastBuildDate>Sat, 14 Mar 2015 22:49:00 +0200</lastBuildDate><atom:link href="https://malja.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Mar 2015 22:49:00 +0200</lastBuildDate><atom:link href="https://jan.malcak.cz/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arduino: Odpojení při nahrávání programu</title>
-      <link>https://malja.github.io/arduino-odpojeni-pri-nahravani-programu/</link>
+      <link>https://jan.malcak.cz/arduino-odpojeni-pri-nahravani-programu/</link>
       <pubDate>Sat, 14 Mar 2015 22:49:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/arduino-odpojeni-pri-nahravani-programu/</guid>
+      <guid>https://jan.malcak.cz/arduino-odpojeni-pri-nahravani-programu/</guid>
       <description>Při experimentování s Arduinem jsem narazil na podivný problém. Po několika malých úpravách kódu mi editor při nahrávání programu hlásil
 Error opening serial port &#39;/dev/ttyACM1&#39;  To vše doplněné dlouhým výpisem kde se chyba vyskytla.
 Jako by to nestačilo, Arduino se poté odpojí. Pro připojení bylo nutné vytáhnout a opět zastrčit napájecí USB kabel. Tím se bohužel problém s odpojováním nevyřešil. Obšírným nahlédnutím do složky /dev jsem zjistil, že soubor ttyACM1 existuje.</description>
@@ -33,10 +33,10 @@ Jako by to nestačilo, Arduino se poté odpojí. Pro připojení bylo nutné vyt
     
     <item>
       <title>C&#43;&#43;: Existuje soubor?</title>
-      <link>https://malja.github.io/cpp-existuje-soubor/</link>
+      <link>https://jan.malcak.cz/cpp-existuje-soubor/</link>
       <pubDate>Thu, 04 Jul 2013 14:20:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/cpp-existuje-soubor/</guid>
+      <guid>https://jan.malcak.cz/cpp-existuje-soubor/</guid>
       <description>Pokud bych chtěl jsen přečíst data, jde o problém celkem triviální. Stačí se pokusit tento soubor otevřít. Cest je opět několik:
 Takový postup bude ve většině případů plně dostačující. Pro úplnost uvedu ještě příklad s využitím funkce access
 Co ale dělat v případě, že chceme o souboru zjistit více informací? Je soubor spustitelný? Jaká je jeho velikost? Jaké je ID vlastníka? V takovém případě se můžeme opřít o funkci stat</description>
@@ -84,10 +84,10 @@ int stat(const char *filename, struct stat *buf);
     
     <item>
       <title>Debian: Problém s LC_MESSAGES</title>
-      <link>https://malja.github.io/debian-problem-s-lc_messages/</link>
+      <link>https://jan.malcak.cz/debian-problem-s-lc_messages/</link>
       <pubDate>Tue, 07 May 2013 21:33:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/debian-problem-s-lc_messages/</guid>
+      <guid>https://jan.malcak.cz/debian-problem-s-lc_messages/</guid>
       <description>Po dlouhé době spokojeného používání Debianu jsem dnes po troše šťourání se v systémových knihovnách znovu instaloval. Při apt-get dist-upgrade jsem ale narazil na následující chybovou hlášku:
 locale: Cannot set LC_CTYPE to default locale: No such file or directory locale: Cannot set LC_MESSAGES to default locale: No such file or directory locale: Cannot set LC_COLLATE to default locale: No such file or directory  Řešením nakonec bylo nainstalovat balík locales a locales-all a spustit příkaz:</description>
       <content>&lt;p&gt;Po dlouhé době spokojeného používání Debianu jsem dnes po troše šťourání se v systémových knihovnách znovu instaloval. Při &lt;code&gt;apt-get dist-upgrade&lt;/code&gt; jsem ale narazil na následující chybovou hlášku:&lt;/p&gt;
@@ -107,10 +107,10 @@ locale: Cannot set LC_COLLATE to default locale: No such file or directory
     
     <item>
       <title>Použití příkazu chmod</title>
-      <link>https://malja.github.io/pouziti-prikazu-chmod/</link>
+      <link>https://jan.malcak.cz/pouziti-prikazu-chmod/</link>
       <pubDate>Sat, 05 Mar 2011 23:06:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/pouziti-prikazu-chmod/</guid>
+      <guid>https://jan.malcak.cz/pouziti-prikazu-chmod/</guid>
       <description>chmod je linuxový příkaz, který změní přístupová práva k souboru nebo adresáři. Přístupová práva jsou jakési pravidla, která systému říkají, co kdo smí se souborem nebo adresářem dělat. chmod rozlišuje právo na spouštění, právo na zápis a právo na čtení a jejich vzájemné mutace (o tom za chvíli). Každé právo má své číselné označení:
  0 - bez práva 1 - právo na spuštění 2 - právo na zápis 4 - právo na čtení  Aby se rozlišilo, pro koho dané pravidlo platí, zadávají se v trojmístném čísle: XXX, kde první místo znamená práva uživatele, který soubor vlastní, druhé místo jsou práva skupiny, ve které uživatel je a třetí jsou práva ostatních.</description>
       <content>&lt;p&gt;&lt;code&gt;chmod&lt;/code&gt; je linuxový příkaz, který změní přístupová práva k souboru nebo adresáři. Přístupová práva jsou jakési pravidla, která systému říkají, co kdo smí se souborem nebo adresářem dělat. &lt;code&gt;chmod&lt;/code&gt; rozlišuje právo na spouštění, právo na zápis a právo na čtení a jejich vzájemné mutace (o tom za chvíli). Každé právo má své číselné označení:&lt;/p&gt;
@@ -152,10 +152,10 @@ locale: Cannot set LC_COLLATE to default locale: No such file or directory
     
     <item>
       <title>Linux: Snímek obrazovky</title>
-      <link>https://malja.github.io/linux-snimek-obrazovky/</link>
+      <link>https://jan.malcak.cz/linux-snimek-obrazovky/</link>
       <pubDate>Sun, 09 Aug 2009 21:43:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/linux-snimek-obrazovky/</guid>
+      <guid>https://jan.malcak.cz/linux-snimek-obrazovky/</guid>
       <description>Applet do panelu Asi nejdednoduším způsobem je aplet, který si velice jednoduše vložíte do panelu. Po přidání se objeví ikonka která po stisku zachytí požadovaný obrázek. Tato varianta nemá mnoho nastavení a možností, zato však stojí nejméně práce a je funkčí skoro ihned.
 Přidání apletu Pravým tlačítkem myši klikněte na panel, kam chcete aplet přidat. Po kliknutí se objeví malé okénko - klikněte na Přidat nové položky. Po otevření okna najděte plet jménem Snímek obrazovky a klikněte na Přidat.</description>
       <content>&lt;h1 id=&#34;applet-do-panelu&#34;&gt;Applet do panelu&lt;/h1&gt;

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>web on Jan Malčák</title>
-    <link>https://malja.github.io/tags/web/</link>
+    <link>https://jan.malcak.cz/tags/web/</link>
     <description>Recent content in web on Jan Malčák</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Po nocích píše Honza</copyright>
-    <lastBuildDate>Fri, 12 Jun 2009 16:35:00 +0200</lastBuildDate><atom:link href="https://malja.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Jun 2009 16:35:00 +0200</lastBuildDate><atom:link href="https://jan.malcak.cz/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aktualizace WordPressu</title>
-      <link>https://malja.github.io/aktualizace-wordpressu/</link>
+      <link>https://jan.malcak.cz/aktualizace-wordpressu/</link>
       <pubDate>Fri, 12 Jun 2009 16:35:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/aktualizace-wordpressu/</guid>
+      <guid>https://jan.malcak.cz/aktualizace-wordpressu/</guid>
       <description>Poznámka z roku 2018: Tenhle článek je obsahem hodně za zenitem. Aktualizace WP je dnes otázkou dvou kliknutí. Všechno je automatizované a až na výjimky bezpečné (ve smyslu rozbití stránky a ztráty dat). Na druhou stranu jde o můj nejstarší zachovalý publikovaný článek. Krásně demonstruje dvě věci. Zaprvé vývoj mého psaného projevu (snad k lepšímu) a zadruhé posun v &amp;ldquo;přístupnosti&amp;rdquo; IT. Takže si zaslouží tu být :D.
 Nyní si povíme jak aktualizovat náš Wordpress, bez ztráty dat:</description>
       <content>&lt;p&gt;&lt;strong&gt;Poznámka z roku 2018:&lt;/strong&gt; Tenhle článek je obsahem hodně za zenitem. Aktualizace WP je dnes otázkou dvou kliknutí. Všechno je automatizované a až na výjimky bezpečné (ve smyslu rozbití stránky a ztráty dat). Na druhou stranu jde o můj nejstarší zachovalý publikovaný článek. Krásně demonstruje dvě věci. Zaprvé vývoj mého psaného projevu (snad k lepšímu) a zadruhé posun v &amp;ldquo;přístupnosti&amp;rdquo; IT. Takže si zaslouží tu být :D.&lt;/p&gt;
