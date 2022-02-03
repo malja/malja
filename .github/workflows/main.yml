@@ -1,4 +1,4 @@
-name: build_sitte
+name: build_site
 on: push
 jobs:
   deploy:
@@ -28,4 +28,5 @@ jobs:
           #   keep_files: true
           publish_branch: site
           github_token: ${{ secrets.TOKEN }}
+          publish_dir: ./public
         #   cname: example.com
