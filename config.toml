@@ -1,4 +1,4 @@
-baseurl = "https://malja.github.io/"
+baseurl = "https://malja.github.io/docs/"
 title = 'Jan Malčák'
 defaultContentLanguage = "cs"
 theme = "terminal"

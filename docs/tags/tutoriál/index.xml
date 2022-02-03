@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tutoriál on Jan Malčák</title>
-    <link>https://malja.github.io/tags/tutori%C3%A1l/</link>
+    <link>https://malja.github.io/docs/tags/tutori%C3%A1l/</link>
     <description>Recent content in tutoriál on Jan Malčák</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Po nocích píše Honza</copyright>
-    <lastBuildDate>Thu, 31 Aug 2017 22:14:00 +0200</lastBuildDate><atom:link href="https://malja.github.io/tags/tutori%C3%A1l/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Aug 2017 22:14:00 +0200</lastBuildDate><atom:link href="https://malja.github.io/docs/tags/tutori%C3%A1l/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PHP: Validace bankovního čísla</title>
-      <link>https://malja.github.io/php-validace-bankovniho-cisla/</link>
+      <link>https://malja.github.io/docs/php-validace-bankovniho-cisla/</link>
       <pubDate>Thu, 31 Aug 2017 22:14:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/php-validace-bankovniho-cisla/</guid>
+      <guid>https://malja.github.io/docs/php-validace-bankovniho-cisla/</guid>
       <description></description>
       <content>&lt;!-- raw HTML omitted --&gt;
 </content>
@@ -20,10 +20,10 @@
     
     <item>
       <title>Arduino: Programování Attiny85</title>
-      <link>https://malja.github.io/arduino-programovani-attiny85/</link>
+      <link>https://malja.github.io/docs/arduino-programovani-attiny85/</link>
       <pubDate>Sat, 26 Mar 2016 22:50:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/arduino-programovani-attiny85/</guid>
+      <guid>https://malja.github.io/docs/arduino-programovani-attiny85/</guid>
       <description>Teď, možná po roce či dvou, jsem je vyhrabal z krabice. Stále jsem přesně netušil, co s nimi, ale v hlavě se mi pár nápadů rýsovalo.
 Z mých posledních pokusů jsem si pamatoval, že standardní USBisp, které jsem si koupil na programování čipů ATmega328 nejde použít. Nejjednodušší náhradou se mi jevilo využít Arduino Uno. Na internetu jsem našel velké množství tutoriálů, navíc jde o celkem jednoduchou záležitost.
 Prvně je třeba přidat podporu pro čipy rodiny ATtiny do Arduino IDE.</description>
@@ -89,10 +89,10 @@ Prvně je třeba přidat podporu pro čipy rodiny ATtiny do Arduino IDE.</descri
     
     <item>
       <title>Arduino: Odpojení při nahrávání programu</title>
-      <link>https://malja.github.io/arduino-odpojeni-pri-nahravani-programu/</link>
+      <link>https://malja.github.io/docs/arduino-odpojeni-pri-nahravani-programu/</link>
       <pubDate>Sat, 14 Mar 2015 22:49:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/arduino-odpojeni-pri-nahravani-programu/</guid>
+      <guid>https://malja.github.io/docs/arduino-odpojeni-pri-nahravani-programu/</guid>
       <description>Při experimentování s Arduinem jsem narazil na podivný problém. Po několika malých úpravách kódu mi editor při nahrávání programu hlásil
 Error opening serial port &#39;/dev/ttyACM1&#39;  To vše doplněné dlouhým výpisem kde se chyba vyskytla.
 Jako by to nestačilo, Arduino se poté odpojí. Pro připojení bylo nutné vytáhnout a opět zastrčit napájecí USB kabel. Tím se bohužel problém s odpojováním nevyřešil. Obšírným nahlédnutím do složky /dev jsem zjistil, že soubor ttyACM1 existuje.</description>
@@ -113,10 +113,10 @@ Jako by to nestačilo, Arduino se poté odpojí. Pro připojení bylo nutné vyt
     
     <item>
       <title>SDL2: Snímek obrazovky</title>
-      <link>https://malja.github.io/post/</link>
+      <link>https://malja.github.io/docs/post/</link>
       <pubDate>Wed, 19 Mar 2014 20:57:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/post/</guid>
+      <guid>https://malja.github.io/docs/post/</guid>
       <description>SDL s sebou ve druhé verzi přinesl i změnu vykreslování na obrazovku. Místo v RAM uložených SDL_Surface je v SDL2 použita SDL_Texture uložená na video RAM, kde je plně v jurisdikci GPU. Krom citelných změn na rychlost vykreslování se také změnil způsob, jakým lze zachytit snímek obrazovky.
 Při použití textur se SDL_Surface okna neaktualizuje, pokud bychom použili dřívější způsob, dostali bychom prázdný snímek. Bohužel standardní funkce SDL_SaveBMP (ani její nedokumentovaná obdoba v rozšíření SDL_image - IMG_SavePNG) nepodporuje uložení SDL_Texture.</description>
       <content>&lt;p&gt;SDL s sebou ve druhé verzi přinesl i změnu vykreslování na obrazovku. Místo v RAM uložených &lt;a href=&#34;https://wiki.libsdl.org/SDL_Surface&#34;&gt;SDL_Surface&lt;/a&gt; je v SDL2 použita &lt;a href=&#34;https://wiki.libsdl.org/SDL_Texture&#34;&gt;SDL_Texture&lt;/a&gt; uložená na video RAM, kde je plně v jurisdikci GPU. Krom citelných změn na rychlost vykreslování se také změnil způsob, jakým lze zachytit snímek obrazovky.&lt;/p&gt;
@@ -135,10 +135,10 @@ Při použití textur se SDL_Surface okna neaktualizuje, pokud bychom použili d
     
     <item>
       <title>Android: Horizontální čára</title>
-      <link>https://malja.github.io/android-horizontalni-cara/</link>
+      <link>https://malja.github.io/docs/android-horizontalni-cara/</link>
       <pubDate>Wed, 28 Aug 2013 15:03:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/android-horizontalni-cara/</guid>
+      <guid>https://malja.github.io/docs/android-horizontalni-cara/</guid>
       <description>V Androidu neexistuje (alespoň o tom nevím) žádná nativní cesta jak vytvořit horizontální čáru. Naštěstí si jde vypomoci i jinak:
 &amp;lt;View android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;1dip&amp;#34; android:background=&amp;#34;#000000&amp;#34;&amp;gt; </description>
       <content>&lt;p&gt;V Androidu neexistuje (alespoň o tom nevím) žádná nativní cesta jak vytvořit horizontální čáru. Naštěstí si jde vypomoci i jinak:&lt;/p&gt;
@@ -151,10 +151,10 @@ Při použití textur se SDL_Surface okna neaktualizuje, pokud bychom použili d
     
     <item>
       <title>Generování HTML z PHP polí</title>
-      <link>https://malja.github.io/generovani-html-z-php-poli/</link>
+      <link>https://malja.github.io/docs/generovani-html-z-php-poli/</link>
       <pubDate>Wed, 28 Aug 2013 10:53:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/generovani-html-z-php-poli/</guid>
+      <guid>https://malja.github.io/docs/generovani-html-z-php-poli/</guid>
       <description>Při výpisu objemných PHP polí byli mými nejlepšími společníky funkce print_r() a var_dump(). Výpis z nich se navíc musí dále obalit přinejmenším do tagů pre, aby výstup byl alespoň trochu čitelný. Navíc postup, který jsem k tomu používal:
 echo &amp;#34;&amp;lt;pre&amp;gt;&amp;#34;;print_r($promenna);echo &amp;#34;&amp;lt;/pre&amp;gt;&amp;#34;; se mi v kódu vůbec nelíbil. Proto jsem si vytvořil třídu, která formátování obstará za mě. Tak vznikla třída Tabletizer. Díky ní je vytvoření pěkné tabulky otázkou pár řádků:</description>
       <content>&lt;p&gt;Při výpisu objemných PHP polí byli mými nejlepšími společníky funkce &lt;code&gt;print_r()&lt;/code&gt; a &lt;code&gt;var_dump()&lt;/code&gt;. Výpis z nich se navíc musí dále obalit přinejmenším do tagů &lt;code&gt;pre&lt;/code&gt;, aby výstup byl alespoň trochu čitelný. Navíc postup, který jsem k tomu používal:&lt;/p&gt;
@@ -181,10 +181,10 @@ echo &amp;#34;&amp;lt;pre&amp;gt;&amp;#34;;print_r($promenna);echo &amp;#34;&amp
     
     <item>
       <title>C&#43;&#43;: Existuje soubor?</title>
-      <link>https://malja.github.io/cpp-existuje-soubor/</link>
+      <link>https://malja.github.io/docs/cpp-existuje-soubor/</link>
       <pubDate>Thu, 04 Jul 2013 14:20:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/cpp-existuje-soubor/</guid>
+      <guid>https://malja.github.io/docs/cpp-existuje-soubor/</guid>
       <description>Pokud bych chtěl jsen přečíst data, jde o problém celkem triviální. Stačí se pokusit tento soubor otevřít. Cest je opět několik:
 Takový postup bude ve většině případů plně dostačující. Pro úplnost uvedu ještě příklad s využitím funkce access
 Co ale dělat v případě, že chceme o souboru zjistit více informací? Je soubor spustitelný? Jaká je jeho velikost? Jaké je ID vlastníka? V takovém případě se můžeme opřít o funkci stat</description>
@@ -232,10 +232,10 @@ int stat(const char *filename, struct stat *buf);
     
     <item>
       <title>Použití příkazu chmod</title>
-      <link>https://malja.github.io/pouziti-prikazu-chmod/</link>
+      <link>https://malja.github.io/docs/pouziti-prikazu-chmod/</link>
       <pubDate>Sat, 05 Mar 2011 23:06:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/pouziti-prikazu-chmod/</guid>
+      <guid>https://malja.github.io/docs/pouziti-prikazu-chmod/</guid>
       <description>chmod je linuxový příkaz, který změní přístupová práva k souboru nebo adresáři. Přístupová práva jsou jakési pravidla, která systému říkají, co kdo smí se souborem nebo adresářem dělat. chmod rozlišuje právo na spouštění, právo na zápis a právo na čtení a jejich vzájemné mutace (o tom za chvíli). Každé právo má své číselné označení:
  0 - bez práva 1 - právo na spuštění 2 - právo na zápis 4 - právo na čtení  Aby se rozlišilo, pro koho dané pravidlo platí, zadávají se v trojmístném čísle: XXX, kde první místo znamená práva uživatele, který soubor vlastní, druhé místo jsou práva skupiny, ve které uživatel je a třetí jsou práva ostatních.</description>
       <content>&lt;p&gt;&lt;code&gt;chmod&lt;/code&gt; je linuxový příkaz, který změní přístupová práva k souboru nebo adresáři. Přístupová práva jsou jakési pravidla, která systému říkají, co kdo smí se souborem nebo adresářem dělat. &lt;code&gt;chmod&lt;/code&gt; rozlišuje právo na spouštění, právo na zápis a právo na čtení a jejich vzájemné mutace (o tom za chvíli). Každé právo má své číselné označení:&lt;/p&gt;
@@ -277,10 +277,10 @@ int stat(const char *filename, struct stat *buf);
     
     <item>
       <title>Linux: Snímek obrazovky</title>
-      <link>https://malja.github.io/linux-snimek-obrazovky/</link>
+      <link>https://malja.github.io/docs/linux-snimek-obrazovky/</link>
       <pubDate>Sun, 09 Aug 2009 21:43:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/linux-snimek-obrazovky/</guid>
+      <guid>https://malja.github.io/docs/linux-snimek-obrazovky/</guid>
       <description>Applet do panelu Asi nejdednoduším způsobem je aplet, který si velice jednoduše vložíte do panelu. Po přidání se objeví ikonka která po stisku zachytí požadovaný obrázek. Tato varianta nemá mnoho nastavení a možností, zato však stojí nejméně práce a je funkčí skoro ihned.
 Přidání apletu Pravým tlačítkem myši klikněte na panel, kam chcete aplet přidat. Po kliknutí se objeví malé okénko - klikněte na Přidat nové položky. Po otevření okna najděte plet jménem Snímek obrazovky a klikněte na Přidat.</description>
       <content>&lt;h1 id=&#34;applet-do-panelu&#34;&gt;Applet do panelu&lt;/h1&gt;
@@ -315,10 +315,10 @@ Přidání apletu Pravým tlačítkem myši klikněte na panel, kam chcete aplet
     
     <item>
       <title>Aktualizace WordPressu</title>
-      <link>https://malja.github.io/aktualizace-wordpressu/</link>
+      <link>https://malja.github.io/docs/aktualizace-wordpressu/</link>
       <pubDate>Fri, 12 Jun 2009 16:35:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/aktualizace-wordpressu/</guid>
+      <guid>https://malja.github.io/docs/aktualizace-wordpressu/</guid>
       <description>Poznámka z roku 2018: Tenhle článek je obsahem hodně za zenitem. Aktualizace WP je dnes otázkou dvou kliknutí. Všechno je automatizované a až na výjimky bezpečné (ve smyslu rozbití stránky a ztráty dat). Na druhou stranu jde o můj nejstarší zachovalý publikovaný článek. Krásně demonstruje dvě věci. Zaprvé vývoj mého psaného projevu (snad k lepšímu) a zadruhé posun v &amp;ldquo;přístupnosti&amp;rdquo; IT. Takže si zaslouží tu být :D.
 Nyní si povíme jak aktualizovat náš Wordpress, bez ztráty dat:</description>
       <content>&lt;p&gt;&lt;strong&gt;Poznámka z roku 2018:&lt;/strong&gt; Tenhle článek je obsahem hodně za zenitem. Aktualizace WP je dnes otázkou dvou kliknutí. Všechno je automatizované a až na výjimky bezpečné (ve smyslu rozbití stránky a ztráty dat). Na druhou stranu jde o můj nejstarší zachovalý publikovaný článek. Krásně demonstruje dvě věci. Zaprvé vývoj mého psaného projevu (snad k lepšímu) a zadruhé posun v &amp;ldquo;přístupnosti&amp;rdquo; IT. Takže si zaslouží tu být :D.&lt;/p&gt;
