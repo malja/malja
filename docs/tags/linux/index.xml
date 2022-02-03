@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on Jan Malčák</title>
+    <link>https://malja.github.io/jan.malcak.cz/tags/linux/</link>
+    <description>Recent content in linux on Jan Malčák</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Po nocích píše Honza</copyright>
+    <lastBuildDate>Sat, 14 Mar 2015 22:49:00 +0200</lastBuildDate><atom:link href="https://malja.github.io/jan.malcak.cz/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arduino: Odpojení při nahrávání programu</title>
+      <link>https://malja.github.io/jan.malcak.cz/arduino-odpojeni-pri-nahravani-programu/</link>
+      <pubDate>Sat, 14 Mar 2015 22:49:00 +0200</pubDate>
+      
+      <guid>https://malja.github.io/jan.malcak.cz/arduino-odpojeni-pri-nahravani-programu/</guid>
+      <description>Při experimentování s Arduinem jsem narazil na podivný problém. Po několika malých úpravách kódu mi editor při nahrávání programu hlásil
+Error opening serial port &#39;/dev/ttyACM1&#39;  To vše doplněné dlouhým výpisem kde se chyba vyskytla.
+Jako by to nestačilo, Arduino se poté odpojí. Pro připojení bylo nutné vytáhnout a opět zastrčit napájecí USB kabel. Tím se bohužel problém s odpojováním nevyřešil. Obšírným nahlédnutím do složky /dev jsem zjistil, že soubor ttyACM1 existuje.</description>
+      <content>&lt;p&gt;Při experimentování s Arduinem jsem narazil na podivný problém. Po několika malých úpravách kódu mi editor při nahrávání programu hlásil&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Error opening serial port &#39;/dev/ttyACM1&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To vše doplněné dlouhým výpisem kde se chyba vyskytla.&lt;/p&gt;
+&lt;p&gt;Jako by to nestačilo, Arduino se poté odpojí. Pro připojení bylo nutné vytáhnout a opět zastrčit napájecí USB kabel. Tím se bohužel problém s odpojováním nevyřešil. Obšírným nahlédnutím do složky &lt;code&gt;/dev&lt;/code&gt; jsem zjistil, že soubor &lt;code&gt;ttyACM1&lt;/code&gt; existuje. Příkaz &lt;code&gt;lsusb&lt;/code&gt; Arduino našel. Problém tedy musel být někde jinde.&lt;/p&gt;
+&lt;p&gt;Problém přetrvával i po změně zdrojového kódu či načtení některého z příkladů. Nezbylo mi tak, než použít Google. Dle všeho šlo o přepsání hodnoty:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Serial.begin(9600);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;na&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Serial.begin(14400);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nová hodnota se uloží do uživatelského nastavení. Z nějakého mě neznámého důvodu zůstane tato hodnota v nastavení &amp;ldquo;zadrblá&amp;rdquo; i po opětovné úpravě zdrojáků. Je tedy nutné smazat soubor s nastavením (u mě &lt;code&gt;~/arduino/preferences.txt&lt;/code&gt; a restartovat editor.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;: Existuje soubor?</title>
+      <link>https://malja.github.io/jan.malcak.cz/cpp-existuje-soubor/</link>
+      <pubDate>Thu, 04 Jul 2013 14:20:00 +0200</pubDate>
+      
+      <guid>https://malja.github.io/jan.malcak.cz/cpp-existuje-soubor/</guid>
+      <description>Pokud bych chtěl jsen přečíst data, jde o problém celkem triviální. Stačí se pokusit tento soubor otevřít. Cest je opět několik:
+Takový postup bude ve většině případů plně dostačující. Pro úplnost uvedu ještě příklad s využitím funkce access
+Co ale dělat v případě, že chceme o souboru zjistit více informací? Je soubor spustitelný? Jaká je jeho velikost? Jaké je ID vlastníka? V takovém případě se můžeme opřít o funkci stat</description>
+      <content>&lt;p&gt;Pokud bych chtěl jsen přečíst data, jde o problém celkem triviální. Stačí se pokusit tento soubor otevřít. Cest je opět několik:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Takový postup bude ve většině případů plně dostačující. Pro úplnost uvedu ještě příklad s využitím funkce &lt;code&gt;access&lt;/code&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Co ale dělat v případě, že chceme o souboru zjistit více informací? Je soubor spustitelný? Jaká je jeho velikost? Jaké je ID vlastníka? V takovém případě se můžeme opřít o funkci &lt;code&gt;stat&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// Funkce bere jako parametr jméno souboru a ukazatel na strukturu do které má doplnit data
+int stat(const char *filename, struct stat *buf);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Obsah struktury jde vyčíst třeba na &lt;a href=&#34;http://en.wikipedia.org/wiki/Stat_(system_call)&#34;&gt;Wiki&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;st_dev&lt;/strong&gt; - ID zařízení, na kterém je soubor uložen&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_ino&lt;/strong&gt; - Číslo &lt;a href=&#34;http://cs.wikipedia.org/wiki/Inode&#34;&gt;inode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_mode&lt;/strong&gt; -Obsahuje práva k souboru&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_nlink&lt;/strong&gt; - Počet &lt;a href=&#34;%22http://cs.wikipedia.org/wiki/Pevn%C3%BD_odkaz&#34;&gt;pevných odkazů&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_uid&lt;/strong&gt; - ID vlastníka&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_gid&lt;/strong&gt; - ID skupiny ve, které je vlastník&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_size&lt;/strong&gt; - Celková velikost v bytech&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_atime&lt;/strong&gt; - Čas posledního přístupu k souboru&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_mtime&lt;/strong&gt; - Čas poslední změny&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_ctime&lt;/strong&gt; - Poslední změna statusu (= změna čísla inode)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pro další využití bude nejdůležitější obsah &lt;code&gt;st_mode&lt;/code&gt;. Pro testování jeho obsahu jsou zavedeny mimo jiné &lt;a href=&#34;http://pubs.opengroup.org/onlinepubs/7908799/xsh/sysstat.h.html&#34;&gt;mimo jiné&lt;/a&gt; tyto masky:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;S_IFREG&lt;/strong&gt; - Jde o soubor&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_IFLNK&lt;/strong&gt; - Jde o symbolický odkaz&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_IFDIR&lt;/strong&gt; - Jde o adresář&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_IRUSR&lt;/strong&gt; - Práva pro čtení vlastníkem&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_IWUSR&lt;/strong&gt; - Práva pro zápis vlastníkem&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_IXUSR&lt;/strong&gt; - Práva pro spuštění vlastníkem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Krom masek existuje ještě několik maker. Jako jediný parametr &lt;code&gt;m&lt;/code&gt; se jim předává &lt;code&gt;st_mode&lt;/code&gt;. Návratovou hodnotou maker je buď 0, v případě že test neuspěl nebo nenulová hodnota pokud test uspěl.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;S_ISDIR(m)&lt;/strong&gt; - Jde o adresář&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_ISFIFO(m)&lt;/strong&gt; - Jde o &lt;a href=&#34;http://cs.wikipedia.org/wiki/Roura_(Unix)&#34;&gt;rouru&lt;/a&gt; nebo speciální soubor &lt;a href=&#34;%22https://cs.wikipedia.org/wiki/Metoda_FIFO&#34;&gt;FIFO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_ISREG(m)&lt;/strong&gt; - Jde o soubor&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_ISLNK(m)&lt;/strong&gt; - Jde o symbolický adresář&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Konečně je čas na ukázku použití funkce &lt;code&gt;stat&lt;/code&gt; v akci:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Debian: Problém s LC_MESSAGES</title>
+      <link>https://malja.github.io/jan.malcak.cz/debian-problem-s-lc_messages/</link>
+      <pubDate>Tue, 07 May 2013 21:33:00 +0200</pubDate>
+      
+      <guid>https://malja.github.io/jan.malcak.cz/debian-problem-s-lc_messages/</guid>
+      <description>Po dlouhé době spokojeného používání Debianu jsem dnes po troše šťourání se v systémových knihovnách znovu instaloval. Při apt-get dist-upgrade jsem ale narazil na následující chybovou hlášku:
+locale: Cannot set LC_CTYPE to default locale: No such file or directory locale: Cannot set LC_MESSAGES to default locale: No such file or directory locale: Cannot set LC_COLLATE to default locale: No such file or directory  Řešením nakonec bylo nainstalovat balík locales a locales-all a spustit příkaz:</description>
+      <content>&lt;p&gt;Po dlouhé době spokojeného používání Debianu jsem dnes po troše šťourání se v systémových knihovnách znovu instaloval. Při &lt;code&gt;apt-get dist-upgrade&lt;/code&gt; jsem ale narazil na následující chybovou hlášku:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+locale: Cannot set LC_COLLATE to default locale: No such file or directory
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Řešením nakonec bylo nainstalovat balík &lt;code&gt;locales&lt;/code&gt; a &lt;code&gt;locales-all&lt;/code&gt; a spustit příkaz:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;locale-gen
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Při hledání řešení jsem také narazil na možnost, že není uveden seznam lokalizací, ze kterých se má vybírat. V takovém případě editujte soubor &lt;code&gt;/etc/locale.gen&lt;/code&gt; a odkomentujte (odstraňte znak # na začátku řádku) řádky s vaší lokalizací. Například v mém případě to je:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cs_CZ.UTF-8 UTF-8
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Teprve pak je možné spustit příkaz &lt;code&gt;locale-gen&lt;/code&gt;.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Použití příkazu chmod</title>
+      <link>https://malja.github.io/jan.malcak.cz/pouziti-prikazu-chmod/</link>
+      <pubDate>Sat, 05 Mar 2011 23:06:00 +0200</pubDate>
+      
+      <guid>https://malja.github.io/jan.malcak.cz/pouziti-prikazu-chmod/</guid>
+      <description>chmod je linuxový příkaz, který změní přístupová práva k souboru nebo adresáři. Přístupová práva jsou jakési pravidla, která systému říkají, co kdo smí se souborem nebo adresářem dělat. chmod rozlišuje právo na spouštění, právo na zápis a právo na čtení a jejich vzájemné mutace (o tom za chvíli). Každé právo má své číselné označení:
+ 0 - bez práva 1 - právo na spuštění 2 - právo na zápis 4 - právo na čtení  Aby se rozlišilo, pro koho dané pravidlo platí, zadávají se v trojmístném čísle: XXX, kde první místo znamená práva uživatele, který soubor vlastní, druhé místo jsou práva skupiny, ve které uživatel je a třetí jsou práva ostatních.</description>
+      <content>&lt;p&gt;&lt;code&gt;chmod&lt;/code&gt; je linuxový příkaz, který změní přístupová práva k souboru nebo adresáři. Přístupová práva jsou jakési pravidla, která systému říkají, co kdo smí se souborem nebo adresářem dělat. &lt;code&gt;chmod&lt;/code&gt; rozlišuje právo na spouštění, právo na zápis a právo na čtení a jejich vzájemné mutace (o tom za chvíli). Každé právo má své číselné označení:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;0&lt;/strong&gt; - bez práva&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1&lt;/strong&gt; - právo na spuštění&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2&lt;/strong&gt; - právo na zápis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;4&lt;/strong&gt; - právo na čtení&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aby se rozlišilo, pro koho dané pravidlo platí, zadávají se v trojmístném čísle: XXX, kde první místo znamená &lt;strong&gt;práva uživatele&lt;/strong&gt;, který soubor vlastní, druhé místo jsou &lt;strong&gt;práva skupiny&lt;/strong&gt;, ve které uživatel je a třetí jsou &lt;strong&gt;práva ostatních&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Nyní se vrátím k tomu, že &lt;code&gt;chmod&lt;/code&gt; používá mutace výše uvedených práv. Je to víc než logické, protože jinak by nešlo zapsat to, aby uživatel měl právo jak zapisovat tak číst. Proto se číselná označení práv sčítají:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;1 (právo ke spuštění) + 2 (právo na zápis) = 3 (uživatel může jak číst, tak zapisovat)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nyní už víte vše, co je potřeba a tak doplním plně funkční příklad. Mějme soubor &lt;em&gt;test.txt&lt;/em&gt;, kterému budeme chtít nastavit:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;uživatel může číst, zapisovat i spouštět (4 + 2 + 1)&lt;/li&gt;
+&lt;li&gt;skupina může číst a zapisovat (4 + 2)&lt;/li&gt;
+&lt;li&gt;ostatní mohou jen číst (4)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Příkaz:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;chmod 764 test.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A to je celé.&lt;/p&gt;
+&lt;h1 id=&#34;další-příkazy&#34;&gt;Další příkazy&lt;/h1&gt;
+&lt;p&gt;Nastaví souboru &lt;em&gt;soubor2&lt;/em&gt; stejná práva, jako má &lt;em&gt;soubor:&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;chmod --reference=soubor soubor2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nastaví práva rekurzivně (tedy bude procházet všechny podadresáře):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;chmod -r 700 ./
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Změní vlastníka souboru:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;chown root file.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Změní vlastníka i skupinu:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;chown petr:uzivatele file.txt
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Linux: Snímek obrazovky</title>
+      <link>https://malja.github.io/jan.malcak.cz/linux-snimek-obrazovky/</link>
+      <pubDate>Sun, 09 Aug 2009 21:43:00 +0200</pubDate>
+      
+      <guid>https://malja.github.io/jan.malcak.cz/linux-snimek-obrazovky/</guid>
+      <description>Applet do panelu Asi nejdednoduším způsobem je aplet, který si velice jednoduše vložíte do panelu. Po přidání se objeví ikonka která po stisku zachytí požadovaný obrázek. Tato varianta nemá mnoho nastavení a možností, zato však stojí nejméně práce a je funkčí skoro ihned.
+Přidání apletu Pravým tlačítkem myši klikněte na panel, kam chcete aplet přidat. Po kliknutí se objeví malé okénko - klikněte na Přidat nové položky. Po otevření okna najděte plet jménem Snímek obrazovky a klikněte na Přidat.</description>
+      <content>&lt;h1 id=&#34;applet-do-panelu&#34;&gt;Applet do panelu&lt;/h1&gt;
+&lt;p&gt;Asi nejdednoduším způsobem je aplet, který si velice jednoduše vložíte do panelu. Po přidání se objeví ikonka která po stisku zachytí požadovaný obrázek. Tato varianta nemá mnoho nastavení a možností, zato však stojí nejméně práce a je funkčí skoro ihned.&lt;/p&gt;
+&lt;h2 id=&#34;přidání-apletu&#34;&gt;Přidání apletu&lt;/h2&gt;
+&lt;p&gt;Pravým tlačítkem myši klikněte na panel, kam chcete aplet přidat. Po kliknutí se objeví malé okénko - klikněte na &lt;strong&gt;Přidat nové položky&lt;/strong&gt;. Po otevření okna najděte plet jménem &lt;strong&gt;Snímek obrazovky&lt;/strong&gt; a klikněte na &lt;strong&gt;Přidat&lt;/strong&gt;. Po přidání si musíte aplet nastavit - vše je čistě na vás (Nastavení jde později neomezeně měnit).&lt;/p&gt;
+&lt;h2 id=&#34;použití-apletu&#34;&gt;Použití apletu&lt;/h2&gt;
+&lt;p&gt;Pokud budete není potřebovat aplet použít, stačí kliknout na ikonku fotoaparátu.&lt;/p&gt;
+&lt;h1 id=&#34;gimp&#34;&gt;Gimp&lt;/h1&gt;
+&lt;p&gt;Na pořízení snímku lze také použít grafický editor Gimp. Pořízení snímku provedete následovně: Klikněte na položku &lt;em&gt;Soubor&lt;/em&gt;  -&amp;gt; &lt;em&gt;Create (Vytvořit)&lt;/em&gt; a vyberte &lt;em&gt;Snímek obrazovky&lt;/em&gt;. Vše si nastavte dle libosti.&lt;/p&gt;
+&lt;h1 id=&#34;příkaz-import&#34;&gt;Příkaz &lt;code&gt;import&lt;/code&gt;&lt;/h1&gt;
+&lt;p&gt;Snímek můžete pořídit i tak, že do konzole zadáte příkaz:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import -window root obrazek.png
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Samozřejmě si musíte upravit adresu kam se soubor uloží (v tomto případě je to složka &lt;code&gt;root&lt;/code&gt;) a také jméno souboru (v tomto případě je to &lt;code&gt;obrazek.png&lt;/code&gt;). Pro správný běh musíte nainstalovat balíček &lt;code&gt;imagemagic&lt;/code&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;příkaz-xwd&#34;&gt;Příkaz &lt;code&gt;xwd&lt;/code&gt;&lt;/h1&gt;
+&lt;p&gt;Postup je skoro totožný jako u příkazu &lt;code&gt;import&lt;/code&gt;. Po zapnutí konzole napište příkaz:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;xwd &amp;gt; obrazek.xwd
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Zachycený obrázek bude ve formátu xwd – ten si musíte převést na něco známějšího (např. jpg), k tomu může posloužit třeba Gimp.&lt;/p&gt;
+&lt;h1 id=&#34;klávesa-printscreen&#34;&gt;Klávesa PrintScreen&lt;/h1&gt;
+&lt;p&gt;Pokud máte prostředí Gnome a na vaší klávesnici je tlačítko PrintScreen (nebo PrtScr) můžete si jejím stiskem vytvořit snímek obrazovky. Není zde žádné nastavení,ale tato možnost nepotřebuje žádný program a je asi nejrychlejší že všech popsaných možností.&lt;/p&gt;
+&lt;h1 id=&#34;screengrab&#34;&gt;Screengrab&lt;/h1&gt;
+&lt;p&gt;Screengrab je rozšíření pro Firefox, které umožňuje pořídit snímek celé (opravdu celé, ne jen části kterou vidíte) stránky, který si následně uložíte. Screengrab si jde stáhnout &lt;a href=&#34;https://addons.mozilla.org/cs/firefox/addon/screengrab-fix-version/&#34;&gt;zde&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;snímek-konzole&#34;&gt;Snímek konzole&lt;/h1&gt;
+&lt;p&gt;Pokud nemáte grafické prostředí (nastavujete systém, apod.) můžete si pořídit snímek pomocí příkazu:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;fbgrab -s 5 obrazek.png
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Tento příkaz počká 5 vteřin, a pak zachytí snímek jménem &lt;code&gt;obrazek.png&lt;/code&gt;.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>recenze on Jan Malčák</title>
+    <link>https://malja.github.io/jan.malcak.cz/tags/recenze/</link>
+    <description>Recent content in recenze on Jan Malčák</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Po nocích píše Honza</copyright>
+    <lastBuildDate>Wed, 09 Dec 2020 21:55:00 +0200</lastBuildDate><atom:link href="https://malja.github.io/jan.malcak.cz/tags/recenze/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Stadia v ČR</title>
+      <link>https://malja.github.io/jan.malcak.cz/google-stadia-v-cr/</link>
+      <pubDate>Wed, 09 Dec 2020 21:55:00 +0200</pubDate>
+      
+      <guid>https://malja.github.io/jan.malcak.cz/google-stadia-v-cr/</guid>
+      <description>Plácání slámy Uznávám, když se v polovině předchozího roku začaly po internetu trousit informace, že Google chystá představení vlastní herní streamovací platformy, nechávalo mě to vcelku klidným. Částečnou vinu na tom mělo to, že mi pod stolem trůnil herní počítač a tak jsem pro podobné služby nebyl cílový zákazník. Návaly radosti navíc tlumily neblahé zkušenosti s podobnými platformami v minulosti. Kromě Steam Linku a Moonlightu, kde hru streamujete z počítače na lokální síti byl vždy problém s latencí a propustností internetové sítě.</description>
+      <content>&lt;h2 id=&#34;plácání-slámy&#34;&gt;Plácání slámy&lt;/h2&gt;
+&lt;p&gt;Uznávám, když se v polovině předchozího roku začaly po internetu trousit informace, že Google chystá představení vlastní herní streamovací platformy, nechávalo mě to vcelku klidným. Částečnou vinu na tom mělo to, že mi pod stolem trůnil herní počítač a tak jsem pro podobné služby nebyl cílový zákazník. Návaly radosti navíc tlumily neblahé zkušenosti s podobnými platformami v minulosti. Kromě Steam Linku a &lt;a href=&#34;https://moonlight-stream.org/&#34;&gt;Moonlightu&lt;/a&gt;, kde hru streamujete z počítače na lokální síti byl vždy problém s latencí a propustností internetové sítě. Nicméně ruku na srdce. Streamovat hru z počítače ve vedlejší místnosti na malý třiníctipalcový noťas do obýváku prostě nedává smysl. Trpí tím ergonomie, pohodlí (herní židle je prostě herní židle) i hratelnost (noťas se na nohou všelijak hýbe, posouvá a zahřívá se).&lt;/p&gt;
+&lt;p&gt;Jestli by tedy něco dávalo smysl, byla by to služba, která by umožnila hrát lidem, kteří herní počítač nemají. A byť krčit se u malého monitoru není zrovna výhra, hra je hra a streamovanému koni na zuby nehleď! A co čert nechtěl (a popravdě ani já ne), podobným člověkem jsem se stal také. Stačilo se přestěhovat. Rázem nebylo několik měsíců místo, kam herní počítač umístit. Stěží se našlo místo pro noťas. Ultrabook, který jsem v jednom kuse obhajoval před kamarády s nadupanými herními mašinami s tím, že přeci na noťasu nikdy hrát nebudu. A ejhle. Chybělo mi to. Ne moc, ale stále jsem měl chuť si občas s kamarády skočit &amp;ldquo;na jednu&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Jenže v té době byla Stadia v plenkách. Alternativ, které by rozumně fungovaly v ČR nebylo mnoho. Respektivě byly dvě. GeForce Now a &lt;a href=&#34;https://parsecgaming.com/&#34;&gt;Parsec&lt;/a&gt;. Obě umožňují hraní her z vlastní knihovny, takže platíte jen za výkon virtuální mašiny běžící někde v cloudu. Nevím, jestli šlo o špatnou kompatibilitu s mým noťasem, špatné povětrnostní podmínkami nebo čistě a jasně pouze mým internetovým spojením (50Mbit, nicméně po WiFi z pochybného routeru od O2). Ale hraní se mé zkušenosti říkat nedalo. Šlo spíše o náhodně zobrazované snímky ze hry. Víc než vlastní hru jsem viděl okno s informací, že mé připojení není dostatečně stabilní. Ani naprosto otřesné a předpotopní rozlišení 1024x726 mi nepomohlo.&lt;/p&gt;
+&lt;p&gt;A tak jsem si řekl, že mi není přáno a raději volný čas zabíjel jinak, nicméně stejně produktivně.&lt;/p&gt;
+&lt;h2 id=&#34;seznámení&#34;&gt;Seznámení&lt;/h2&gt;
+&lt;p&gt;Dnes je situace jiná. Místo na počítač mám a noťas opět slouží tomu, čemu má. Jako přenosné pracovní zařízení, které mi nezkřiví záda jak serpentiny na Grossglockner.&lt;/p&gt;
+&lt;p&gt;I tak mi informace o tom, že Stadia je dostupná nově i u nás, udělala radost. Navíc to není tak často, kdy z úst zahraničních YouTuberů (v mém případě to byl Linus) zazní sousloví &amp;ldquo;Czech Republic&amp;rdquo; :) Jestli někdo má zdroje a know-how na rozjetí streamování ve velkém, je to Google. &lt;a href=&#34;https://en.wikipedia.org/wiki/Google_data_centers#Locations&#34;&gt;Servery&lt;/a&gt; má po celém světě, streamovat viditelně umí a peněz má také dost.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;BezChromeToNepujde.PNG&#34;  alt=&#34;Chyba pokud nepoužíváte Google Chrome&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Bez Google Chrome to nepůjde&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Hned na úvodní stránce mě přivítala zpráva, ať hodím Firefox do starého železa a stáhnu si nejúžasňoulinkatější prohlížeč na světě Chrome. Ok, od Google bych snad ani nic jiného &lt;a href=&#34;https://tech.co/news/google-slowed-youtube-firefox-edge-2019-04&#34;&gt;nečekal&lt;/a&gt;. Alespoň bych ale rád předem věděl, jaké hry jsou dostupné, kolik stojí atd.&lt;/p&gt;
+&lt;p&gt;Inu co mi zbývalo. Chrome jsem nainstaloval, přihlásil se do Stadia, zadal kreditku od Revolutu, na které mám 12Kč na rohlíky a šup do &amp;hellip; Ne do hry, ale seznamu ochrany soukromí, kde jsem si mohl naklikat, které informace o mě mohou ostatní hráči vidět. To rozhodně od Google kvituju (y).&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;NastaveniSoukromi.PNG&#34;  alt=&#34;Nastavení soukromí&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Část nastavení soukromí herního účtu&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;A konečně do knihovny. Díky aktuální akci, kdy máte premiový účet na měsíc zdarma máte bez placení přístup asi k třicítce her. Jasně, jsou to spíš hříčky a starší hry. Nic, z čeho byste si sedli na zadek. Ale na vyzkoušení jak platforma funguje a hlavně jestli to váš internet utáhne, dostačující. Mezi známějšími (aka znal jsem je) hrami byly například:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hitman 2&lt;/li&gt;
+&lt;li&gt;Supershot&lt;/li&gt;
+&lt;li&gt;Orcs Must Die! 3&lt;/li&gt;
+&lt;li&gt;Sniper Elite 4&lt;/li&gt;
+&lt;li&gt;PUBG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Samotné spuštění hry bych přirovnal ke spuštění videa na YouTube. Kliknete na tlačítko play, prohlížeč se přepne do celé obrazovky a už frčíte. Zase je tu malé &amp;ldquo;ale&amp;rdquo; s nutností odklikat tři - čtyři okna se souhlasem sdílení informací s vývojáři.&lt;/p&gt;
+&lt;h2 id=&#34;kvalita-videa-a-latence&#34;&gt;Kvalita videa a latence&lt;/h2&gt;
+&lt;p&gt;Analogie s videem zde nekončí. Stejně jako při streamování videa se kvalita obrazu automaticky upravuje podle rychlosti internetu. Na rozdíl od výše zmiňovaných alternativ, které se kompletně zasekly a přerušovaly s neustálým upozorněním na nekvalitní spojení, se Stadií stále hrajete. Jasně, obraz sice vypadá, jako točený na mobil, ale u casual her, které jsem měl možnost v rámci účtu zdarma zkusit, to nevadilo. Zrnění mě rušilo mnohem méně, než jsem si původně myslel. Asi jde o zvyk :)&lt;/p&gt;
+&lt;p&gt;Horší to je s latencí. Jedna z prvních her, kterou jsem zkoušel byla Dead by Daylight (protože jsem si jí spletl s Dying Light). Ta často používá quick time eventů, kdy musíte ve správný čas kliknout na mezerník, aby vaše prováděná akce uspěla.&lt;/p&gt;
+&lt;p&gt;{{ figure src=&amp;ldquo;QuickTimeEvent.jpg&amp;rdquo; caption=&amp;ldquo;Quick time event v Dead by Daylight Zdroj: &lt;a href=&#34;https://www.youtube.com/watch?v=Y41PoHOlBqg%22&#34;&gt;https://www.youtube.com/watch?v=Y41PoHOlBqg&amp;quot;&lt;/a&gt; alt=&amp;ldquo;Quick time event&amp;rdquo; position=&amp;ldquo;center&amp;rdquo; }}&lt;/p&gt;
+&lt;p&gt;A protože se nechci přiznávat k tomu, jak jsem levej, řeknu, že za to může latence. Je to fakt těžký! Trefit se do povolené oblasti se mi podařilo jen několikrát, kdy jsem úmyslně stiskl mezerník s předstihem.&lt;/p&gt;
+&lt;p&gt;Na druhou stranu se ale hodí říct, že ne každá hra se chová stejně. Další hra v pořadí - Hitman 2 - byla úplně v pořádku. Nepozoroval jsem zrnění, snižování kvality ani latenci. Těžko říct, jestli soused akorát přestal stahovat nahotinky, nebo je tak propastný rozdíl mezi jednotlivými tituly. Těch je mimochodem ve Stadii necelých &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_Stadia_games&#34;&gt;160&lt;/a&gt;. Mezi nimi i ty nejnovější - Cyberpunk 2077, Assassin&amp;rsquo;s Creed Valhalla či Dirt 5.&lt;/p&gt;
+&lt;h2 id=&#34;cena&#34;&gt;Cena&lt;/h2&gt;
+&lt;p&gt;Nízká měsíční cena (250kč) je ale vyvážena cenou titulů. Zatímco například Red Dead Redemption seženete běžně kolem tisícovky, na Stadii za ní dáta šestnáct stovek. A podobné je to i s &lt;a href=&#34;https://arstechnica.com/gaming/2019/12/some-stadia-games-cost-more-than-their-downloadable-counterparts/&#34;&gt;ostatními hrami&lt;/a&gt;. Jemná pachuť je dál umocněná neuvěřitelnou nepřehledností obchodu.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;Obchod.png&#34;  alt=&#34;Nepřehledný obchod&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Obchod je enormně nepřehledný&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Dlaždice s hrami jsou obrovské a na obrazovku se tak často vejdou tři, možná čtyři. Hry nejde vyhledávat ani rozumně třídit podle kategorií. Takže nakonec skončíte s tím, že budete scrollovat dlouhým seznamem všech her a hledat, která hra vás osloví. Google &lt;a href=&#34;https://news.ycombinator.com/item?id=18511299&#34;&gt;UI prostě moc neumí&lt;/a&gt; :(&lt;/p&gt;
+&lt;h2 id=&#34;slovo-na-závěr&#34;&gt;Slovo na závěr&lt;/h2&gt;
+&lt;p&gt;Stadia je super projekt, který má určitě potenciál získat spoustu (hlavně casual) hráčů. Stále ale platí, že abyste si hru užili, je potřeba mít kvalitní internet, ideálně být připojeni drátem (nebo mít lepší router) a asi i trochu štěstí na stabilitu spojení. Nenáročné hry, které budou k internetu tolerantnější si často zahrajete i na stařičkém noťasu a AAA střílečku si prostě s občasným zrněním a latencí neužijete.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Vikingové v Ancestors Legacy</title>
+      <link>https://malja.github.io/jan.malcak.cz/post/</link>
+      <pubDate>Sun, 27 May 2018 00:06:00 +0200</pubDate>
+      
+      <guid>https://malja.github.io/jan.malcak.cz/post/</guid>
+      <description>Ne, že bych zrovna na strojárně uplatnil znalost severské mytologie. Ale dejme tomu, že studuji historii zpracování a využití kovu v přímém přenosu.
+Ancestors je relativně nová hra - vyšla terpve 22. května. Podle těch pár dostupných videí na Youtube vypadá trochu jako Battle for the Middle Earth. Tedy hra, u které jsem s kamarády trávil čas před maturitou, a ke které se velice rád vracím. Sice tu chybí lore Středozemě, zato jsou tu Vikingové!</description>
+      <content>&lt;p&gt;Ne, že bych zrovna na strojárně uplatnil znalost severské mytologie. Ale dejme tomu, že studuji historii zpracování a využití kovu v přímém přenosu.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ancestors_legacy_01.jpg&#34; alt=&#34;Ancestors Legacy&#34; title=&#34;Ancestors Legacy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Ancestors je relativně nová hra - vyšla terpve 22. května. Podle těch pár dostupných videí na Youtube vypadá trochu jako Battle for the Middle Earth. Tedy hra, u které jsem s kamarády trávil čas před maturitou, a ke které se velice rád vracím. Sice tu chybí lore Středozemě, zato jsou tu Vikingové! Kdo by mohl takovému pokušení říct ne?&lt;/p&gt;
+&lt;p&gt;Během stahování (ze Steamu, kapišto) jsem slintal nad kráskou grafikou a hrozně se těšil, až přijdu ze školy a konečně vyplundruju nějakou britskou vesnici.&lt;/p&gt;
+&lt;p&gt;Přivítala mě krásná úvodní obrazovka s kreslenou animací s výjevy z bitevní vřavy doplněná epickým vikingským zpěvem.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Protože mě všichni kamarádi nechali na holičkách a neměl jsem nikoho, s kým bych si zarhál multiplayer, sáhl jsem po kampani. Můžete hrát za Vikingy, Anglosasy, Němce a Poláky (v tomhle pořadí). Zatím jsem dohrál jen kampaň za Vikingy (a pár sólových her proti počítači) a z ní budu v dalším hodnocení vycházet. Myslím, že jsem se hrou strávil dostatek času, abych si mohl udělat obrázek (doslova).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ancestors_legacy_02.png&#34; alt=&#34;Výběr kampaně&#34; title=&#34;Výběr kampaně&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Prvních několik misí je v podstatě tutoriál. A za sebe můžu říct, že výborný. Nenutí vás posouvat kamerou, označovat jednotky a procházet cesty označené červeným křížkem. Od první minuty máte pod kontrolou jednotky, bojujete a zabijíte.&lt;/p&gt;
+&lt;p&gt;Jste v roli Vikingů, kteří se původně vydali vyplenit opatství Lindisfarne. Před odjezdem málo upláceli Aegira a tak jejich lodě přistály u silně bráněného města Bamburgh. Během několika okamžiků se z &amp;ldquo;vem si co chceš, chlapíci s vyholenou hlavou ti fakt bránit nebudou&amp;rdquo; zájezdu stala krvavá řež. Vikingové i přes četné úspěchy (&lt;em&gt;samozřejmě čistě velitelského rázu&lt;/em&gt;) dostanou co proto. Uprchnou do lesů a vašim úkolem coby velitele je dát je dohromady. V nepřátelském prostředí sehnat dostatek jídla, shromáždit roztroušené Vikingy a dát sasíkům za vyučenou.&lt;/p&gt;
+&lt;p&gt;Jednotlivé mise jsou nápadité. Obsahuje záškodnické &amp;ldquo;stealth&amp;rdquo; mise s několika málo vojáky, úpěnlivé bránění pevnosti do posledního muže nebo monumentální (s jedním a to prosím cizím katapultem) obléhání pevnosti. Při tom jste provedeni celou hrou, takže v posledních několika kapitolách už hru ovládáte jako svoje boty.&lt;/p&gt;
+&lt;h2 id=&#34;jak-se-to-hraje&#34;&gt;Jak se to hraje&lt;/h2&gt;
+&lt;p&gt;Ancestors jsou v jádru kovanou RTS. Stavíte základnu, těžíte suroviny a snažíte se umlátit nepřítele. Nic co by vás mělo překvapit. Každý z těchto prvků ale v sobě má určitou část originality.&lt;/p&gt;
+&lt;p&gt;Tak prvně, ve své základně nestavíte budovy jen tak, hala bala kam se vám z rozmaru (nebo strategie) zachce, ale jsou pro ně předem určené pozice. Kliknutím na ikonu stavby se budova sama postaví. Vesničany nijak přímo neovládáte.&lt;/p&gt;
+&lt;p&gt;Jakmile máte dostatek vojáků, abyste vyrazili na dobyvačné výpravy, musíte se porozhlédnout po okolí. Na mapě jsou rozmístěné vesnice, jejichž zabráním si přivlastníte suroviny a nevolníky. Ty pak můžete poslat těžit kámen, sbírat jídlo nebo kácet přilehlé lesy. Ne v každé vesnici jsou všechny suroviny což přináší jistý prvek strategie do jejich výběru.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ancestors_legacy_03.png&#34; alt=&#34;Sousední vesnice&#34; title=&#34;Sousední vesnice&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Plundrováním vesnic a hlavně zabíjením nepřátel vaše jednotky získávají zkušenosti. Když jich mají dostatek, přejdou na vyšší úroveň a vy můžete vybrat jedno ze tří zaměření. To se liší dle typu jednotky. Například pro kopiníky jde o rychlost, útok a obranu. Jednotek můžete mít jen deset. Ztráta i jedné &amp;ldquo;naskillené&amp;rdquo; jednotky dost zabolí. Často se budete stahovat, jednotky doplňovat a opět posílat zpět do boje.&lt;/p&gt;
+&lt;h2 id=&#34;co-se-povedlo&#34;&gt;Co se povedlo&lt;/h2&gt;
+&lt;p&gt;Psal jsem to už v úvodu a napíšu to pro jistotu ještě jednou. Grafika je krásná. Jasný, není to ten druh grafiky, kdy si s wow výrazem ve tváři sednete na zadek (za předpokladu že u hry stojíte). To u strategie tak trochu čekám. Jde přesně o tu grafiku, která nezestárne. Age of Empires, Battle for the Middle Earth a určitě spousta dalších her jsou zářným příkladem.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ancestors_legacy_04.png&#34; alt=&#34;Okolí základny&#34; title=&#34;Okolí základny&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Třešničku na dortu je Akční kamera, kdy si hru můžete přiblížit až k jednotkám a sledovat jak se řežou takřka jako byste stáli vedle nich. (Což jako správný velitel co? Neděláme.)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ancestors_legacy_05.png&#34; alt=&#34;Zbyněk a jeho milice&#34; title=&#34;Zbyněk a jeho milice&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Výborně je na tom i optimalizace. Celou dobu jsem hrál na ultra nastavení a jediná chvíle, kdy se hra trochu zadýchala byla při videích načítací obrazovky. Jinak vše běží velice plynule i na starším počítači.&lt;/p&gt;
+&lt;p&gt;Jako poslední bych rád vyzdvihl dolní panel. Z něho máte přístup ke všem jednotkám a vesnicím. Nemusíte je procházet jednu po druhé. Vše zařídíte klávesovými zkratkami, zatímco sledujete své jednotky v týlu nepřítele.&lt;/p&gt;
+&lt;h2 id=&#34;co-se-nepovedlo&#34;&gt;Co se nepovedlo&lt;/h2&gt;
+&lt;p&gt;Ancestors stejně jako ostatní strategie doprovází nešvary s AI. Jasně, jde o strategii, takže mozek operace mám být já. Nemůžu být všude. A trochu bych očekával, že v nové hře nebudou štítonoši ostřelovaní lukostřelcemi stát jako tvrdé Y, koukat do (na) blba a nechávat se pomalu odkráglovat. Stačila by nějaká volba - agresivní (zkusili by štěstí a zaútočili) - pasivní (stáhli by se z dostřelu). Jasně, přineslo by to spoustu dalších problémů (ústup směrem k nepříteli, dál od mé základny, nebo by se při agresivním postupu nechali zabít atd.). Ale stále by šlo o lepší řešení, než tohle.&lt;/p&gt;
+&lt;p&gt;Dalším příkladem je situace vzniklá při dobývání pevnosti v kampani za Vikingy. Drsným Vikingům už bylo zatěžko se plahočit lesy a loukami a štrádali si to na férovku po cestě těsně před palisádami nepřítele. Kde na ně samozřejmě dostřelili lukostřelci. Asi jsem nedostal ty nejostřejší pastelky v penálu.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ancestors_legacy_06.png&#34; alt=&#34;2018.05.26-13.07&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Hlavní a největší problém Ancestors je pro mě nemožnost plně ovládat jednotky v boji. Jakmile se jednou přiblíží k nepříteli, začnou bojovat a jediný příkaz na nějž reagují je stáhnout se. To zamrzí o to víc, když hra obsahuje prvky jako je přepadení, útok zezadu a obklíčení, které mají efekt na morálku.&lt;/p&gt;
+&lt;p&gt;Kdykoliv jsem chtěl vpadnotu něpříteli do zad, musel jsem jednotku opatrně manévrovat oklikou kolem nepřítele. Snažit se ji držet z dosahu, aby se nepřidala do vřavy a já nad ní neztratil kontrolu. Do poslední chvíle držet bersekery vzadu, aby mohli zaútočit vyrazit na nechráněné lukostřelce, zatímco se moje armáda v jednom velkém chumlu řezala s tou nepřátelskou.&lt;/p&gt;
+&lt;p&gt;Možná to zní malicherně, ale pro mě šlo o extrémně flustrující zážitek. V základně krom naklikání pár budov není co dělat a neposlouchající jednotky mi vzaly i tu poslední radost - z boje.&lt;/p&gt;
+&lt;h2 id=&#34;ragnarok&#34;&gt;Ragnarok&lt;/h2&gt;
+&lt;p&gt;Celkově je Ancestors relativně dobrá hra. Má pěknou grafiku, dobrou hudbu a kampaň. Map je dostatek, jsou členité a různorodé. Ve čtyřech hratelných národech si asi každý najde to svoje. Co trochu pokulhává je hratelnost. Jakmile naklikáte jednu kasárnu jde už jen o co nejrychlejší &amp;ldquo;spawnování&amp;rdquo; jednotek. V boji jim ve správný čas aktivujete některou ze schopností a pak čekáte. Koukáte na houf vojáků, ve kterém bojují první tři řady a říkáte si, že tu &amp;ldquo;Palbu do vlastních řad&amp;rdquo;, kterou sem tam způsobí vaši šikovní lukosřelci si snad i zaslouží.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

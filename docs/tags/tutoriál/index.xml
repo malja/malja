@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tutoriál on Jan Malčák</title>
+    <link>https://malja.github.io/jan.malcak.cz/tags/tutori%C3%A1l/</link>
+    <description>Recent content in tutoriál on Jan Malčák</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Po nocích píše Honza</copyright>
+    <lastBuildDate>Thu, 31 Aug 2017 22:14:00 +0200</lastBuildDate><atom:link href="https://malja.github.io/jan.malcak.cz/tags/tutori%C3%A1l/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PHP: Validace bankovního čísla</title>
+      <link>https://malja.github.io/jan.malcak.cz/php-validace-bankovniho-cisla/</link>
+      <pubDate>Thu, 31 Aug 2017 22:14:00 +0200</pubDate>
+      
+      <guid>https://malja.github.io/jan.malcak.cz/php-validace-bankovniho-cisla/</guid>
+      <description></description>
+      <content>&lt;!-- raw HTML omitted --&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Arduino: Programování Attiny85</title>
+      <link>https://malja.github.io/jan.malcak.cz/arduino-programovani-attiny85/</link>
+      <pubDate>Sat, 26 Mar 2016 22:50:00 +0200</pubDate>
+      
+      <guid>https://malja.github.io/jan.malcak.cz/arduino-programovani-attiny85/</guid>
+      <description>Teď, možná po roce či dvou, jsem je vyhrabal z krabice. Stále jsem přesně netušil, co s nimi, ale v hlavě se mi pár nápadů rýsovalo.
+Z mých posledních pokusů jsem si pamatoval, že standardní USBisp, které jsem si koupil na programování čipů ATmega328 nejde použít. Nejjednodušší náhradou se mi jevilo využít Arduino Uno. Na internetu jsem našel velké množství tutoriálů, navíc jde o celkem jednoduchou záležitost.
+Prvně je třeba přidat podporu pro čipy rodiny ATtiny do Arduino IDE.</description>
+      <content>&lt;p&gt;Teď, možná po roce či dvou, jsem je vyhrabal z krabice. Stále jsem přesně netušil, co s nimi, ale v hlavě se mi pár nápadů rýsovalo.&lt;/p&gt;
+&lt;p&gt;Z mých posledních pokusů jsem si pamatoval, že standardní USBisp, které jsem si koupil na programování čipů ATmega328 nejde použít. Nejjednodušší náhradou se mi jevilo využít Arduino Uno. Na internetu jsem našel velké množství tutoriálů, navíc jde o celkem jednoduchou záležitost.&lt;/p&gt;
+&lt;p&gt;Prvně je třeba přidat podporu pro čipy rodiny ATtiny do Arduino IDE. Od posledně se situace radikálně zlepšila a není třeba ručně cokoliv stahovat, rozbalovat a kopírovat na správné místo.&lt;/p&gt;
+&lt;p&gt;V Arduino IDE otevřete &lt;strong&gt;Nastavení&lt;/strong&gt; -&amp;gt; &lt;strong&gt;File&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Preferences&lt;/strong&gt; a do kolonky &lt;em&gt;Additional Boards Manager URLs&lt;/em&gt; vložte jednu z následujících adres:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json&#34;&gt;https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://drazzy.com/package_drazzy.com_index.json&#34;&gt;http://drazzy.com/package_drazzy.com_index.json&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;První z nich přidává podporu jen pro ATtiny 44/45/84/85. Druhá je mnohem rozsáhlejší. Pro mé potřeby až zbytečně.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;AddAttinySupport.gif&#34;  alt=&#34;Přidání podpory pro Attiny&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Přidání podpory pro Attiny&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Nyní v &lt;strong&gt;Tools&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Board&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Boards Manager&lt;/strong&gt; vyberte a nainstalujeme ATtiny.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;AddAttinySupport2.gif&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Výše popsaný postup pro přidání podpory Attiny do Arduino IDE&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Tím jsme naučili Arduino IDE hovořit jazykem ATtiny kmene. Už stačí jen udělat z Arduina programátor. Po připojení Arduina k počítači v IDE stačí vybrat vzorový příklad &lt;strong&gt;ArduinoISP&lt;/strong&gt;
+(&lt;strong&gt;File&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Examples&lt;/strong&gt; -&amp;gt; &lt;strong&gt;ArduinoISP&lt;/strong&gt; -&amp;gt; &lt;strong&gt;ArduinoISP&lt;/strong&gt;) a nahrát ho. Tím se z Arduina stal programátor, který propojíme s ATtiny a můžeme začít.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;attiny85-pinout-simplified.png&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Popis pinů. Počítáno z levé horní strany po řádcích: (1) Reset (8) VCC, (2) A3 (7) Pin D2, (3) Pin A2 (6) Pin D1, (4) GND (5) Pin D0&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Propojení je následující:&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;http://highlowtech.org/wp-content/uploads/2011/06/Screen-shot-2011-06-06-at-1.46.39-PM.png&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Zapojení Arduina UNO a Attiny85 pro programování. Vypůjčeno z http://highlowtech.org/?p=1706&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;ATtiny pin &lt;strong&gt;2&lt;/strong&gt; do Arduino pinu &lt;strong&gt;13&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;ATtiny pin &lt;strong&gt;1&lt;/strong&gt; do Arduino pinu &lt;strong&gt;12&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;ATtiny pin &lt;strong&gt;0&lt;/strong&gt; do Arduino pinu &lt;strong&gt;11&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;ATtiny pin &lt;strong&gt;Reset&lt;/strong&gt; do Arduino pinu &lt;strong&gt;10&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Teď už jen stačí otevřít Sketch, vybrat čip, který budete programovat a nastavit jako programátor &lt;strong&gt;Arduino as ISP&lt;/strong&gt; a vše nahrát.&lt;/p&gt;
+&lt;p&gt;A ještě krátká poznámka na konec. Pokud stejně jako já, budete mít trable s nastavením exsterního oscilátoru, doporučuji před nahráním Sketche vypálit &lt;em&gt;Bootloader&lt;/em&gt; (&lt;strong&gt;Tools&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Burn Bootloader&lt;/strong&gt;)&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Arduino: Odpojení při nahrávání programu</title>
+      <link>https://malja.github.io/jan.malcak.cz/arduino-odpojeni-pri-nahravani-programu/</link>
+      <pubDate>Sat, 14 Mar 2015 22:49:00 +0200</pubDate>
+      
+      <guid>https://malja.github.io/jan.malcak.cz/arduino-odpojeni-pri-nahravani-programu/</guid>
+      <description>Při experimentování s Arduinem jsem narazil na podivný problém. Po několika malých úpravách kódu mi editor při nahrávání programu hlásil
+Error opening serial port &#39;/dev/ttyACM1&#39;  To vše doplněné dlouhým výpisem kde se chyba vyskytla.
+Jako by to nestačilo, Arduino se poté odpojí. Pro připojení bylo nutné vytáhnout a opět zastrčit napájecí USB kabel. Tím se bohužel problém s odpojováním nevyřešil. Obšírným nahlédnutím do složky /dev jsem zjistil, že soubor ttyACM1 existuje.</description>
+      <content>&lt;p&gt;Při experimentování s Arduinem jsem narazil na podivný problém. Po několika malých úpravách kódu mi editor při nahrávání programu hlásil&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Error opening serial port &#39;/dev/ttyACM1&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To vše doplněné dlouhým výpisem kde se chyba vyskytla.&lt;/p&gt;
+&lt;p&gt;Jako by to nestačilo, Arduino se poté odpojí. Pro připojení bylo nutné vytáhnout a opět zastrčit napájecí USB kabel. Tím se bohužel problém s odpojováním nevyřešil. Obšírným nahlédnutím do složky &lt;code&gt;/dev&lt;/code&gt; jsem zjistil, že soubor &lt;code&gt;ttyACM1&lt;/code&gt; existuje. Příkaz &lt;code&gt;lsusb&lt;/code&gt; Arduino našel. Problém tedy musel být někde jinde.&lt;/p&gt;
+&lt;p&gt;Problém přetrvával i po změně zdrojového kódu či načtení některého z příkladů. Nezbylo mi tak, než použít Google. Dle všeho šlo o přepsání hodnoty:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Serial.begin(9600);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;na&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Serial.begin(14400);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nová hodnota se uloží do uživatelského nastavení. Z nějakého mě neznámého důvodu zůstane tato hodnota v nastavení &amp;ldquo;zadrblá&amp;rdquo; i po opětovné úpravě zdrojáků. Je tedy nutné smazat soubor s nastavením (u mě &lt;code&gt;~/arduino/preferences.txt&lt;/code&gt; a restartovat editor.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>SDL2: Snímek obrazovky</title>
+      <link>https://malja.github.io/jan.malcak.cz/post/</link>
+      <pubDate>Wed, 19 Mar 2014 20:57:00 +0200</pubDate>
+      
+      <guid>https://malja.github.io/jan.malcak.cz/post/</guid>
+      <description>SDL s sebou ve druhé verzi přinesl i změnu vykreslování na obrazovku. Místo v RAM uložených SDL_Surface je v SDL2 použita SDL_Texture uložená na video RAM, kde je plně v jurisdikci GPU. Krom citelných změn na rychlost vykreslování se také změnil způsob, jakým lze zachytit snímek obrazovky.
+Při použití textur se SDL_Surface okna neaktualizuje, pokud bychom použili dřívější způsob, dostali bychom prázdný snímek. Bohužel standardní funkce SDL_SaveBMP (ani její nedokumentovaná obdoba v rozšíření SDL_image - IMG_SavePNG) nepodporuje uložení SDL_Texture.</description>
+      <content>&lt;p&gt;SDL s sebou ve druhé verzi přinesl i změnu vykreslování na obrazovku. Místo v RAM uložených &lt;a href=&#34;https://wiki.libsdl.org/SDL_Surface&#34;&gt;SDL_Surface&lt;/a&gt; je v SDL2 použita &lt;a href=&#34;https://wiki.libsdl.org/SDL_Texture&#34;&gt;SDL_Texture&lt;/a&gt; uložená na video RAM, kde je plně v jurisdikci GPU. Krom citelných změn na rychlost vykreslování se také změnil způsob, jakým lze zachytit snímek obrazovky.&lt;/p&gt;
+&lt;p&gt;Při použití textur se &lt;code&gt;SDL_Surface&lt;/code&gt; okna neaktualizuje, pokud bychom použili dřívější způsob, dostali bychom prázdný snímek. Bohužel standardní funkce &lt;a href=&#34;https://wiki.libsdl.org/SDL_SaveBMP&#34;&gt;SDL_SaveBMP&lt;/a&gt; (ani její nedokumentovaná obdoba v rozšíření &lt;code&gt;SDL_image&lt;/code&gt; - &lt;code&gt;IMG_SavePNG&lt;/code&gt;) nepodporuje uložení &lt;code&gt;SDL_Texture&lt;/code&gt;. Je proto nejprve nutná konverze z &lt;code&gt;SDL_Texture&lt;/code&gt; na &lt;code&gt;SDL_Surface&lt;/code&gt;. Teprve pak je možné snímek obrazovky uložit.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h1 id=&#34;použité-funkce&#34;&gt;Použité funkce&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.libsdl.org/SDL_RenderGetViewport&#34;&gt;SDL_RenderGetViewport&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.libsdl.org/SDL_CreateRGBSurface&#34;&gt;SDL_CreateRGBSurface&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.libsdl.org/SDL_GetError&#34;&gt;SDL_GetError&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.libsdl.org/SDL_RenderReadPixels&#34;&gt;SDL_RenderReadPixels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.libsdl.org/SDL_FreeSurface&#34;&gt;SDL_FreeSurface&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Android: Horizontální čára</title>
+      <link>https://malja.github.io/jan.malcak.cz/android-horizontalni-cara/</link>
+      <pubDate>Wed, 28 Aug 2013 15:03:00 +0200</pubDate>
+      
+      <guid>https://malja.github.io/jan.malcak.cz/android-horizontalni-cara/</guid>
+      <description>V Androidu neexistuje (alespoň o tom nevím) žádná nativní cesta jak vytvořit horizontální čáru. Naštěstí si jde vypomoci i jinak:
+&amp;lt;View android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;1dip&amp;#34; android:background=&amp;#34;#000000&amp;#34;&amp;gt; </description>
+      <content>&lt;p&gt;V Androidu neexistuje (alespoň o tom nevím) žádná nativní cesta jak vytvořit horizontální čáru. Naštěstí si jde vypomoci i jinak:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;View&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;android:layout_width=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;match_parent&amp;#34;&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;android:layout_height=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1dip&amp;#34;&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;android:background=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#000000&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+    </item>
+    
+    <item>
+      <title>Generování HTML z PHP polí</title>
+      <link>https://malja.github.io/jan.malcak.cz/generovani-html-z-php-poli/</link>
+      <pubDate>Wed, 28 Aug 2013 10:53:00 +0200</pubDate>
+      
+      <guid>https://malja.github.io/jan.malcak.cz/generovani-html-z-php-poli/</guid>
+      <description>Při výpisu objemných PHP polí byli mými nejlepšími společníky funkce print_r() a var_dump(). Výpis z nich se navíc musí dále obalit přinejmenším do tagů pre, aby výstup byl alespoň trochu čitelný. Navíc postup, který jsem k tomu používal:
+echo &amp;#34;&amp;lt;pre&amp;gt;&amp;#34;;print_r($promenna);echo &amp;#34;&amp;lt;/pre&amp;gt;&amp;#34;; se mi v kódu vůbec nelíbil. Proto jsem si vytvořil třídu, která formátování obstará za mě. Tak vznikla třída Tabletizer. Díky ní je vytvoření pěkné tabulky otázkou pár řádků:</description>
+      <content>&lt;p&gt;Při výpisu objemných PHP polí byli mými nejlepšími společníky funkce &lt;code&gt;print_r()&lt;/code&gt; a &lt;code&gt;var_dump()&lt;/code&gt;. Výpis z nich se navíc musí dále obalit přinejmenším do tagů &lt;code&gt;pre&lt;/code&gt;, aby výstup byl alespoň trochu čitelný. Navíc postup, který jsem k tomu používal:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;lt;pre&amp;gt;&amp;#34;&lt;/span&gt;;&lt;span style=&#34;color:#a6e22e&#34;&gt;print_r&lt;/span&gt;($promenna);&lt;span style=&#34;color:#66d9ef&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;lt;/pre&amp;gt;&amp;#34;&lt;/span&gt;;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;se mi v kódu vůbec nelíbil. Proto jsem si vytvořil třídu, která formátování obstará za mě. Tak vznikla třída &lt;code&gt;Tabletizer&lt;/code&gt;. Díky ní je vytvoření pěkné tabulky otázkou pár řádků:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;$table &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Tabletizer&lt;/span&gt;();
+&lt;span style=&#34;color:#66d9ef&#34;&gt;echo&lt;/span&gt; $table&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fromArray&lt;/span&gt;($promenna);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Jasně, řádky neušetřím, ale vypadá to o mnoho lépe.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Poznámka z roku 2018:&lt;/strong&gt; Zpětně by bylo vhodnější využít kratší název třídy a metodu &lt;code&gt;fromArray&lt;/code&gt; udělat statickou.&lt;/p&gt;
+&lt;p&gt;A to je vše. Výstupem může být třeba i takováto tabulka.&lt;/p&gt;
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;https://github.com/malja/archive/blob/master/php/Tabletizer/website/img/tabletizer.png?raw=true&#34;  alt=&#34;Tabletizer&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Tabletizer&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Díky tomu, že hlavní tabulce je přiřazena třída &lt;code&gt;.tabletizer&lt;/code&gt;, je velice jednoduché vytvořit si jakýkoli styl, který sedí do okolního &amp;ldquo;prostředí&amp;rdquo;. Vzhled tabulky si je možné jakkoli přizpůsobit.&lt;/p&gt;
+&lt;p&gt;Odkaz ke stažení, spolu s návodem a seznamem změn je možné najít na &lt;a href=&#34;https://github.com/malja/archive/tree/master/php/Tabletizer&#34;&gt;této stránce&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;: Existuje soubor?</title>
+      <link>https://malja.github.io/jan.malcak.cz/cpp-existuje-soubor/</link>
+      <pubDate>Thu, 04 Jul 2013 14:20:00 +0200</pubDate>
+      
+      <guid>https://malja.github.io/jan.malcak.cz/cpp-existuje-soubor/</guid>
+      <description>Pokud bych chtěl jsen přečíst data, jde o problém celkem triviální. Stačí se pokusit tento soubor otevřít. Cest je opět několik:
+Takový postup bude ve většině případů plně dostačující. Pro úplnost uvedu ještě příklad s využitím funkce access
+Co ale dělat v případě, že chceme o souboru zjistit více informací? Je soubor spustitelný? Jaká je jeho velikost? Jaké je ID vlastníka? V takovém případě se můžeme opřít o funkci stat</description>
+      <content>&lt;p&gt;Pokud bych chtěl jsen přečíst data, jde o problém celkem triviální. Stačí se pokusit tento soubor otevřít. Cest je opět několik:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Takový postup bude ve většině případů plně dostačující. Pro úplnost uvedu ještě příklad s využitím funkce &lt;code&gt;access&lt;/code&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Co ale dělat v případě, že chceme o souboru zjistit více informací? Je soubor spustitelný? Jaká je jeho velikost? Jaké je ID vlastníka? V takovém případě se můžeme opřít o funkci &lt;code&gt;stat&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// Funkce bere jako parametr jméno souboru a ukazatel na strukturu do které má doplnit data
+int stat(const char *filename, struct stat *buf);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Obsah struktury jde vyčíst třeba na &lt;a href=&#34;http://en.wikipedia.org/wiki/Stat_(system_call)&#34;&gt;Wiki&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;st_dev&lt;/strong&gt; - ID zařízení, na kterém je soubor uložen&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_ino&lt;/strong&gt; - Číslo &lt;a href=&#34;http://cs.wikipedia.org/wiki/Inode&#34;&gt;inode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_mode&lt;/strong&gt; -Obsahuje práva k souboru&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_nlink&lt;/strong&gt; - Počet &lt;a href=&#34;%22http://cs.wikipedia.org/wiki/Pevn%C3%BD_odkaz&#34;&gt;pevných odkazů&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_uid&lt;/strong&gt; - ID vlastníka&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_gid&lt;/strong&gt; - ID skupiny ve, které je vlastník&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_size&lt;/strong&gt; - Celková velikost v bytech&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_atime&lt;/strong&gt; - Čas posledního přístupu k souboru&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_mtime&lt;/strong&gt; - Čas poslední změny&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_ctime&lt;/strong&gt; - Poslední změna statusu (= změna čísla inode)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pro další využití bude nejdůležitější obsah &lt;code&gt;st_mode&lt;/code&gt;. Pro testování jeho obsahu jsou zavedeny mimo jiné &lt;a href=&#34;http://pubs.opengroup.org/onlinepubs/7908799/xsh/sysstat.h.html&#34;&gt;mimo jiné&lt;/a&gt; tyto masky:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;S_IFREG&lt;/strong&gt; - Jde o soubor&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_IFLNK&lt;/strong&gt; - Jde o symbolický odkaz&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_IFDIR&lt;/strong&gt; - Jde o adresář&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_IRUSR&lt;/strong&gt; - Práva pro čtení vlastníkem&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_IWUSR&lt;/strong&gt; - Práva pro zápis vlastníkem&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_IXUSR&lt;/strong&gt; - Práva pro spuštění vlastníkem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Krom masek existuje ještě několik maker. Jako jediný parametr &lt;code&gt;m&lt;/code&gt; se jim předává &lt;code&gt;st_mode&lt;/code&gt;. Návratovou hodnotou maker je buď 0, v případě že test neuspěl nebo nenulová hodnota pokud test uspěl.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;S_ISDIR(m)&lt;/strong&gt; - Jde o adresář&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_ISFIFO(m)&lt;/strong&gt; - Jde o &lt;a href=&#34;http://cs.wikipedia.org/wiki/Roura_(Unix)&#34;&gt;rouru&lt;/a&gt; nebo speciální soubor &lt;a href=&#34;%22https://cs.wikipedia.org/wiki/Metoda_FIFO&#34;&gt;FIFO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_ISREG(m)&lt;/strong&gt; - Jde o soubor&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_ISLNK(m)&lt;/strong&gt; - Jde o symbolický adresář&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Konečně je čas na ukázku použití funkce &lt;code&gt;stat&lt;/code&gt; v akci:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Použití příkazu chmod</title>
+      <link>https://malja.github.io/jan.malcak.cz/pouziti-prikazu-chmod/</link>
+      <pubDate>Sat, 05 Mar 2011 23:06:00 +0200</pubDate>
+      
+      <guid>https://malja.github.io/jan.malcak.cz/pouziti-prikazu-chmod/</guid>
+      <description>chmod je linuxový příkaz, který změní přístupová práva k souboru nebo adresáři. Přístupová práva jsou jakési pravidla, která systému říkají, co kdo smí se souborem nebo adresářem dělat. chmod rozlišuje právo na spouštění, právo na zápis a právo na čtení a jejich vzájemné mutace (o tom za chvíli). Každé právo má své číselné označení:
+ 0 - bez práva 1 - právo na spuštění 2 - právo na zápis 4 - právo na čtení  Aby se rozlišilo, pro koho dané pravidlo platí, zadávají se v trojmístném čísle: XXX, kde první místo znamená práva uživatele, který soubor vlastní, druhé místo jsou práva skupiny, ve které uživatel je a třetí jsou práva ostatních.</description>
+      <content>&lt;p&gt;&lt;code&gt;chmod&lt;/code&gt; je linuxový příkaz, který změní přístupová práva k souboru nebo adresáři. Přístupová práva jsou jakési pravidla, která systému říkají, co kdo smí se souborem nebo adresářem dělat. &lt;code&gt;chmod&lt;/code&gt; rozlišuje právo na spouštění, právo na zápis a právo na čtení a jejich vzájemné mutace (o tom za chvíli). Každé právo má své číselné označení:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;0&lt;/strong&gt; - bez práva&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1&lt;/strong&gt; - právo na spuštění&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2&lt;/strong&gt; - právo na zápis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;4&lt;/strong&gt; - právo na čtení&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aby se rozlišilo, pro koho dané pravidlo platí, zadávají se v trojmístném čísle: XXX, kde první místo znamená &lt;strong&gt;práva uživatele&lt;/strong&gt;, který soubor vlastní, druhé místo jsou &lt;strong&gt;práva skupiny&lt;/strong&gt;, ve které uživatel je a třetí jsou &lt;strong&gt;práva ostatních&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Nyní se vrátím k tomu, že &lt;code&gt;chmod&lt;/code&gt; používá mutace výše uvedených práv. Je to víc než logické, protože jinak by nešlo zapsat to, aby uživatel měl právo jak zapisovat tak číst. Proto se číselná označení práv sčítají:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;1 (právo ke spuštění) + 2 (právo na zápis) = 3 (uživatel může jak číst, tak zapisovat)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nyní už víte vše, co je potřeba a tak doplním plně funkční příklad. Mějme soubor &lt;em&gt;test.txt&lt;/em&gt;, kterému budeme chtít nastavit:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;uživatel může číst, zapisovat i spouštět (4 + 2 + 1)&lt;/li&gt;
+&lt;li&gt;skupina může číst a zapisovat (4 + 2)&lt;/li&gt;
+&lt;li&gt;ostatní mohou jen číst (4)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Příkaz:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;chmod 764 test.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A to je celé.&lt;/p&gt;
+&lt;h1 id=&#34;další-příkazy&#34;&gt;Další příkazy&lt;/h1&gt;
+&lt;p&gt;Nastaví souboru &lt;em&gt;soubor2&lt;/em&gt; stejná práva, jako má &lt;em&gt;soubor:&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;chmod --reference=soubor soubor2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nastaví práva rekurzivně (tedy bude procházet všechny podadresáře):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;chmod -r 700 ./
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Změní vlastníka souboru:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;chown root file.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Změní vlastníka i skupinu:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;chown petr:uzivatele file.txt
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Linux: Snímek obrazovky</title>
+      <link>https://malja.github.io/jan.malcak.cz/linux-snimek-obrazovky/</link>
+      <pubDate>Sun, 09 Aug 2009 21:43:00 +0200</pubDate>
+      
+      <guid>https://malja.github.io/jan.malcak.cz/linux-snimek-obrazovky/</guid>
+      <description>Applet do panelu Asi nejdednoduším způsobem je aplet, který si velice jednoduše vložíte do panelu. Po přidání se objeví ikonka která po stisku zachytí požadovaný obrázek. Tato varianta nemá mnoho nastavení a možností, zato však stojí nejméně práce a je funkčí skoro ihned.
+Přidání apletu Pravým tlačítkem myši klikněte na panel, kam chcete aplet přidat. Po kliknutí se objeví malé okénko - klikněte na Přidat nové položky. Po otevření okna najděte plet jménem Snímek obrazovky a klikněte na Přidat.</description>
+      <content>&lt;h1 id=&#34;applet-do-panelu&#34;&gt;Applet do panelu&lt;/h1&gt;
+&lt;p&gt;Asi nejdednoduším způsobem je aplet, který si velice jednoduše vložíte do panelu. Po přidání se objeví ikonka která po stisku zachytí požadovaný obrázek. Tato varianta nemá mnoho nastavení a možností, zato však stojí nejméně práce a je funkčí skoro ihned.&lt;/p&gt;
+&lt;h2 id=&#34;přidání-apletu&#34;&gt;Přidání apletu&lt;/h2&gt;
+&lt;p&gt;Pravým tlačítkem myši klikněte na panel, kam chcete aplet přidat. Po kliknutí se objeví malé okénko - klikněte na &lt;strong&gt;Přidat nové položky&lt;/strong&gt;. Po otevření okna najděte plet jménem &lt;strong&gt;Snímek obrazovky&lt;/strong&gt; a klikněte na &lt;strong&gt;Přidat&lt;/strong&gt;. Po přidání si musíte aplet nastavit - vše je čistě na vás (Nastavení jde později neomezeně měnit).&lt;/p&gt;
+&lt;h2 id=&#34;použití-apletu&#34;&gt;Použití apletu&lt;/h2&gt;
+&lt;p&gt;Pokud budete není potřebovat aplet použít, stačí kliknout na ikonku fotoaparátu.&lt;/p&gt;
+&lt;h1 id=&#34;gimp&#34;&gt;Gimp&lt;/h1&gt;
+&lt;p&gt;Na pořízení snímku lze také použít grafický editor Gimp. Pořízení snímku provedete následovně: Klikněte na položku &lt;em&gt;Soubor&lt;/em&gt;  -&amp;gt; &lt;em&gt;Create (Vytvořit)&lt;/em&gt; a vyberte &lt;em&gt;Snímek obrazovky&lt;/em&gt;. Vše si nastavte dle libosti.&lt;/p&gt;
+&lt;h1 id=&#34;příkaz-import&#34;&gt;Příkaz &lt;code&gt;import&lt;/code&gt;&lt;/h1&gt;
+&lt;p&gt;Snímek můžete pořídit i tak, že do konzole zadáte příkaz:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import -window root obrazek.png
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Samozřejmě si musíte upravit adresu kam se soubor uloží (v tomto případě je to složka &lt;code&gt;root&lt;/code&gt;) a také jméno souboru (v tomto případě je to &lt;code&gt;obrazek.png&lt;/code&gt;). Pro správný běh musíte nainstalovat balíček &lt;code&gt;imagemagic&lt;/code&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;příkaz-xwd&#34;&gt;Příkaz &lt;code&gt;xwd&lt;/code&gt;&lt;/h1&gt;
+&lt;p&gt;Postup je skoro totožný jako u příkazu &lt;code&gt;import&lt;/code&gt;. Po zapnutí konzole napište příkaz:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;xwd &amp;gt; obrazek.xwd
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Zachycený obrázek bude ve formátu xwd – ten si musíte převést na něco známějšího (např. jpg), k tomu může posloužit třeba Gimp.&lt;/p&gt;
+&lt;h1 id=&#34;klávesa-printscreen&#34;&gt;Klávesa PrintScreen&lt;/h1&gt;
+&lt;p&gt;Pokud máte prostředí Gnome a na vaší klávesnici je tlačítko PrintScreen (nebo PrtScr) můžete si jejím stiskem vytvořit snímek obrazovky. Není zde žádné nastavení,ale tato možnost nepotřebuje žádný program a je asi nejrychlejší že všech popsaných možností.&lt;/p&gt;
+&lt;h1 id=&#34;screengrab&#34;&gt;Screengrab&lt;/h1&gt;
+&lt;p&gt;Screengrab je rozšíření pro Firefox, které umožňuje pořídit snímek celé (opravdu celé, ne jen části kterou vidíte) stránky, který si následně uložíte. Screengrab si jde stáhnout &lt;a href=&#34;https://addons.mozilla.org/cs/firefox/addon/screengrab-fix-version/&#34;&gt;zde&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;snímek-konzole&#34;&gt;Snímek konzole&lt;/h1&gt;
+&lt;p&gt;Pokud nemáte grafické prostředí (nastavujete systém, apod.) můžete si pořídit snímek pomocí příkazu:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;fbgrab -s 5 obrazek.png
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Tento příkaz počká 5 vteřin, a pak zachytí snímek jménem &lt;code&gt;obrazek.png&lt;/code&gt;.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Aktualizace WordPressu</title>
+      <link>https://malja.github.io/jan.malcak.cz/aktualizace-wordpressu/</link>
+      <pubDate>Fri, 12 Jun 2009 16:35:00 +0200</pubDate>
+      
+      <guid>https://malja.github.io/jan.malcak.cz/aktualizace-wordpressu/</guid>
+      <description>Poznámka z roku 2018: Tenhle článek je obsahem hodně za zenitem. Aktualizace WP je dnes otázkou dvou kliknutí. Všechno je automatizované a až na výjimky bezpečné (ve smyslu rozbití stránky a ztráty dat). Na druhou stranu jde o můj nejstarší zachovalý publikovaný článek. Krásně demonstruje dvě věci. Zaprvé vývoj mého psaného projevu (snad k lepšímu) a zadruhé posun v &amp;ldquo;přístupnosti&amp;rdquo; IT. Takže si zaslouží tu být :D.
+Nyní si povíme jak aktualizovat náš Wordpress, bez ztráty dat:</description>
+      <content>&lt;p&gt;&lt;strong&gt;Poznámka z roku 2018:&lt;/strong&gt; Tenhle článek je obsahem hodně za zenitem. Aktualizace WP je dnes otázkou dvou kliknutí. Všechno je automatizované a až na výjimky bezpečné (ve smyslu rozbití stránky a ztráty dat). Na druhou stranu jde o můj nejstarší zachovalý publikovaný článek. Krásně demonstruje dvě věci. Zaprvé vývoj mého psaného projevu (snad k lepšímu) a zadruhé posun v &amp;ldquo;přístupnosti&amp;rdquo; IT. Takže si zaslouží tu být :D.&lt;/p&gt;
+&lt;p&gt;Nyní si povíme jak aktualizovat náš Wordpress, bez ztráty dat:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Proveďte zálohu databáze přes PhpMyAdmin&lt;/li&gt;
+&lt;li&gt;Proveďte zálohu všech souborů&lt;/li&gt;
+&lt;li&gt;Deaktivujte všechny pluginy (pro případ nekompatibilit)&lt;/li&gt;
+&lt;li&gt;Smažte všechny soubory 	WordPressu, ale pozor, adesáře &lt;code&gt;wp-content&lt;/code&gt;, &lt;code&gt;wp-config.php&lt;/code&gt; a soubor &lt;code&gt;.htaccess&lt;/code&gt; (pokud ho máte). Ty nemažte, obsahují nastavení, obrázky, pluginy atd.&lt;/li&gt;
+&lt;li&gt;Nahrajte nejnovější verzi &lt;a href=&#34;http://acci.cz/wordpress&#34;&gt;Českého WordPressu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Nahrajte nejnovější verze používaných pluginů.&lt;/li&gt;
+&lt;li&gt;Pomocí prohlížeče přejďete 	na &lt;code&gt;http://vasweb.cz/wp-admin/upgrade.php&lt;/code&gt; a odklikněte upgrade databáze.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;S trochou štěstí by Váš web měl fungovat. Doporučuji si ještě zkontrolovat, zda je Váš vzhled kompatibilní s novou verzí Wordpressu.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
