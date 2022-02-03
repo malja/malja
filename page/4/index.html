@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<meta name="generator" content="Hugo 0.92.1" />
+  
+    <title>Jan Malčák</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Osobní webové stránky" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://malja.github.io/" />
+
+
+
+
+<link rel="stylesheet" href="https://malja.github.io/assets/style.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon" href="https://malja.github.io/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="https://malja.github.io/img/favicon/orange.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="cs" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Jan Malčák">
+<meta property="og:description" content="Osobní webové stránky" />
+<meta property="og:url" content="https://malja.github.io/" />
+<meta property="og:site_name" content="Jan Malčák" />
+
+  
+    <meta property="og:image" content="https://malja.github.io/img/favicon/orange.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+
+
+
+  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Jan Malčák" />
+
+
+
+
+
+
+
+
+
+</head>
+<body class="orange">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Jan Malčák
+  </div>
+</a>
+
+    </div>
+    
+  </div>
+  
+</header>
+
+
+  <div class="content">
+    
+  
+  <div class="posts">
+    
+    
+
+    
+    
+      
+    
+    
+
+    
+      <div class="post on-list">
+        <h1 class="post-title">
+          <a href="https://malja.github.io/cpp-existuje-soubor/">C++: Existuje soubor?</a>
+        </h1>
+        <div class="post-meta">
+          <span class="post-date">
+            2013-07-04
+          </span>
+          
+            <span class="post-author">:: Jan Malčák</span>
+          
+        </div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="https://malja.github.io/tags/tutori%C3%A1l/">tutoriál</a>&nbsp;
+            
+            #<a href="https://malja.github.io/tags/linux/">linux</a>&nbsp;
+            
+            #<a href="https://malja.github.io/tags/cpp/">cpp</a>&nbsp;
+            
+          </span>
+        
+
+
+        
+
+
+
+        <div class="post-content">
+          
+            Dnes jsem při programování &ldquo;Úžasné megalomanské hry, která mi určitě zajistí milióny&rdquo; narazil na problém jak zjistit, zda soubor, který chci načíst existuje.
+          
+        </div>
+
+        
+        <div>
+          <a class="read-more button"
+            href="/cpp-existuje-soubor/">Přečíst →</a>
+        </div>
+        
+      </div>
+    
+      <div class="post on-list">
+        <h1 class="post-title">
+          <a href="https://malja.github.io/debian-problem-s-lc_messages/">Debian: Problém s LC_MESSAGES</a>
+        </h1>
+        <div class="post-meta">
+          <span class="post-date">
+            2013-05-07
+          </span>
+          
+            <span class="post-author">:: Jan Malčák</span>
+          
+        </div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="https://malja.github.io/tags/linux/">linux</a>&nbsp;
+            
+          </span>
+        
+
+
+        
+
+
+
+        <div class="post-content">
+          
+            <p>Po dlouhé době spokojeného používání Debianu jsem dnes po troše šťourání se v systémových knihovnách znovu instaloval. Při <code>apt-get dist-upgrade</code> jsem ale narazil na následující chybovou hlášku:</p>
+<pre><code>locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+locale: Cannot set LC_COLLATE to default locale: No such file or directory
+</code></pre>
+<p>Řešením nakonec bylo nainstalovat balík <code>locales</code> a <code>locales-all</code> a spustit příkaz:</p>
+<pre><code>locale-gen
+</code></pre>
+<p>Při hledání řešení jsem také narazil na možnost, že není uveden seznam lokalizací, ze kterých se má vybírat. V takovém případě editujte soubor <code>/etc/locale.gen</code> a odkomentujte (odstraňte znak # na začátku řádku) řádky s vaší lokalizací. Například v mém případě to je:</p>
+<pre><code>cs_CZ.UTF-8 UTF-8
+</code></pre>
+<p>Teprve pak je možné spustit příkaz <code>locale-gen</code>.</p>
+
+          
+        </div>
+
+        
+      </div>
+    
+      <div class="post on-list">
+        <h1 class="post-title">
+          <a href="https://malja.github.io/mnemotechnicka-pomucka-pro-periodickou-tabulku/">Mnemotechnická pomůcka pro periodickou tabulku</a>
+        </h1>
+        <div class="post-meta">
+          <span class="post-date">
+            2013-02-17
+          </span>
+          
+            <span class="post-author">:: Jan Malčák</span>
+          
+        </div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="https://malja.github.io/tags/%C5%A1kola/">škola</a>&nbsp;
+            
+          </span>
+        
+
+
+        
+
+
+
+        <div class="post-content">
+          
+            Věty pro lepší zapamatování si pořadí prvků v I.A - VIII.A.
+          
+        </div>
+
+        
+        <div>
+          <a class="read-more button"
+            href="/mnemotechnicka-pomucka-pro-periodickou-tabulku/">Přečíst →</a>
+        </div>
+        
+      </div>
+    
+      <div class="post on-list">
+        <h1 class="post-title">
+          <a href="https://malja.github.io/hledam-cestu-k-cily-a-algoritmus/">Hledám cestu k cíly: A* algoritmus</a>
+        </h1>
+        <div class="post-meta">
+          <span class="post-date">
+            2012-07-14
+          </span>
+          
+            <span class="post-author">:: Jan Malčák</span>
+          
+        </div>
+
+        
+
+
+        
+  <img src="/hledam-cestu-k-cily-a-algoritmus/hlavni.png"
+    class="post-cover"
+    alt="Hledám cestu k cíly: A* algoritmus"
+    title="Cover Image" />
+
+
+
+        <div class="post-content">
+          
+            Označujete svou nadupanou družinu dobrodruhů, přesouváte se na mapě a klikáte na armádu trollů, která bezostyšně útočí na bezbrannou vesnici. Nyní je na vašich hrdinech, aby se rozhodli, kudy (a jestli vůbec ;)) se vydají na cestu. Stejně jako my lidé, budou hledat nejkratší a nejlépe schůdnou cestu k cíli.
+          
+        </div>
+
+        
+        <div>
+          <a class="read-more button"
+            href="/hledam-cestu-k-cily-a-algoritmus/">Přečíst →</a>
+        </div>
+        
+      </div>
+    
+      <div class="post on-list">
+        <h1 class="post-title">
+          <a href="https://malja.github.io/pouziti-prikazu-chmod/">Použití příkazu chmod</a>
+        </h1>
+        <div class="post-meta">
+          <span class="post-date">
+            2011-03-05
+          </span>
+          
+            <span class="post-author">:: Jan Malčák</span>
+          
+        </div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="https://malja.github.io/tags/tutori%C3%A1l/">tutoriál</a>&nbsp;
+            
+            #<a href="https://malja.github.io/tags/linux/">linux</a>&nbsp;
+            
+          </span>
+        
+
+
+        
+
+
+
+        <div class="post-content">
+          
+            Jednoduchý tip popisující práci s příkazem <!-- raw HTML omitted -->chmod<!-- raw HTML omitted -->.
+          
+        </div>
+
+        
+        <div>
+          <a class="read-more button"
+            href="/pouziti-prikazu-chmod/">Přečíst →</a>
+        </div>
+        
+      </div>
+    
+    <div class="pagination">
+  <div class="pagination__buttons">
+    
+      <span class="button previous">
+        <a href="/page/3/">
+          <span class="button__icon">←</span>
+          <span class="button__text">Novější</span>
+        </a>
+      </span>
+    
+    
+      <span class="button next">
+        <a href="/page/5/">
+          <span class="button__text">Starší</span>
+          <span class="button__icon">→</span>
+        </a>
+      </span>
+    
+  </div>
+</div>
+
+  </div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>Po nocích píše Honza</span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="https://malja.github.io/assets/main.js"></script>
+<script src="https://malja.github.io/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

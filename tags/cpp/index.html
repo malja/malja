@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  
+    <title>cpp :: Jan Malčák</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://malja.github.io/tags/cpp/" />
+
+
+
+
+<link rel="stylesheet" href="https://malja.github.io/assets/style.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon" href="https://malja.github.io/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="https://malja.github.io/img/favicon/orange.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="cs" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="cpp">
+<meta property="og:description" content="" />
+<meta property="og:url" content="https://malja.github.io/tags/cpp/" />
+<meta property="og:site_name" content="Jan Malčák" />
+
+  
+    <meta property="og:image" content="https://malja.github.io/img/favicon/orange.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+
+
+
+  <link href="/tags/cpp/index.xml" rel="alternate" type="application/rss+xml" title="Jan Malčák" />
+
+
+
+
+
+
+
+
+
+</head>
+<body class="orange">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Jan Malčák
+  </div>
+</a>
+
+    </div>
+    
+  </div>
+  
+</header>
+
+
+  <div class="content">
+    
+  
+  <div class="posts">
+    
+      <div class="post on-list">
+        <h1 class="post-title">
+          <a href="https://malja.github.io/arduino-programovani-attiny85/">Arduino: Programování Attiny85</a>
+        </h1>
+        <div class="post-meta">
+          <span class="post-date">
+            2016-03-26
+          </span>
+          
+            <span class="post-author">:: Jan Malčák</span>
+          
+        </div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="https://malja.github.io/tags/tutori%C3%A1l/">tutoriál</a>&nbsp;
+            
+            #<a href="https://malja.github.io/tags/programov%C3%A1n%C3%AD/">programování</a>&nbsp;
+            
+            #<a href="https://malja.github.io/tags/cpp/">cpp</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+      
+        <div class="post-content">
+          
+            Z nějakého důvodu mi kdysi přišlo jako opravdu cool nápad koupit si několik miniaturních čipů ATtiny85. Ne že bych věděl co s nimi, spíš pro sichr. Jak se říká, co je doma, to se počítá.
+          
+        </div>
+
+        
+        <div>
+          <a class="read-more button"
+            href="/arduino-programovani-attiny85/">Přečíst →</a>
+        </div>
+        
+      </div>
+    
+      <div class="post on-list">
+        <h1 class="post-title">
+          <a href="https://malja.github.io/arduino-odpojeni-pri-nahravani-programu/">Arduino: Odpojení při nahrávání programu</a>
+        </h1>
+        <div class="post-meta">
+          <span class="post-date">
+            2015-03-14
+          </span>
+          
+            <span class="post-author">:: Jan Malčák</span>
+          
+        </div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="https://malja.github.io/tags/tutori%C3%A1l/">tutoriál</a>&nbsp;
+            
+            #<a href="https://malja.github.io/tags/linux/">linux</a>&nbsp;
+            
+            #<a href="https://malja.github.io/tags/programov%C3%A1n%C3%AD/">programování</a>&nbsp;
+            
+            #<a href="https://malja.github.io/tags/cpp/">cpp</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+      
+        <div class="post-content">
+          
+            <p>Při experimentování s Arduinem jsem narazil na podivný problém. Po několika malých úpravách kódu mi editor při nahrávání programu hlásil</p>
+<pre><code>Error opening serial port '/dev/ttyACM1'
+</code></pre>
+<p>To vše doplněné dlouhým výpisem kde se chyba vyskytla.</p>
+<p>Jako by to nestačilo, Arduino se poté odpojí. Pro připojení bylo nutné vytáhnout a opět zastrčit napájecí USB kabel. Tím se bohužel problém s odpojováním nevyřešil. Obšírným nahlédnutím do složky <code>/dev</code> jsem zjistil, že soubor <code>ttyACM1</code> existuje. Příkaz <code>lsusb</code> Arduino našel. Problém tedy musel být někde jinde.</p>
+<p>Problém přetrvával i po změně zdrojového kódu či načtení některého z příkladů. Nezbylo mi tak, než použít Google. Dle všeho šlo o přepsání hodnoty:</p>
+<pre><code>Serial.begin(9600);
+</code></pre>
+<p>na</p>
+<pre><code>Serial.begin(14400);
+</code></pre>
+<p>Nová hodnota se uloží do uživatelského nastavení. Z nějakého mě neznámého důvodu zůstane tato hodnota v nastavení &ldquo;zadrblá&rdquo; i po opětovné úpravě zdrojáků. Je tedy nutné smazat soubor s nastavením (u mě <code>~/arduino/preferences.txt</code> a restartovat editor.</p>
+
+          
+        </div>
+
+        
+      </div>
+    
+      <div class="post on-list">
+        <h1 class="post-title">
+          <a href="https://malja.github.io/post/">SDL2: Snímek obrazovky</a>
+        </h1>
+        <div class="post-meta">
+          <span class="post-date">
+            2014-03-19
+          </span>
+          
+            <span class="post-author">:: Jan Malčák</span>
+          
+        </div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="https://malja.github.io/tags/programov%C3%A1n%C3%AD/">programování</a>&nbsp;
+            
+            #<a href="https://malja.github.io/tags/tutori%C3%A1l/">tutoriál</a>&nbsp;
+            
+            #<a href="https://malja.github.io/tags/cpp/">cpp</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+      
+        <div class="post-content">
+          
+            SDL s sebou ve druhé verzi přinesl i změnu vykreslování na obrazovku. Místo v RAM uložených SDL_Surface je v SDL2 použita SDL_Texture uložená na video RAM, kde je plně v jurisdikci GPU. Krom citelných změn na rychlost vykreslování se také změnil způsob, jakým lze zachytit snímek obrazovky.
+Při použití textur se SDL_Surface okna neaktualizuje, pokud bychom použili dřívější způsob, dostali bychom prázdný snímek. Bohužel standardní funkce SDL_SaveBMP (ani její nedokumentovaná obdoba v rozšíření SDL_image - IMG_SavePNG) nepodporuje uložení SDL_Texture.
+          
+        </div>
+
+        
+        <div>
+          <a class="read-more button"
+            href="/post/">Přečíst →</a>
+        </div>
+        
+      </div>
+    
+      <div class="post on-list">
+        <h1 class="post-title">
+          <a href="https://malja.github.io/cpp-existuje-soubor/">C++: Existuje soubor?</a>
+        </h1>
+        <div class="post-meta">
+          <span class="post-date">
+            2013-07-04
+          </span>
+          
+            <span class="post-author">:: Jan Malčák</span>
+          
+        </div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="https://malja.github.io/tags/tutori%C3%A1l/">tutoriál</a>&nbsp;
+            
+            #<a href="https://malja.github.io/tags/linux/">linux</a>&nbsp;
+            
+            #<a href="https://malja.github.io/tags/cpp/">cpp</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+      
+        <div class="post-content">
+          
+            Dnes jsem při programování &ldquo;Úžasné megalomanské hry, která mi určitě zajistí milióny&rdquo; narazil na problém jak zjistit, zda soubor, který chci načíst existuje.
+          
+        </div>
+
+        
+        <div>
+          <a class="read-more button"
+            href="/cpp-existuje-soubor/">Přečíst →</a>
+        </div>
+        
+      </div>
+    
+    <div class="pagination">
+  <div class="pagination__buttons">
+    
+    
+  </div>
+</div>
+
+  </div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>Po nocích píše Honza</span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="https://malja.github.io/assets/main.js"></script>
+<script src="https://malja.github.io/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
