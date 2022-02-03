@@ -1,8 +1,10 @@
-baseurl = "https://malja.github.io/jan.malcak.cz"
+baseurl = "https://malja.github.io/"
 title = 'Jan Malčák'
 defaultContentLanguage = "cs"
 theme = "terminal"
 paginate = 5
+
+publishDir = "./docs"
 
 [permalinks]
   blog = "/:filename"

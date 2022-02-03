@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>android on Jan Malčák</title>
-    <link>https://malja.github.io/jan.malcak.cz/tags/android/</link>
+    <link>https://malja.github.io/tags/android/</link>
     <description>Recent content in android on Jan Malčák</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Po nocích píše Honza</copyright>
-    <lastBuildDate>Wed, 28 Aug 2013 15:03:00 +0200</lastBuildDate><atom:link href="https://malja.github.io/jan.malcak.cz/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Aug 2013 15:03:00 +0200</lastBuildDate><atom:link href="https://malja.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android: Horizontální čára</title>
-      <link>https://malja.github.io/jan.malcak.cz/android-horizontalni-cara/</link>
+      <link>https://malja.github.io/android-horizontalni-cara/</link>
       <pubDate>Wed, 28 Aug 2013 15:03:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/jan.malcak.cz/android-horizontalni-cara/</guid>
+      <guid>https://malja.github.io/android-horizontalni-cara/</guid>
       <description>V Androidu neexistuje (alespoň o tom nevím) žádná nativní cesta jak vytvořit horizontální čáru. Naštěstí si jde vypomoci i jinak:
 &amp;lt;View android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;1dip&amp;#34; android:background=&amp;#34;#000000&amp;#34;&amp;gt; </description>
       <content>&lt;p&gt;V Androidu neexistuje (alespoň o tom nevím) žádná nativní cesta jak vytvořit horizontální čáru. Naštěstí si jde vypomoci i jinak:&lt;/p&gt;

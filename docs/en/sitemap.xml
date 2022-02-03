@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://malja.github.io/jan.malcak.cz/en/categories/</loc>
+    <loc>https://malja.github.io/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="https://malja.github.io/jan.malcak.cz/categories/"
+                href="https://malja.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://malja.github.io/jan.malcak.cz/en/categories/"
+                href="https://malja.github.io/en/categories/"
                 />
   </url><url>
-    <loc>https://malja.github.io/jan.malcak.cz/en/tags/</loc>
+    <loc>https://malja.github.io/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="https://malja.github.io/jan.malcak.cz/tags/"
+                href="https://malja.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://malja.github.io/jan.malcak.cz/en/tags/"
+                href="https://malja.github.io/en/tags/"
                 />
   </url><url>
-    <loc>https://malja.github.io/jan.malcak.cz/en/</loc>
+    <loc>https://malja.github.io/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="https://malja.github.io/jan.malcak.cz/"
+                href="https://malja.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://malja.github.io/jan.malcak.cz/en/"
+                href="https://malja.github.io/en/"
                 />
   </url>
 </urlset>

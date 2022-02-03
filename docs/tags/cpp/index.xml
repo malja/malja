@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cpp on Jan Malčák</title>
-    <link>https://malja.github.io/jan.malcak.cz/tags/cpp/</link>
+    <link>https://malja.github.io/tags/cpp/</link>
     <description>Recent content in cpp on Jan Malčák</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Po nocích píše Honza</copyright>
-    <lastBuildDate>Sat, 26 Mar 2016 22:50:00 +0200</lastBuildDate><atom:link href="https://malja.github.io/jan.malcak.cz/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Mar 2016 22:50:00 +0200</lastBuildDate><atom:link href="https://malja.github.io/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arduino: Programování Attiny85</title>
-      <link>https://malja.github.io/jan.malcak.cz/arduino-programovani-attiny85/</link>
+      <link>https://malja.github.io/arduino-programovani-attiny85/</link>
       <pubDate>Sat, 26 Mar 2016 22:50:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/jan.malcak.cz/arduino-programovani-attiny85/</guid>
+      <guid>https://malja.github.io/arduino-programovani-attiny85/</guid>
       <description>Teď, možná po roce či dvou, jsem je vyhrabal z krabice. Stále jsem přesně netušil, co s nimi, ale v hlavě se mi pár nápadů rýsovalo.
 Z mých posledních pokusů jsem si pamatoval, že standardní USBisp, které jsem si koupil na programování čipů ATmega328 nejde použít. Nejjednodušší náhradou se mi jevilo využít Arduino Uno. Na internetu jsem našel velké množství tutoriálů, navíc jde o celkem jednoduchou záležitost.
 Prvně je třeba přidat podporu pro čipy rodiny ATtiny do Arduino IDE.</description>
@@ -78,10 +78,10 @@ Prvně je třeba přidat podporu pro čipy rodiny ATtiny do Arduino IDE.</descri
     
     <item>
       <title>Arduino: Odpojení při nahrávání programu</title>
-      <link>https://malja.github.io/jan.malcak.cz/arduino-odpojeni-pri-nahravani-programu/</link>
+      <link>https://malja.github.io/arduino-odpojeni-pri-nahravani-programu/</link>
       <pubDate>Sat, 14 Mar 2015 22:49:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/jan.malcak.cz/arduino-odpojeni-pri-nahravani-programu/</guid>
+      <guid>https://malja.github.io/arduino-odpojeni-pri-nahravani-programu/</guid>
       <description>Při experimentování s Arduinem jsem narazil na podivný problém. Po několika malých úpravách kódu mi editor při nahrávání programu hlásil
 Error opening serial port &#39;/dev/ttyACM1&#39;  To vše doplněné dlouhým výpisem kde se chyba vyskytla.
 Jako by to nestačilo, Arduino se poté odpojí. Pro připojení bylo nutné vytáhnout a opět zastrčit napájecí USB kabel. Tím se bohužel problém s odpojováním nevyřešil. Obšírným nahlédnutím do složky /dev jsem zjistil, že soubor ttyACM1 existuje.</description>
@@ -102,10 +102,10 @@ Jako by to nestačilo, Arduino se poté odpojí. Pro připojení bylo nutné vyt
     
     <item>
       <title>SDL2: Snímek obrazovky</title>
-      <link>https://malja.github.io/jan.malcak.cz/post/</link>
+      <link>https://malja.github.io/post/</link>
       <pubDate>Wed, 19 Mar 2014 20:57:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/jan.malcak.cz/post/</guid>
+      <guid>https://malja.github.io/post/</guid>
       <description>SDL s sebou ve druhé verzi přinesl i změnu vykreslování na obrazovku. Místo v RAM uložených SDL_Surface je v SDL2 použita SDL_Texture uložená na video RAM, kde je plně v jurisdikci GPU. Krom citelných změn na rychlost vykreslování se také změnil způsob, jakým lze zachytit snímek obrazovky.
 Při použití textur se SDL_Surface okna neaktualizuje, pokud bychom použili dřívější způsob, dostali bychom prázdný snímek. Bohužel standardní funkce SDL_SaveBMP (ani její nedokumentovaná obdoba v rozšíření SDL_image - IMG_SavePNG) nepodporuje uložení SDL_Texture.</description>
       <content>&lt;p&gt;SDL s sebou ve druhé verzi přinesl i změnu vykreslování na obrazovku. Místo v RAM uložených &lt;a href=&#34;https://wiki.libsdl.org/SDL_Surface&#34;&gt;SDL_Surface&lt;/a&gt; je v SDL2 použita &lt;a href=&#34;https://wiki.libsdl.org/SDL_Texture&#34;&gt;SDL_Texture&lt;/a&gt; uložená na video RAM, kde je plně v jurisdikci GPU. Krom citelných změn na rychlost vykreslování se také změnil způsob, jakým lze zachytit snímek obrazovky.&lt;/p&gt;
@@ -124,10 +124,10 @@ Při použití textur se SDL_Surface okna neaktualizuje, pokud bychom použili d
     
     <item>
       <title>C&#43;&#43;: Existuje soubor?</title>
-      <link>https://malja.github.io/jan.malcak.cz/cpp-existuje-soubor/</link>
+      <link>https://malja.github.io/cpp-existuje-soubor/</link>
       <pubDate>Thu, 04 Jul 2013 14:20:00 +0200</pubDate>
       
-      <guid>https://malja.github.io/jan.malcak.cz/cpp-existuje-soubor/</guid>
+      <guid>https://malja.github.io/cpp-existuje-soubor/</guid>
       <description>Pokud bych chtěl jsen přečíst data, jde o problém celkem triviální. Stačí se pokusit tento soubor otevřít. Cest je opět několik:
 Takový postup bude ve většině případů plně dostačující. Pro úplnost uvedu ještě příklad s využitím funkce access
 Co ale dělat v případě, že chceme o souboru zjistit více informací? Je soubor spustitelný? Jaká je jeho velikost? Jaké je ID vlastníka? V takovém případě se můžeme opřít o funkci stat</description>
