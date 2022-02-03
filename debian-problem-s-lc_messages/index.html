@@ -1,0 +1,107 @@
+<!doctype html><html lang=cs>
+<head>
+<title>Debian: Problém s LC_MESSAGES :: Jan Malčák</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Po dlouhé době spokojeného používání Debianu jsem dnes po troše šťourání se v systémových knihovnách znovu instaloval. Při apt-get dist-upgrade jsem ale narazil na následující chybovou hlášku:
+locale: Cannot set LC_CTYPE to default locale: No such file or directory locale: Cannot set LC_MESSAGES to default locale: No such file or directory locale: Cannot set LC_COLLATE to default locale: No such file or directory  Řešením nakonec bylo nainstalovat balík locales a locales-all a spustit příkaz:">
+<meta name=keywords content="linux,debian,locales,lc_messages">
+<meta name=robots content="noodp">
+<link rel=canonical href=https://jan.malcak.cz/debian-problem-s-lc_messages/>
+<link rel=stylesheet href=https://jan.malcak.cz/assets/style.css>
+<link rel=apple-touch-icon href=https://jan.malcak.cz/img/apple-touch-icon-192x192.png>
+<link rel="shortcut icon" href=https://jan.malcak.cz/img/favicon/orange.png>
+<meta name=twitter:card content="summary">
+<meta name=twitter:site content>
+<meta name=twitter:creator content="Jan Malčák">
+<meta property="og:locale" content="cs">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Debian: Problém s LC_MESSAGES">
+<meta property="og:description" content="Po dlouhé době spokojeného používání Debianu jsem dnes po troše šťourání se v systémových knihovnách znovu instaloval. Při apt-get dist-upgrade jsem ale narazil na následující chybovou hlášku:
+locale: Cannot set LC_CTYPE to default locale: No such file or directory locale: Cannot set LC_MESSAGES to default locale: No such file or directory locale: Cannot set LC_COLLATE to default locale: No such file or directory  Řešením nakonec bylo nainstalovat balík locales a locales-all a spustit příkaz:">
+<meta property="og:url" content="https://jan.malcak.cz/debian-problem-s-lc_messages/">
+<meta property="og:site_name" content="Jan Malčák">
+<meta property="og:image" content="https://jan.malcak.cz/img/favicon/orange.png">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+<meta property="article:published_time" content="2013-05-07 21:33:00 +0200 +0200">
+</head>
+<body class=orange>
+<div class="container center headings--one-size">
+<header class=header>
+<div class=header__inner>
+<div class=header__logo>
+<a href=/>
+<div class=logo>
+Jan Malčák
+</div>
+</a>
+</div>
+</div>
+</header>
+<div class=content>
+<div class=post>
+<h1 class=post-title>
+<a href=https://jan.malcak.cz/debian-problem-s-lc_messages/>Debian: Problém s LC_MESSAGES</a></h1>
+<div class=post-meta>
+<span class=post-date>
+2013-05-07
+</span>
+<span class=post-author>:: Jan Malčák</span>
+</div>
+<span class=post-tags>
+#<a href=https://jan.malcak.cz/tags/linux/>linux</a>&nbsp;
+</span>
+<div class=post-content><div>
+<p>Po dlouhé době spokojeného používání Debianu jsem dnes po troše šťourání se v systémových knihovnách znovu instaloval. Při <code>apt-get dist-upgrade</code> jsem ale narazil na následující chybovou hlášku:</p>
+<pre><code>locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+locale: Cannot set LC_COLLATE to default locale: No such file or directory
+</code></pre>
+<p>Řešením nakonec bylo nainstalovat balík <code>locales</code> a <code>locales-all</code> a spustit příkaz:</p>
+<pre><code>locale-gen
+</code></pre>
+<p>Při hledání řešení jsem také narazil na možnost, že není uveden seznam lokalizací, ze kterých se má vybírat. V takovém případě editujte soubor <code>/etc/locale.gen</code> a odkomentujte (odstraňte znak # na začátku řádku) řádky s vaší lokalizací. Například v mém případě to je:</p>
+<pre><code>cs_CZ.UTF-8 UTF-8
+</code></pre>
+<p>Teprve pak je možné spustit příkaz <code>locale-gen</code>.</p>
+</div></div>
+<div class=pagination>
+<div class=pagination__title>
+<span class=pagination__title-h>Další příspěvky</span>
+<hr>
+</div>
+<div class=pagination__buttons>
+<span class="button previous">
+<a href=https://jan.malcak.cz/cpp-existuje-soubor/>
+<span class=button__icon>←</span>
+<span class=button__text>C++: Existuje soubor?</span>
+</a>
+</span>
+<span class="button next">
+<a href=https://jan.malcak.cz/mnemotechnicka-pomucka-pro-periodickou-tabulku/>
+<span class=button__text>Mnemotechnická pomůcka pro periodickou tabulku</span>
+<span class=button__icon>→</span>
+</a>
+</span>
+</div>
+</div>
+<div id=disqus_thread></div>
+<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//malja.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</div>
+</div>
+<footer class=footer>
+<div class=footer__inner>
+<div class="copyright copyright--user">
+<span>Po nocích píše Honza</span>
+<span>:: Theme made by <a href=https://twitter.com/panr>panr</a></span>
+</div>
+</div>
+</footer>
+<script src=https://jan.malcak.cz/assets/main.js></script>
+<script src=https://jan.malcak.cz/assets/prism.js></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>web on Jan Malčák</title><link>https://jan.malcak.cz/tags/web/</link><description>Recent content in web on Jan Malčák</description><generator>Hugo -- gohugo.io</generator><copyright>Po nocích píše Honza</copyright><lastBuildDate>Fri, 12 Jun 2009 16:35:00 +0200</lastBuildDate><atom:link href="https://jan.malcak.cz/tags/web/index.xml" rel="self" type="application/rss+xml"/><item><title>Aktualizace WordPressu</title><link>https://jan.malcak.cz/aktualizace-wordpressu/</link><pubDate>Fri, 12 Jun 2009 16:35:00 +0200</pubDate><guid>https://jan.malcak.cz/aktualizace-wordpressu/</guid><description>Poznámka z roku 2018: Tenhle článek je obsahem hodně za zenitem. Aktualizace WP je dnes otázkou dvou kliknutí. Všechno je automatizované a až na výjimky bezpečné (ve smyslu rozbití stránky a ztráty dat). Na druhou stranu jde o můj nejstarší zachovalý publikovaný článek. Krásně demonstruje dvě věci. Zaprvé vývoj mého psaného projevu (snad k lepšímu) a zadruhé posun v &amp;ldquo;přístupnosti&amp;rdquo; IT. Takže si zaslouží tu být :D.
+Nyní si povíme jak aktualizovat náš Wordpress, bez ztráty dat:</description><content>&lt;p>&lt;strong>Poznámka z roku 2018:&lt;/strong> Tenhle článek je obsahem hodně za zenitem. Aktualizace WP je dnes otázkou dvou kliknutí. Všechno je automatizované a až na výjimky bezpečné (ve smyslu rozbití stránky a ztráty dat). Na druhou stranu jde o můj nejstarší zachovalý publikovaný článek. Krásně demonstruje dvě věci. Zaprvé vývoj mého psaného projevu (snad k lepšímu) a zadruhé posun v &amp;ldquo;přístupnosti&amp;rdquo; IT. Takže si zaslouží tu být :D.&lt;/p>
+&lt;p>Nyní si povíme jak aktualizovat náš Wordpress, bez ztráty dat:&lt;/p>
+&lt;ul>
+&lt;li>Proveďte zálohu databáze přes PhpMyAdmin&lt;/li>
+&lt;li>Proveďte zálohu všech souborů&lt;/li>
+&lt;li>Deaktivujte všechny pluginy (pro případ nekompatibilit)&lt;/li>
+&lt;li>Smažte všechny soubory WordPressu, ale pozor, adesáře &lt;code>wp-content&lt;/code>, &lt;code>wp-config.php&lt;/code> a soubor &lt;code>.htaccess&lt;/code> (pokud ho máte). Ty nemažte, obsahují nastavení, obrázky, pluginy atd.&lt;/li>
+&lt;li>Nahrajte nejnovější verzi &lt;a href="http://acci.cz/wordpress">Českého WordPressu&lt;/a>&lt;/li>
+&lt;li>Nahrajte nejnovější verze používaných pluginů.&lt;/li>
+&lt;li>Pomocí prohlížeče přejďete na &lt;code>http://vasweb.cz/wp-admin/upgrade.php&lt;/code> a odklikněte upgrade databáze.&lt;/li>
+&lt;/ul>
+&lt;p>S trochou štěstí by Váš web měl fungovat. Doporučuji si ještě zkontrolovat, zda je Váš vzhled kompatibilní s novou verzí Wordpressu.&lt;/p></content></item></channel></rss>

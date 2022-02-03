@@ -1,0 +1,114 @@
+<!doctype html><html lang=cs>
+<head>
+<title>php :: Jan Malčák</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content>
+<meta name=keywords content>
+<meta name=robots content="noodp">
+<link rel=canonical href=https://jan.malcak.cz/tags/php/>
+<link rel=stylesheet href=https://jan.malcak.cz/assets/style.css>
+<link rel=apple-touch-icon href=https://jan.malcak.cz/img/apple-touch-icon-192x192.png>
+<link rel="shortcut icon" href=https://jan.malcak.cz/img/favicon/orange.png>
+<meta name=twitter:card content="summary">
+<meta name=twitter:site content>
+<meta name=twitter:creator content>
+<meta property="og:locale" content="cs">
+<meta property="og:type" content="website">
+<meta property="og:title" content="php">
+<meta property="og:description" content>
+<meta property="og:url" content="https://jan.malcak.cz/tags/php/">
+<meta property="og:site_name" content="Jan Malčák">
+<meta property="og:image" content="https://jan.malcak.cz/img/favicon/orange.png">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+<link href=/tags/php/index.xml rel=alternate type=application/rss+xml title="Jan Malčák">
+</head>
+<body class=orange>
+<div class="container center headings--one-size">
+<header class=header>
+<div class=header__inner>
+<div class=header__logo>
+<a href=/>
+<div class=logo>
+Jan Malčák
+</div>
+</a>
+</div>
+</div>
+</header>
+<div class=content>
+<div class=posts>
+<div class="post on-list">
+<h1 class=post-title>
+<a href=https://jan.malcak.cz/php-validace-bankovniho-cisla/>PHP: Validace bankovního čísla</a>
+</h1>
+<div class=post-meta>
+<span class=post-date>
+2017-08-31
+</span>
+<span class=post-author>:: Jan Malčák</span>
+</div>
+<span class=post-tags>
+#<a href=https://jan.malcak.cz/tags/tutori%C3%A1l/>tutoriál</a>&nbsp;
+#<a href=https://jan.malcak.cz/tags/programov%C3%A1n%C3%AD/>programování</a>&nbsp;
+#<a href=https://jan.malcak.cz/tags/php/>php</a>&nbsp;
+</span>
+<div class=post-content>
+Jednoduchá PHP funkce pro validaci čísla českého bankovního účtu.
+</div>
+<div>
+<a class="read-more button" href=/php-validace-bankovniho-cisla/>Přečíst →</a>
+</div>
+</div>
+<div class="post on-list">
+<h1 class=post-title>
+<a href=https://jan.malcak.cz/generovani-html-z-php-poli/>Generování HTML z PHP polí</a>
+</h1>
+<div class=post-meta>
+<span class=post-date>
+2013-08-28
+</span>
+<span class=post-author>:: Jan Malčák</span>
+</div>
+<span class=post-tags>
+#<a href=https://jan.malcak.cz/tags/tutori%C3%A1l/>tutoriál</a>&nbsp;
+#<a href=https://jan.malcak.cz/tags/programov%C3%A1n%C3%AD/>programování</a>&nbsp;
+#<a href=https://jan.malcak.cz/tags/php/>php</a>&nbsp;
+</span>
+<div class=post-content>
+<p>Při výpisu objemných PHP polí byli mými nejlepšími společníky funkce <code>print_r()</code> a <code>var_dump()</code>. Výpis z nich se navíc musí dále obalit přinejmenším do tagů <code>pre</code>, aby výstup byl alespoň trochu čitelný. Navíc postup, který jsem k tomu používal:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#34;&lt;pre&gt;&#34;</span>;<span style=color:#a6e22e>print_r</span>($promenna);<span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#34;&lt;/pre&gt;&#34;</span>;
+</code></pre></div><p>se mi v kódu vůbec nelíbil. Proto jsem si vytvořil třídu, která formátování obstará za mě. Tak vznikla třída <code>Tabletizer</code>. Díky ní je vytvoření pěkné tabulky otázkou pár řádků:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php>$table <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>Tabletizer</span>();
+<span style=color:#66d9ef>echo</span> $table<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>fromArray</span>($promenna);
+</code></pre></div><p>Jasně, řádky neušetřím, ale vypadá to o mnoho lépe.</p>
+<p><strong>Poznámka z roku 2018:</strong> Zpětně by bylo vhodnější využít kratší název třídy a metodu <code>fromArray</code> udělat statickou.</p>
+<p>A to je vše. Výstupem může být třeba i takováto tabulka.</p>
+<figure class=left>
+<img src="https://github.com/malja/archive/blob/master/php/Tabletizer/website/img/tabletizer.png?raw=true" alt=Tabletizer>
+<figcaption class=center>Tabletizer</figcaption>
+</figure>
+<p>Díky tomu, že hlavní tabulce je přiřazena třída <code>.tabletizer</code>, je velice jednoduché vytvořit si jakýkoli styl, který sedí do okolního &ldquo;prostředí&rdquo;. Vzhled tabulky si je možné jakkoli přizpůsobit.</p>
+<p>Odkaz ke stažení, spolu s návodem a seznamem změn je možné najít na <a href=https://github.com/malja/archive/tree/master/php/Tabletizer>této stránce</a></p>
+</div>
+</div>
+<div class=pagination>
+<div class=pagination__buttons>
+</div>
+</div>
+</div>
+</div>
+<footer class=footer>
+<div class=footer__inner>
+<div class="copyright copyright--user">
+<span>Po nocích píše Honza</span>
+<span>:: Theme made by <a href=https://twitter.com/panr>panr</a></span>
+</div>
+</div>
+</footer>
+<script src=https://jan.malcak.cz/assets/main.js></script>
+<script src=https://jan.malcak.cz/assets/prism.js></script>
+</div>
+</body>
+</html>
