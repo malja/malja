@@ -1,0 +1,39 @@
+---
+title: 'Cíl života'
+author: "Jan Malčák"
+cover: "uvodka.jpg"
+description: 'Od špatného přirovnání k životnímu prozření.'
+date: "2018-08-29T11:30:00+02:00"
+tags: ["blog"]
+---
+
+Život je jako jízda v autě. Čím rychleji se jede, tím rozmazanější je okolí. A rychlost je, oč dnes běží. Cenu dostane jen první, nejlepší, nejsilnější, nej... Plyn až na podlahu. Klidně se tak může stát, že jedeme tak rychle, že ani nevíme, kde jsme a jak jsme se sem dostali. Ve zpětném zrcátku jen prach. Před námi cesta.
+
+![Cesta](cesta.jpg)
+<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@hugoramos?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Hugo Ramos"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Hugo Ramos</span></a>
+
+Jen málokdy se zamyslíme, kam vlastně tak spěcháme. Co je cílem té cesty. A hlavně, má vůbec cenu? Mnohdy k tomu člověka přivede až vnější impuls. Náraz, který ho donutí zastavit, vyskočit z toho šíleného tempa a rozhlédnout se. Zjistit, že mu život utekl jako písek mezi prsty.
+
+![Písek](pisek.jpg)
+<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@rawpixel?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from rawpixel"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px">rawpixel</span></a>
+
+Dlouhou dobu jsem si myslel, že cílem života je být šťastný. Ať už to znamená cokoliv. To je ten důvod, proč jsme schopni přečkat všechny těžkosti a bolest. Proč ráno vstáváme a jdeme do práce, která nás nebaví a dřeme, abychom udělali dojem na někoho, koho nemáme rádi. Proč si kupujeme věci, které nepotřebujeme... 
+
+Ještě donedávna bych tak řekl, že cílem života je, abych ho prožil šťastný. Nakupoval jsem a doufal, že mě to udělá šťastným. Vyrazil jsem si a doufal, že budu šťastný. Našel jsem si dobře placenou brigádu a myslel si, že budu šťastný. Stejně ale vždy přišel ten moment, kdy jsem ležel v posteli a přemýšlel. Co dál? Budu se takhle honit za štěstím donekonečna? Pokud by mělo "štěstí" být tím vysněným cílem života, jak ho dosáhnu? Kdy si můžu říct - "Ok, dosáhl jsem úplného štěstí."? 
+
+Život není naštěstí jenom růžový. Štěstí je jen prchlavý pocit. Dobré okamžiky střídají období těch špatných. Jen díky tomu si ty dobré užijeme a oceníme je. Štěstí nemůže být cíl, protože ho nelze dosáhnout. Když už si myslíme, že ho pevně držíme, uteče nám. Marné pronásledování by přineslo pravý opak štěstí.
+
+![Ruka](ruka.jpg)
+<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@laicho?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Cherry Laithang"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Cherry Laithang</span></a>
+
+Místo toho jsem se zaměřil na to, aby můj život měl cenu. Aby po mě něco zůstalo. Snažím se dělat to, co mohu ovlivnit a čeho můžu dosáhnout. Vstávat s pocitem, že "měním svět". Být užitečný. Nemusí přitom jít o nic složitého. 
+
+- Chovat se k ostatním slušně a mile.
+- Podat pomocnou ruku člověku, který o to nepožádal.
+- Vytvořit něco, co mohou ostatní, nebo jen já používat. 
+
+Stačí maličkosti, které utvoří celkovou mozaiku dobře prožitého života. Poslední, čeho bych chtěl dosáhnout je, abych si na smrtelné posteli uvědomil, že není jediný důkaz toho, že jsem tu kdy žil.
+
+Když budeme dělat to, v co věříme a co nám dává smysl, štěstí přijde samo.
+
+Autor úvodní fotky: <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@hamishclark_?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Hamish Clark"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Hamish Clark</span></a>
