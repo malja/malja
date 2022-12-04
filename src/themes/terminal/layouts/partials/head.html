@@ -45,7 +45,7 @@
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:site_name" content="{{ $.Site.Title }}" />
 {{ if and (not .IsHome) (isset .Params "cover") }}
-  <meta property="og:image" content="{{ .Param "cover" | absURL }}">
+  <meta property="og:image" content="{{ printf "%s" (.Param "cover") | printf "%s%s" .Permalink | printf "%s" | absURL }}">
 {{ else }}
   {{ if isset $.Site.Params "favicon" }}
     <meta property="og:image" content="{{ $.Site.Params.favicon | absURL }}">
