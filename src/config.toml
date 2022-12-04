@@ -11,6 +11,8 @@ buildFuture = true
   blog = "/blog/:filename"
 
 [params]
+  description = "Osobní stránky o tom, co mě zrovna po cestě do práce cvrnklo do nosu"
+
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = [ "blog", "old_blog" ]

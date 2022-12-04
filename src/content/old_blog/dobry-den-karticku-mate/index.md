@@ -1,7 +1,7 @@
 ---
 title: 'Dobrý den, kartičku máte?'
 author: "Jan Malčák"
-cover: "uvodka.jpg"
+cover: "cover.jpg"
 descriptioin: 'Tu o sociálních sítích jste už slyšeli? Prej nás odcizují. Kazí mladou generaci. A vůbec, celá civilizace se zahleděná do modrých displayů řítí pod kola nejbližší tramvaje. Děs a hrůza. Za komunismu takový zbytečnosti nebyly a jak se krásně žilo. Slovy moudré ženy: "Já bych všechny ty internety zakázala". '
 tags: ["blog"]
 readingTime: 3

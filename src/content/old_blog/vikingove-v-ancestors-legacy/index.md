@@ -1,7 +1,7 @@
 ---
 title: 'Vikingové v Ancestors Legacy'
 author: "Jan Malčák"
-cover: "ancestors_legacy_uvodka.jpg"
+cover: "cover.jpg"
 description: 'Tak je to tu zase - zkouškové. Ta skvělá část roku, kdy si člověk opravdu uvědomí, kolik toho musí udělat. Namátkou třeba z gruntu uklidit pokoj, setřídit si knížky podle abecedy, udělat si pořádek ve sklepě nebo se naučit vařit vietnamské nudle (o tom jindy :D). Že v tom seznamu chybí učení? Ehm.. Dejme tomu, že jsem stoupenec Komenského a beru vzdělání trochu od lesa. Hrou.'
 date: '2018-05-27T00:06:00+02:00'
 keywords: ["recenze", "hra", "ancestors legacy", "vikingové", "slovani", "germáni", "anglosasové", "středověk", "rts", "strategie"]

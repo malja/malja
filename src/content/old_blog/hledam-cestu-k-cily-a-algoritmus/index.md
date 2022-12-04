@@ -1,7 +1,7 @@
 ---
 title: 'Hledám cestu k cíly: A* algoritmus'
 author: "Jan Malčák"
-cover: "hlavni.png"
+cover: "cover.png"
 description: 'Označujete svou nadupanou družinu dobrodruhů, přesouváte se na mapě a klikáte na armádu trollů, která bezostyšně útočí na bezbrannou vesnici. Nyní je na vašich hrdinech, aby se rozhodli, kudy (a jestli vůbec ;)) se vydají na cestu. Stejně jako my lidé, budou hledat nejkratší a nejlépe schůdnou cestu k cíli.'
 date: '2012-07-14T15:26:00+02:00'
 keywords: ["astar", "dijkstra", "manhattan", "path", "pathfinding", "algoritmus", "a*", "hry"]

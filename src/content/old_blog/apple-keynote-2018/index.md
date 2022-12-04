@@ -5,7 +5,7 @@ date: '2018-09-14T11:03:00+02:00'
 keywords: ["iphone", "keynote"]
 tags: ["apple"]
 readingTime: 5
-cover: "pozvanka.jpg"
+cover: "cover.jpg"
 description: "Letos to bylo poprvé, co jsem sledoval celý Apple Keynote živě. Svým způsobem za to vděčím tomu, že mě v ten samý den postíhla žaludeční nevolnost a ničeho náročnějšího, než sledování videí na tabletu z pohodlí postele, jsem prostě nebyl schopen. Na všem špatném je třeba si najít i něco pozitivního ;)"
 ---
 

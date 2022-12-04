@@ -1,7 +1,7 @@
 ---
 title: 'Google Stadia v ČR'
 author: "Jan Malčák"
-cover: "google_stadia_logo_new.jpg"
+cover: "cover.jpg"
 description: 'Stadia přichází na divoký Východ!'
 date: "2020-12-09T21:55:00+02:00"
 tags: ["hry", "recenze"]

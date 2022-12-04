@@ -2,7 +2,7 @@
 title: 'Rozhovor s podnikatelem'
 description: 'Asi půlhodinový rozhovor s panem Frolíkem, který vznikl jako semestrální práce na VŠE. Neobsahuje asi nijak převratné informace. Pan Frolík dává hodně rozhovorů a zeptat se na něco, co již nebylo řečeno je složité. Nicméně šlo pro mě jako takového o krásné uvědomění si, že ač se může zdát kontaktování takto "úspěšného" člověka jako nereálné, občas se prostě zadaří :)'
 author: 'Jan Malčák'
-cover: "uvodka.jpg"
+cover: "cover.jpg"
 tags: ["rozhovor", "business"]
 readingTime: 1
 draft: false

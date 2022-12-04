@@ -1,7 +1,7 @@
 ---
 title: 'Cíl života'
 author: "Jan Malčák"
-cover: "uvodka.jpg"
+cover: "cover.jpg"
 description: 'Od špatného přirovnání k životnímu prozření.'
 date: "2018-08-29T11:30:00+02:00"
 tags: ["blog"]

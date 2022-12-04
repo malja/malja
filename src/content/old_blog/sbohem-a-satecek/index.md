@@ -1,7 +1,7 @@
 ---
 title: 'Sbohem a šáteček'
 author: "Jan Malčák"
-cover: "gymnazium-vrchlabi.jpg"
+cover: "cover.jpg"
 headline: 'Je šílené, jak to celé uteklo. Osm let! Tehdá, když jsem nastupoval, jsem to považoval za věčnost. A teď, když se ohlédnu, jako by to bylo pár dní. Pamatuji si, že jsem byl z přijetí hodně nadšený.'
 date: '2016-06-11T01:05:00+02:00'
 keywords: ["vrchlabí", "gymnázium", "maturita", "škola", "učitelé"]
