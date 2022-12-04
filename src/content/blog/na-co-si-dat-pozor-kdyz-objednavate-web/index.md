@@ -2,7 +2,7 @@
 title: "Na co si dát pozor, když objednáváte web"
 author: "Jan Malčák"
 cover: "uvodka.jpg"
-description: 'Několik rad, pokud uvažujete nad web pro vaše podnikání.'
+description: 'Několik rad, pokud uvažujete nad stránkami pro vaše podnikání.'
 tags: ["web"]
 date: '2022-12-04T03:10:23+02:00'
 readingTime: 10
