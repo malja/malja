@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Old_blogs on Jan Malčák</title>
+    <link>https://jan.malcak.cz/old_blog/</link>
+    <description>Recent content in Old_blogs on Jan Malčák</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Po nocích píše Honza</copyright>
+    <lastBuildDate>Wed, 09 Dec 2020 21:55:00 +0200</lastBuildDate><atom:link href="https://jan.malcak.cz/old_blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Stadia v ČR</title>
+      <link>https://jan.malcak.cz/google-stadia-v-cr/</link>
+      <pubDate>Wed, 09 Dec 2020 21:55:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/google-stadia-v-cr/</guid>
+      <description>Plácání slámy Uznávám, když se v polovině předchozího roku začaly po internetu trousit informace, že Google chystá představení vlastní herní streamovací platformy, nechávalo mě to vcelku klidným. Částečnou vinu na tom mělo to, že mi pod stolem trůnil herní počítač a tak jsem pro podobné služby nebyl cílový zákazník. Návaly radosti navíc tlumily neblahé zkušenosti s podobnými platformami v minulosti. Kromě Steam Linku a Moonlightu, kde hru streamujete z počítače na lokální síti byl vždy problém s latencí a propustností internetové sítě.</description>
+      <content>&lt;h2 id=&#34;plácání-slámy&#34;&gt;Plácání slámy&lt;/h2&gt;
+&lt;p&gt;Uznávám, když se v polovině předchozího roku začaly po internetu trousit informace, že Google chystá představení vlastní herní streamovací platformy, nechávalo mě to vcelku klidným. Částečnou vinu na tom mělo to, že mi pod stolem trůnil herní počítač a tak jsem pro podobné služby nebyl cílový zákazník. Návaly radosti navíc tlumily neblahé zkušenosti s podobnými platformami v minulosti. Kromě Steam Linku a &lt;a href=&#34;https://moonlight-stream.org/&#34;&gt;Moonlightu&lt;/a&gt;, kde hru streamujete z počítače na lokální síti byl vždy problém s latencí a propustností internetové sítě. Nicméně ruku na srdce. Streamovat hru z počítače ve vedlejší místnosti na malý třiníctipalcový noťas do obýváku prostě nedává smysl. Trpí tím ergonomie, pohodlí (herní židle je prostě herní židle) i hratelnost (noťas se na nohou všelijak hýbe, posouvá a zahřívá se).&lt;/p&gt;
+&lt;p&gt;Jestli by tedy něco dávalo smysl, byla by to služba, která by umožnila hrát lidem, kteří herní počítač nemají. A byť krčit se u malého monitoru není zrovna výhra, hra je hra a streamovanému koni na zuby nehleď! A co čert nechtěl (a popravdě ani já ne), podobným člověkem jsem se stal také. Stačilo se přestěhovat. Rázem nebylo několik měsíců místo, kam herní počítač umístit. Stěží se našlo místo pro noťas. Ultrabook, který jsem v jednom kuse obhajoval před kamarády s nadupanými herními mašinami s tím, že přeci na noťasu nikdy hrát nebudu. A ejhle. Chybělo mi to. Ne moc, ale stále jsem měl chuť si občas s kamarády skočit &amp;ldquo;na jednu&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Jenže v té době byla Stadia v plenkách. Alternativ, které by rozumně fungovaly v ČR nebylo mnoho. Respektivě byly dvě. GeForce Now a &lt;a href=&#34;https://parsecgaming.com/&#34;&gt;Parsec&lt;/a&gt;. Obě umožňují hraní her z vlastní knihovny, takže platíte jen za výkon virtuální mašiny běžící někde v cloudu. Nevím, jestli šlo o špatnou kompatibilitu s mým noťasem, špatné povětrnostní podmínkami nebo čistě a jasně pouze mým internetovým spojením (50Mbit, nicméně po WiFi z pochybného routeru od O2). Ale hraní se mé zkušenosti říkat nedalo. Šlo spíše o náhodně zobrazované snímky ze hry. Víc než vlastní hru jsem viděl okno s informací, že mé připojení není dostatečně stabilní. Ani naprosto otřesné a předpotopní rozlišení 1024x726 mi nepomohlo.&lt;/p&gt;
+&lt;p&gt;A tak jsem si řekl, že mi není přáno a raději volný čas zabíjel jinak, nicméně stejně produktivně.&lt;/p&gt;
+&lt;h2 id=&#34;seznámení&#34;&gt;Seznámení&lt;/h2&gt;
+&lt;p&gt;Dnes je situace jiná. Místo na počítač mám a noťas opět slouží tomu, čemu má. Jako přenosné pracovní zařízení, které mi nezkřiví záda jak serpentiny na Grossglockner.&lt;/p&gt;
+&lt;p&gt;I tak mi informace o tom, že Stadia je dostupná nově i u nás, udělala radost. Navíc to není tak často, kdy z úst zahraničních YouTuberů (v mém případě to byl Linus) zazní sousloví &amp;ldquo;Czech Republic&amp;rdquo; :) Jestli někdo má zdroje a know-how na rozjetí streamování ve velkém, je to Google. &lt;a href=&#34;https://en.wikipedia.org/wiki/Google_data_centers#Locations&#34;&gt;Servery&lt;/a&gt; má po celém světě, streamovat viditelně umí a peněz má také dost.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;BezChromeToNepujde.PNG&#34;  alt=&#34;Chyba pokud nepoužíváte Google Chrome&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Bez Google Chrome to nepůjde&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Hned na úvodní stránce mě přivítala zpráva, ať hodím Firefox do starého železa a stáhnu si nejúžasňoulinkatější prohlížeč na světě Chrome. Ok, od Google bych snad ani nic jiného &lt;a href=&#34;https://tech.co/news/google-slowed-youtube-firefox-edge-2019-04&#34;&gt;nečekal&lt;/a&gt;. Alespoň bych ale rád předem věděl, jaké hry jsou dostupné, kolik stojí atd.&lt;/p&gt;
+&lt;p&gt;Inu co mi zbývalo. Chrome jsem nainstaloval, přihlásil se do Stadia, zadal kreditku od Revolutu, na které mám 12Kč na rohlíky a šup do &amp;hellip; Ne do hry, ale seznamu ochrany soukromí, kde jsem si mohl naklikat, které informace o mě mohou ostatní hráči vidět. To rozhodně od Google kvituju (y).&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;NastaveniSoukromi.PNG&#34;  alt=&#34;Nastavení soukromí&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Část nastavení soukromí herního účtu&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;A konečně do knihovny. Díky aktuální akci, kdy máte premiový účet na měsíc zdarma máte bez placení přístup asi k třicítce her. Jasně, jsou to spíš hříčky a starší hry. Nic, z čeho byste si sedli na zadek. Ale na vyzkoušení jak platforma funguje a hlavně jestli to váš internet utáhne, dostačující. Mezi známějšími (aka znal jsem je) hrami byly například:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hitman 2&lt;/li&gt;
+&lt;li&gt;Supershot&lt;/li&gt;
+&lt;li&gt;Orcs Must Die! 3&lt;/li&gt;
+&lt;li&gt;Sniper Elite 4&lt;/li&gt;
+&lt;li&gt;PUBG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Samotné spuštění hry bych přirovnal ke spuštění videa na YouTube. Kliknete na tlačítko play, prohlížeč se přepne do celé obrazovky a už frčíte. Zase je tu malé &amp;ldquo;ale&amp;rdquo; s nutností odklikat tři - čtyři okna se souhlasem sdílení informací s vývojáři.&lt;/p&gt;
+&lt;h2 id=&#34;kvalita-videa-a-latence&#34;&gt;Kvalita videa a latence&lt;/h2&gt;
+&lt;p&gt;Analogie s videem zde nekončí. Stejně jako při streamování videa se kvalita obrazu automaticky upravuje podle rychlosti internetu. Na rozdíl od výše zmiňovaných alternativ, které se kompletně zasekly a přerušovaly s neustálým upozorněním na nekvalitní spojení, se Stadií stále hrajete. Jasně, obraz sice vypadá, jako točený na mobil, ale u casual her, které jsem měl možnost v rámci účtu zdarma zkusit, to nevadilo. Zrnění mě rušilo mnohem méně, než jsem si původně myslel. Asi jde o zvyk :)&lt;/p&gt;
+&lt;p&gt;Horší to je s latencí. Jedna z prvních her, kterou jsem zkoušel byla Dead by Daylight (protože jsem si jí spletl s Dying Light). Ta často používá quick time eventů, kdy musíte ve správný čas kliknout na mezerník, aby vaše prováděná akce uspěla.&lt;/p&gt;
+&lt;p&gt;{{ figure src=&amp;ldquo;QuickTimeEvent.jpg&amp;rdquo; caption=&amp;ldquo;Quick time event v Dead by Daylight Zdroj: &lt;a href=&#34;https://www.youtube.com/watch?v=Y41PoHOlBqg%22&#34;&gt;https://www.youtube.com/watch?v=Y41PoHOlBqg&amp;quot;&lt;/a&gt; alt=&amp;ldquo;Quick time event&amp;rdquo; position=&amp;ldquo;center&amp;rdquo; }}&lt;/p&gt;
+&lt;p&gt;A protože se nechci přiznávat k tomu, jak jsem levej, řeknu, že za to může latence. Je to fakt těžký! Trefit se do povolené oblasti se mi podařilo jen několikrát, kdy jsem úmyslně stiskl mezerník s předstihem.&lt;/p&gt;
+&lt;p&gt;Na druhou stranu se ale hodí říct, že ne každá hra se chová stejně. Další hra v pořadí - Hitman 2 - byla úplně v pořádku. Nepozoroval jsem zrnění, snižování kvality ani latenci. Těžko říct, jestli soused akorát přestal stahovat nahotinky, nebo je tak propastný rozdíl mezi jednotlivými tituly. Těch je mimochodem ve Stadii necelých &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_Stadia_games&#34;&gt;160&lt;/a&gt;. Mezi nimi i ty nejnovější - Cyberpunk 2077, Assassin&amp;rsquo;s Creed Valhalla či Dirt 5.&lt;/p&gt;
+&lt;h2 id=&#34;cena&#34;&gt;Cena&lt;/h2&gt;
+&lt;p&gt;Nízká měsíční cena (250kč) je ale vyvážena cenou titulů. Zatímco například Red Dead Redemption seženete běžně kolem tisícovky, na Stadii za ní dáta šestnáct stovek. A podobné je to i s &lt;a href=&#34;https://arstechnica.com/gaming/2019/12/some-stadia-games-cost-more-than-their-downloadable-counterparts/&#34;&gt;ostatními hrami&lt;/a&gt;. Jemná pachuť je dál umocněná neuvěřitelnou nepřehledností obchodu.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;Obchod.png&#34;  alt=&#34;Nepřehledný obchod&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Obchod je enormně nepřehledný&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Dlaždice s hrami jsou obrovské a na obrazovku se tak často vejdou tři, možná čtyři. Hry nejde vyhledávat ani rozumně třídit podle kategorií. Takže nakonec skončíte s tím, že budete scrollovat dlouhým seznamem všech her a hledat, která hra vás osloví. Google &lt;a href=&#34;https://news.ycombinator.com/item?id=18511299&#34;&gt;UI prostě moc neumí&lt;/a&gt; :(&lt;/p&gt;
+&lt;h2 id=&#34;slovo-na-závěr&#34;&gt;Slovo na závěr&lt;/h2&gt;
+&lt;p&gt;Stadia je super projekt, který má určitě potenciál získat spoustu (hlavně casual) hráčů. Stále ale platí, že abyste si hru užili, je potřeba mít kvalitní internet, ideálně být připojeni drátem (nebo mít lepší router) a asi i trochu štěstí na stabilitu spojení. Nenáročné hry, které budou k internetu tolerantnější si často zahrajete i na stařičkém noťasu a AAA střílečku si prostě s občasným zrněním a latencí neužijete.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Dobrý den, kartičku máte?</title>
+      <link>https://jan.malcak.cz/dobry-den-karticku-mate/</link>
+      <pubDate>Wed, 24 Oct 2018 22:11:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/dobry-den-karticku-mate/</guid>
+      <description>To je všechno moc pěkné. Jestli náhodou patříte mezi tu hipsterskou skupinu lidí, která podobné názory sdílí, možná teď souhlasně přikyvujete. Jenže tohle nemá vůbec být o sociálních sítích. Tedy, alespoň ne těch, které můžete stáhnout na svého miláška. Myslím, že průměrný Čech má daleko větší problém. Jaký? No, odpovím otázkou. Byli jste v poslední době nakupovat? Že byli? Pokud vám lišky nedávají dobrou noc, je dost možný, že to bylo v supermarketu.</description>
+      <content>&lt;p&gt;To je všechno moc pěkné. Jestli náhodou patříte mezi tu hipsterskou skupinu lidí, která podobné názory sdílí, možná teď souhlasně přikyvujete. Jenže tohle nemá vůbec být o sociálních sítích. Tedy, alespoň ne těch, které můžete stáhnout na svého miláška. Myslím, že průměrný Čech má daleko větší problém. Jaký? No, odpovím otázkou. Byli jste v poslední době nakupovat? Že byli? Pokud vám lišky nedávají dobrou noc, je dost možný, že to bylo v supermarketu.&lt;/p&gt;
+&lt;p&gt;Uděláme si to trochu zábavnější. Schválně si představte průměrnou návštěvu supermarketu. A já zkusím popsat, jak probíhala - tedy, jen tu část u kasy. Ta je pro tenhle příspěvek důležitá. Uvidíme, jak moc se trefím. Ready?&lt;/p&gt;
+&lt;p&gt;Okey, takže celá ta eskapáda začíná tím, že přicházíte ke kasám. Jdete z práce, což znamená jediný - je narváno. Výběr z dlouhé a ještě delší řady. Vybíráte tu, o které si naivně myslíte, že vypadá kratší. Jenže to nevíte, že se bude zákonitě ta druhá zkracovat nejméně o polovinu rychleji. Máte-li opravdu štěstí, vaše řada se zasekne. Důvodů může být nespočet - zapomenutý pin, nezvážené banány nebo reklamace o 15 korun špatně namarkovaného nákupu. Pomalu ztrácíte naději, že dnes uvidíte děti. Monotonní pípání a znuděné výdechy tlustého pána, přešlapujícího za vámi pomalu navozují trans. Píp píp fjůů píp píp fjůů. Čas se neskutečně vleče. Přistihnete se, jak zíráte na balení sladkostí. Přemýšlíte, kdy jej tolik zdražili. A jestli bylo vždycky tak malý. Píp píp fjůů. Konečně jste na řadě. Neubráníte se vítěznému úsměvu. Však si ho zasloužíte. Očima hledáte u prodavačky výraz uznání.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/oBPOP48aQpIxq/giphy.gif&#34; alt=&#34;Hezky pěkně!&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Jenže ono nic. Naprosto nezůčastněně se ozve &amp;ldquo;brý den, kartičku máte?&amp;rdquo;. Hlava skloněná nad kasu, ruka už přehazuje nákup z jedné strany na druhou. Píp píp. To vás naprosto vyvede z míry. &amp;lsquo;Ani za pohled jí nestojím? Tak to teda ne!&amp;rsquo;. &amp;ldquo;Dobrý den, bohužel, nemám.&amp;rdquo;, odpovíte co nejpozitivnějším hlasem a ještě jednou se usmějete. Jako by se snad měl úsměv odrazit od igelitového pytlíku s pěti rohlíky, které prodavačka právě počítá, a vnuknout jí všechnu vaší pozitivní energii. &amp;ldquo;Pět?&amp;rdquo;, zamumlá místo toho. Odpovíte, že ano. Platíte. &amp;lsquo;Snad teď?&amp;rsquo; Ani kulový, peníze si převezme a už pohledem loví další nákup.&lt;/p&gt;
+&lt;p&gt;Tak co? Přiznávám, nechal jsem se unést. Jestli jste se i přes tu hromadu keců alespoň částečně našli, chápete o čem mluvím. Ty tam jsou dny, kdy jste si přišli do obchodu popovídat. Jasný, nejsme ve středověku, nikdo na kecy nemá čas. Čas jsou peníze. Jenže v době, kdy se řeší, jak uspořádat obchod, abyste v něm utratili co nejvíce peněz, je trochu na hlavu neřešit tu část, kde mnohdy strávíte z nákupu nejvíc času. Spokojený zákazník se bude vracet. A víc utrácet.&lt;/p&gt;
+&lt;p&gt;Bohužel to není problém jen obchodů. Trend se šíří jako oheň i do jiných odvětví. Když jsem na začátku říkal, že průměrný Čech má úplně jiný problémy, než sociální sítě, měl jsem na mysli přesně tohle. Úplně jiná věc, ale přesto stejná. Lidi na sebe jsou bez důvodu naštvaní. Nemají čas se usmát. Podívat se do očí. Pozdravit a rozloučit se.&lt;/p&gt;
+&lt;p&gt;Není ale všechno ztraceno. Občas se najdou výjimky - slýcháváme o nich od kamarádů a známých. Až jednou narazíte na člověka na správném místě. Prodává značku, kterou miluje. Sám jí nosí. A ví o ní první a poslední. Poradí s výběrem. Barevně sladí oblečení k botám. Poradí jak se o něj starat. A mezi tím vtipkuje, jak nerad jako malý chodil nakupovat. Možná si až nyní uvědomíte, jak moc vám podobný přístup chybí.&lt;/p&gt;
+&lt;p&gt;Jen doufám, že jsem si ho nevymyslel stojíc v řadě před kasou&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Tak či onak, až přístě zase vyrazíte nakupovat, nebo jen tak, mezi lidi, nebojte se usmát. Předat trochu toho nedostatkového zboží i ostatním.&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/1veWbLpGa78&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;Autor úvodní fotky: &lt;a style=&#34;background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &amp;quot;San Francisco&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Roboto, Noto, &amp;quot;Segoe UI&amp;quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px&#34; href=&#34;https://unsplash.com/@alexandre_godreau?utm_medium=referral&amp;amp;utm_campaign=photographer-credit&amp;amp;utm_content=creditBadge&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34; title=&#34;Download free do whatever you want high-resolution photos from Alexandre Godreau&#34;&gt;&lt;span style=&#34;display:inline-block;padding:2px 3px&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; style=&#34;height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white&#34; viewBox=&#34;0 0 32 32&#34;&gt;&lt;title&gt;unsplash-logo&lt;/title&gt;&lt;path d=&#34;M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;span style=&#34;display:inline-block;padding:2px 3px&#34;&gt;Alexandre Godreau&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Apple Keynote 2018</title>
+      <link>https://jan.malcak.cz/apple-keynote-2018/</link>
+      <pubDate>Fri, 14 Sep 2018 11:03:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/apple-keynote-2018/</guid>
+      <description>Je mi jasný, že přicházím trochu s křížkem po funuse. Na netu se z keynote válí hromada fotek, videí a článků. Jenže když já už jsem sledování věnoval tolik času. A navíc, žádný z těch &amp;ldquo;expertních&amp;rdquo; článků jsem nenapsal já! To už jsou hodně pádné důvody, abych taky něco sepsal, ne?
+Píše se rok 2007. Už několik let se šušká (EN), že Apple vydá svůj první telefon. Kromě názvu, který si Apple registroval s několikaletým předstihem, se toho příliš neví.</description>
+      <content>&lt;p&gt;Je mi jasný, že přicházím trochu s křížkem po funuse. Na netu se z keynote válí hromada fotek, videí a článků. Jenže když já už jsem sledování věnoval tolik času. A navíc, žádný z těch &amp;ldquo;expertních&amp;rdquo; článků jsem nenapsal já! To už jsou hodně pádné důvody, abych taky něco sepsal, ne?&lt;/p&gt;
+&lt;p&gt;Píše se rok 2007. Už několik let se &lt;a href=&#34;https://www.fiercewireless.com/wireless/timeline-apple-iphone-rumors-1999-present&#34;&gt;šušká (EN)&lt;/a&gt;, že Apple vydá svůj první telefon. Kromě názvu, který si Apple registroval s několikaletým předstihem, se toho příliš neví. Applu šel hype už tehdy, a proto se čeká, že to bude velké. Zájemcům nezbývá než se posadit v Moscone Center v Kalifornii na Macworld konferenci do předváděcí místnosti a netrpělivě vyčkat, co Steve představí. Jen těžko si představit, jaké to asi bylo. Minimum uniklých informací. Nikdo netušil, jak přesně bude telefon vypadat, jak se bude ovládat a jaké bude mít funkce.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/yidUzHnBk32Um9aMMw/giphy.gif&#34; alt=&#34;Wow&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Bohužel za ta léta se tenhle příjemný pocit očekávání trochu vytratil. Malé Applí Vánoce byly tatam. S rozvojem internetu se i historicky schránčlivému Apple nepodařilo vždcky udržet informace pod pokličkou. Čím dál tím víc se prodlužovala doba mezi únikem &amp;ldquo;neoficiálních&amp;rdquo; informací a samotným představením telefonu. Korunu tomu nasadil rok 2018, kdy se už několik měsíců dopředu vědělo snad vše. Že půjde o představení tří modelů, jak velký budou mít display (a jaký typ), kolik foťáků, RAMky a kolik budou přibližně stát. Keynote jen potvrdil, co už se dávno vědělo.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/hKNPxrffFH0GY/giphy.gif&#34; alt=&#34;Meh&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;hodinky&#34;&gt;Hodinky&lt;/h2&gt;
+&lt;p&gt;Jako první se na řadu dostaly hodinky. O jejich tvaru se vědělo dopředu a logicky vzato jde o očekávaný posun vpřed. Naštěstí Apple nezůstal jen u toho a mimo jiné přidal i elektrokardiogram. Jde o ten přístroj, který ve filmu plochou rovnou čarou a nepřerušovaným pískáním oznámí, že někdo umřel. Krom toho se údajně hodí na měření srdečního tepu a varování před nepravidelným rytmem. Bohužel se zatím Apple nedohodnul s EU a tak nebude tahle funkce v Evropě dostupná.&lt;/p&gt;
+&lt;h2 id=&#34;telefony&#34;&gt;Telefony&lt;/h2&gt;
+&lt;p&gt;Jak jsem už psal, byly představeny tři modely - iPhone Xs, Xr a Xs Max.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Whoever named the new iPhones XR, XS and XS Max should be fired. &lt;br&gt;&lt;br&gt;iPhone XS, M and XL. It was right there...&lt;a href=&#34;https://twitter.com/hashtag/AppleEvent?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#AppleEvent&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/iPhone2018?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#iPhone2018&lt;/a&gt;&lt;/p&gt;&amp;mdash; The Slickest of Pimpsta’s (@Slick_Pimpsta) &lt;a href=&#34;https://twitter.com/Slick_Pimpsta/status/1039947150518611968?ref_src=twsrc%5Etfw&#34;&gt;September 12, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;Pro mě byl nějvětší novinkou nový procesor A12 - se stejným cool názvem jako jeho předchůdce - Bionic. Úplně z toho srší ta výpočetní síla. Co se Apple musí nechat, je, že jde o první vydaný procesor vytvořený se 7nm technologií (jen pro zajimavost: první oznámený byl Kirin 980). Když se vezme v potaz, že s touto &amp;ldquo;velikostí&amp;rdquo; má třeba Intel stále problémy, jde asi o velký počin.&lt;/p&gt;
+&lt;h2 id=&#34;hodnocení&#34;&gt;Hodnocení&lt;/h2&gt;
+&lt;p&gt;K ostatním novinkám se vyjadřovat moc nebudu. Z mého pohledu vlastníka věčně prázdné penězenky jsou právě hodinky a telefony jediným vstupním bodem do ekosystému Apple. Bohužel prodeje posledního X-kového modelu Applu ukázaly, že ani tisíc dolarů není žádná hranice. A tak přitlačil. Nový model Xs sice startuje na stejné ceně, ale to prosím za 64 GB interní paměti. Za stejný peníz máte Note 9 s 128 GB a s tím už se dá fungovat.&lt;/p&gt;
+&lt;p&gt;XR-kový model - údajně &amp;ldquo;dostupný&amp;rdquo; pro masy - startuje na 23 tisících. Což je plus mínus jeden &lt;a href=&#34;https://www.czso.cz/csu/czso/cri/prumerne-mzdy-1-ctvrtleti-2018&#34;&gt;český plat&lt;/a&gt;. Za tu cenu dostanete krásných 64 GB paměti, jen jeden foťák a LCD displej. Tedy, oni mu říkají Liquid Retina, protože to zní líp.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ceny.jpg&#34; alt=&#34;Ceny nových iPhonů&#34;&gt;&lt;/p&gt;
+&lt;p&gt;V &lt;a href=&#34;https://mobilenet.cz/clanky/nove-iphony-od-applu-jak-se-lisi-od-svych-predchudcu-srovnani-36040&#34;&gt;papírovém porovnání&lt;/a&gt; jen těžko budete hledat znatelný rozdíl oproti loňským modelům. Jde to i ruku v ruce se stylem, jakým byl keynote veden. Apple se tradičně rád chlubí čísly - nový procesor je o X% rychlejší, foťák o Y% detailnější atd. Ve středečním představení bylo čísel žalostně málo. Například Face ID zůstalo po hardwarové stránce stejné. Díky novému procesoru by mělo být rozpoznání tváře rychlejší. Ovšem tím informace končí - žádná přesná čísla. Uvidíme, až se dostanou telefony prvním recenzantům do ruky, ale tipuji, že omnoho rychlejší Face ID nebude.&lt;/p&gt;
+&lt;h2 id=&#34;závěr&#34;&gt;Závěr&lt;/h2&gt;
+&lt;p&gt;Trochu váhám co napsat. Na jednu stranu si nemyslím, že jde o špatné telefony. Na rozdíl od iPhone 8, který podle mě nikdy neměl vyjít, jsou to krásné kousky, které (alespoň co se vzhledu týče) patří do roku 2018. Bohužel Apple je stále Apple a ždíme své zákazníky, kde může. Což je škoda. Protože minimálně hodinky by mohly pomoci spoustě srdcařů. Jenže k hodinkám za deset tisíc je potřeba ještě mobil. Pominu-li bazar, nejlevnější &amp;ldquo;nový&amp;rdquo; telefon stojí přes dvacet tisíc. Právě cena může být rozdíl mezi zachráněným životem a smrtí. Ale o chudáky v Cupertinu nikdy nešlo.&lt;/p&gt;
+&lt;p&gt;&lt;video preload=&#34;auto&#34; poster=&#34;https://img-9gag-fun.9cache.com/photo/aBx7MAx_460s.jpg&#34; style=&#34;min-height: 336.522px; width: 600px;&#34; controls&gt;&lt;!----&gt; &lt;source src=&#34;https://img-9gag-fun.9cache.com/photo/aBx7MAx_460svvp9.webm&#34; type=&#34;video/webm&#34;&gt; &lt;source src=&#34;https://img-9gag-fun.9cache.com/photo/aBx7MAx_460sv.mp4&#34; type=&#34;video/mp4&#34;&gt; &lt;source src=&#34;https://img-9gag-fun.9cache.com/photo/aBx7MAx_460svwm.webm&#34; type=&#34;video/webm&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Cíl života</title>
+      <link>https://jan.malcak.cz/cil-zivota/</link>
+      <pubDate>Wed, 29 Aug 2018 11:30:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/cil-zivota/</guid>
+      <description>Život je jako jízda v autě. Čím rychleji se jede, tím rozmazanější je okolí. A rychlost je, oč dnes běží. Cenu dostane jen první, nejlepší, nejsilnější, nej&amp;hellip; Plyn až na podlahu. Klidně se tak může stát, že jedeme tak rychle, že ani nevíme, kde jsme a jak jsme se sem dostali. Ve zpětném zrcátku jen prach. Před námi cesta.
+unsplash-logoHugo Ramos
+Jen málokdy se zamyslíme, kam vlastně tak spěcháme. Co je cílem té cesty.</description>
+      <content>&lt;p&gt;Život je jako jízda v autě. Čím rychleji se jede, tím rozmazanější je okolí. A rychlost je, oč dnes běží. Cenu dostane jen první, nejlepší, nejsilnější, nej&amp;hellip; Plyn až na podlahu. Klidně se tak může stát, že jedeme tak rychle, že ani nevíme, kde jsme a jak jsme se sem dostali. Ve zpětném zrcátku jen prach. Před námi cesta.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;cesta.jpg&#34; alt=&#34;Cesta&#34;&gt;
+&lt;a style=&#34;background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &amp;quot;San Francisco&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Roboto, Noto, &amp;quot;Segoe UI&amp;quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px&#34; href=&#34;https://unsplash.com/@hugoramos?utm_medium=referral&amp;amp;utm_campaign=photographer-credit&amp;amp;utm_content=creditBadge&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34; title=&#34;Download free do whatever you want high-resolution photos from Hugo Ramos&#34;&gt;&lt;span style=&#34;display:inline-block;padding:2px 3px&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; style=&#34;height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white&#34; viewBox=&#34;0 0 32 32&#34;&gt;&lt;title&gt;unsplash-logo&lt;/title&gt;&lt;path d=&#34;M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;span style=&#34;display:inline-block;padding:2px 3px&#34;&gt;Hugo Ramos&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Jen málokdy se zamyslíme, kam vlastně tak spěcháme. Co je cílem té cesty. A hlavně, má vůbec cenu? Mnohdy k tomu člověka přivede až vnější impuls. Náraz, který ho donutí zastavit, vyskočit z toho šíleného tempa a rozhlédnout se. Zjistit, že mu život utekl jako písek mezi prsty.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;pisek.jpg&#34; alt=&#34;Písek&#34;&gt;
+&lt;a style=&#34;background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &amp;quot;San Francisco&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Roboto, Noto, &amp;quot;Segoe UI&amp;quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px&#34; href=&#34;https://unsplash.com/@rawpixel?utm_medium=referral&amp;amp;utm_campaign=photographer-credit&amp;amp;utm_content=creditBadge&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34; title=&#34;Download free do whatever you want high-resolution photos from rawpixel&#34;&gt;&lt;span style=&#34;display:inline-block;padding:2px 3px&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; style=&#34;height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white&#34; viewBox=&#34;0 0 32 32&#34;&gt;&lt;title&gt;unsplash-logo&lt;/title&gt;&lt;path d=&#34;M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;span style=&#34;display:inline-block;padding:2px 3px&#34;&gt;rawpixel&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dlouhou dobu jsem si myslel, že cílem života je být šťastný. Ať už to znamená cokoliv. To je ten důvod, proč jsme schopni přečkat všechny těžkosti a bolest. Proč ráno vstáváme a jdeme do práce, která nás nebaví a dřeme, abychom udělali dojem na někoho, koho nemáme rádi. Proč si kupujeme věci, které nepotřebujeme&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Ještě donedávna bych tak řekl, že cílem života je, abych ho prožil šťastný. Nakupoval jsem a doufal, že mě to udělá šťastným. Vyrazil jsem si a doufal, že budu šťastný. Našel jsem si dobře placenou brigádu a myslel si, že budu šťastný. Stejně ale vždy přišel ten moment, kdy jsem ležel v posteli a přemýšlel. Co dál? Budu se takhle honit za štěstím donekonečna? Pokud by mělo &amp;ldquo;štěstí&amp;rdquo; být tím vysněným cílem života, jak ho dosáhnu? Kdy si můžu říct - &amp;ldquo;Ok, dosáhl jsem úplného štěstí.&amp;rdquo;?&lt;/p&gt;
+&lt;p&gt;Život není naštěstí jenom růžový. Štěstí je jen prchlavý pocit. Dobré okamžiky střídají období těch špatných. Jen díky tomu si ty dobré užijeme a oceníme je. Štěstí nemůže být cíl, protože ho nelze dosáhnout. Když už si myslíme, že ho pevně držíme, uteče nám. Marné pronásledování by přineslo pravý opak štěstí.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ruka.jpg&#34; alt=&#34;Ruka&#34;&gt;
+&lt;a style=&#34;background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &amp;quot;San Francisco&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Roboto, Noto, &amp;quot;Segoe UI&amp;quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px&#34; href=&#34;https://unsplash.com/@laicho?utm_medium=referral&amp;amp;utm_campaign=photographer-credit&amp;amp;utm_content=creditBadge&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34; title=&#34;Download free do whatever you want high-resolution photos from Cherry Laithang&#34;&gt;&lt;span style=&#34;display:inline-block;padding:2px 3px&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; style=&#34;height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white&#34; viewBox=&#34;0 0 32 32&#34;&gt;&lt;title&gt;unsplash-logo&lt;/title&gt;&lt;path d=&#34;M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;span style=&#34;display:inline-block;padding:2px 3px&#34;&gt;Cherry Laithang&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Místo toho jsem se zaměřil na to, aby můj život měl cenu. Aby po mě něco zůstalo. Snažím se dělat to, co mohu ovlivnit a čeho můžu dosáhnout. Vstávat s pocitem, že &amp;ldquo;měním svět&amp;rdquo;. Být užitečný. Nemusí přitom jít o nic složitého.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chovat se k ostatním slušně a mile.&lt;/li&gt;
+&lt;li&gt;Podat pomocnou ruku člověku, který o to nepožádal.&lt;/li&gt;
+&lt;li&gt;Vytvořit něco, co mohou ostatní, nebo jen já používat.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Stačí maličkosti, které utvoří celkovou mozaiku dobře prožitého života. Poslední, čeho bych chtěl dosáhnout je, abych si na smrtelné posteli uvědomil, že není jediný důkaz toho, že jsem tu kdy žil.&lt;/p&gt;
+&lt;p&gt;Když budeme dělat to, v co věříme a co nám dává smysl, štěstí přijde samo.&lt;/p&gt;
+&lt;p&gt;Autor úvodní fotky: &lt;a style=&#34;background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &amp;quot;San Francisco&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Roboto, Noto, &amp;quot;Segoe UI&amp;quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px&#34; href=&#34;https://unsplash.com/@hamishclark_?utm_medium=referral&amp;amp;utm_campaign=photographer-credit&amp;amp;utm_content=creditBadge&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34; title=&#34;Download free do whatever you want high-resolution photos from Hamish Clark&#34;&gt;&lt;span style=&#34;display:inline-block;padding:2px 3px&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; style=&#34;height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white&#34; viewBox=&#34;0 0 32 32&#34;&gt;&lt;title&gt;unsplash-logo&lt;/title&gt;&lt;path d=&#34;M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;span style=&#34;display:inline-block;padding:2px 3px&#34;&gt;Hamish Clark&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Hořický Food Festival</title>
+      <link>https://jan.malcak.cz/horicky-food-festival/</link>
+      <pubDate>Wed, 25 Jul 2018 21:45:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/horicky-food-festival/</guid>
+      <description>Nemůžu říct, že bychom věděli, na co přesně se těšíme. O tom, že se v Hořicích, kromě výroby trubiček, pořádají i festivaly jsme se dozvěděli náhodou. Od známých. Internet nám moc nepomohl. Konečně, je to jedna z těch maloměstských událostí, ke kterým dohledáte maximálně tak plakát.
+Už název obsahoval důležitý slovo - food. Jídlo! Pořádná žranice! Cesta do mužova srdce vede přes žaludek. Vím, zní to ohraně, ale je to sakramentská pravda.</description>
+      <content>&lt;p&gt;Nemůžu říct, že bychom věděli, na co přesně se těšíme. O tom, že se v Hořicích, kromě výroby trubiček, pořádají i festivaly jsme se dozvěděli náhodou. Od známých. Internet nám moc nepomohl. Konečně, je to jedna z těch maloměstských událostí, ke kterým dohledáte maximálně tak plakát.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;plakat.jpg?classes=caption&#34; alt=&#34;&amp;ldquo;Plakát hořického festivalu&amp;rdquo;&#34; title=&#34;Plakát hořického festivalu&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Už název obsahoval důležitý slovo - food. Jídlo! Pořádná žranice! Cesta do mužova srdce vede přes žaludek. Vím, zní to ohraně, ale je to sakramentská pravda. Těšili jsme se, jak si naplníme žaludky. Spokojení a unavení se odvalíme někam do stínu a zbytek dne strávíme upouštěním vzduchu a povolováním knoflíčků. Dají-li síly snad si povyprávíme, jaká to byla dobrota.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;plna_briska.gif&#34; alt=&#34;&amp;ldquo;Plná bříška&amp;rdquo;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Den začal krásně, probuzením po desáté. S vykýblováním z domu a cestou to dávalo přibližně poledne. Akorát na oběd. Vzůru na hmyzáky, sushi a burgery velikosti dobře živeného kojence. Malovali jsme si to pěkně.&lt;/p&gt;
+&lt;p&gt;V cíli jsme lehce zaváhali a vydali se přesně opačnou cestou. Třikrát hurá místňákům, kteří nás nanavigovali. Dorazili jsme k místnímu pivovaru. Před ním tři maringotky. A dlouhatánské řady. Jen jsme nakoukli, na co že to stojí. Pff, burgery. Možná později. Hlavním tahákem je sushi.&lt;/p&gt;
+&lt;blockquote class=&#34;instagram-media&#34; data-instgrm-permalink=&#34;https://www.instagram.com/p/BlQCf5ihXZv/&#34; data-instgrm-version=&#34;9&#34; style=&#34; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&#34;&gt;&lt;div style=&#34;padding:8px;&#34;&gt; &lt;div style=&#34; background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;&#34;&gt; &lt;div style=&#34; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&#34;&gt;&lt;a href=&#34;https://www.instagram.com/p/BlQCf5ihXZv/&#34; style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&#34; target=&#34;_blank&#34;&gt;A post shared by Město Hořice (@mesto_horice)&lt;/a&gt; on &lt;time style=&#34; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&#34; datetime=&#34;2018-07-15T11:27:30+00:00&#34;&gt;Jul 15, 2018 at 4:27am PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src=&#34;//www.instagram.com/embed.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;Probojovávali jsme se relativně úzkou uličkou. Společně s tím pomalu opadalo počáteční nadšení. Nejenom, že celý ten &amp;ldquo;festival&amp;rdquo; tvoří asi patero stánků. Trochu vyššímu člověku by stačilo se uprostřed na patě otočit a shlédl by všechnu tu slávu.&lt;/p&gt;
+&lt;blockquote class=&#34;instagram-media&#34; data-instgrm-permalink=&#34;https://www.instagram.com/p/BlQGcGPhJ-x/&#34; data-instgrm-version=&#34;9&#34; style=&#34; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&#34;&gt;&lt;div style=&#34;padding:8px;&#34;&gt; &lt;div style=&#34; background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;&#34;&gt; &lt;div style=&#34; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&#34;&gt;&lt;a href=&#34;https://www.instagram.com/p/BlQGcGPhJ-x/&#34; style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&#34; target=&#34;_blank&#34;&gt;A post shared by Město Hořice (@mesto_horice)&lt;/a&gt; on &lt;time style=&#34; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&#34; datetime=&#34;2018-07-15T12:01:56+00:00&#34;&gt;Jul 15, 2018 at 5:01am PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src=&#34;//www.instagram.com/embed.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;O poslední kapku naděje, že se pořádně najíme nás připravily ceny. Respektivě poměr porce a její ceny. Když se jde na fesťák, vyšší ceny jsou očekávané. Porce by měly být úměrné. Určitě nejsem sám - rád si zaplatím - pokud za to jídlo stojí.&lt;/p&gt;
+&lt;blockquote class=&#34;instagram-media&#34; data-instgrm-permalink=&#34;https://www.instagram.com/p/BlN1NybBjTT/&#34; data-instgrm-version=&#34;9&#34; style=&#34; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&#34;&gt;&lt;div style=&#34;padding:8px;&#34;&gt; &lt;div style=&#34; background:#F8F8F8; line-height:0; margin-top:40px; padding:37.5% 0; text-align:center; width:100%;&#34;&gt; &lt;div style=&#34; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&#34;&gt;&lt;a href=&#34;https://www.instagram.com/p/BlN1NybBjTT/&#34; style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&#34; target=&#34;_blank&#34;&gt;A post shared by Domína M. (@la_familia.dpl)&lt;/a&gt; on &lt;time style=&#34; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&#34; datetime=&#34;2018-07-14T14:52:58+00:00&#34;&gt;Jul 14, 2018 at 7:52am PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src=&#34;//www.instagram.com/embed.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;Jen pro představu. Kolik byste řekli za tuhle porcičku hmyzáků? Chvilka napětí - 110 korun - badum tss. Dobrej co? Úplně vás slyším - jede na fesťák a pak si stěžuje. Vždyť to není tolik. Blá blá. Na ochutnání dejme tomu. Ale najíst se? Těžko.&lt;/p&gt;
+&lt;blockquote class=&#34;instagram-media&#34; data-instgrm-permalink=&#34;https://www.instagram.com/p/BlNcKZ9FNrA/&#34; data-instgrm-version=&#34;9&#34; style=&#34; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&#34;&gt;&lt;div style=&#34;padding:8px;&#34;&gt; &lt;div style=&#34; background:#F8F8F8; line-height:0; margin-top:40px; padding:62.5% 0; text-align:center; width:100%;&#34;&gt; &lt;div style=&#34; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&#34;&gt;&lt;a href=&#34;https://www.instagram.com/p/BlNcKZ9FNrA/&#34; style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&#34; target=&#34;_blank&#34;&gt;A post shared by Mike &amp;amp; Margareth (@our_trips.cz)&lt;/a&gt; on &lt;time style=&#34; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&#34; datetime=&#34;2018-07-14T11:14:03+00:00&#34;&gt;Jul 14, 2018 at 4:14am PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src=&#34;//www.instagram.com/embed.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;Bohužel ani sushi, za kterým jsme přišli nás moc nepřesvědčilo. Bylo teplé, malý výběr a ještě relativně drahé - 90 kaček za čtyři rolky. Celá návštěva trvala dohromady asi pět minut. A bylo rozhodnuto, že musíme jinam. S Hradcem za humny bylo rozhodnuto. Running sushi volá!&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Pangasius, žralok co není žralok</title>
+      <link>https://jan.malcak.cz/pangasius-zralok-co-neni-zralok/</link>
+      <pubDate>Wed, 06 Jun 2018 11:24:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/pangasius-zralok-co-neni-zralok/</guid>
+      <description>Kromě jiného mě zaujala sleva na ryby. Ty já rád. Bohužel mít rád a mít na to rozpočet jsou dvě různý věci. Obzvlášť, když nejčastěji na mém talíři končí losos. Takže je doufám jasný, že jdu po jakýkoliv slevě jako slepice po drobu. Hned po rozkliknutí vyvstal první problém - je toho pět kilo propána. Nejenom, že je to porce tak pro malou vesnici, ale hlavně v našem po okraj naplněném (zmrzlinama) mrazáčku by to nebylo kam dát.</description>
+      <content>&lt;p&gt;Kromě jiného mě zaujala sleva na ryby. Ty já rád. Bohužel mít rád a mít na to rozpočet jsou dvě různý věci. Obzvlášť, když nejčastěji na mém talíři končí losos. Takže je doufám jasný, že jdu po jakýkoliv slevě jako slepice po drobu. Hned po rozkliknutí vyvstal první problém - je toho pět kilo propána. Nejenom, že je to porce tak pro malou vesnici, ale hlavně v našem po okraj naplněném (zmrzlinama) mrazáčku by to nebylo kam dát. Ale za tu cenu?&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Hele Davide, co na to říkáš?&amp;rdquo;, otáčím se na spolubydlu.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Páni, pět kilo.&amp;rdquo;, odvětí zatímco prochází popis. &amp;ldquo;A co to vůbec je za rybu?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;pangasius.jpg&#34; alt=&#34;Pangasius&#34;&gt;
+&lt;em&gt;Pangasius v celé své kráse. Zdroj: &lt;a href=&#34;http://supremeanimalfoods.co.uk/ekmps/shops/supreme/images/hi-fin-pangasius-5787-p.jpg&#34;&gt;supremeanimalfoods.co.uk&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Jakože mohl jsem tu hrát fakt chytrýho, že to jméno neslyším prvně a tak. Nicméně jsem radši pogooglil. První co na mě vypadlo, byl článek &lt;em&gt;&amp;ldquo;Pangasius je sladkovodní ryba ze znečištěné vody&amp;rdquo;&lt;/em&gt;. &lt;em&gt;Hmm, dobrý&lt;/em&gt;, říkám si, začíná to moc pěkně. Zběžně prolítnu další titulky a moc mi to na apetitu nepřidá - &lt;em&gt;&amp;ldquo;Máme se bát jíst pangase? Německá ARD varuje.&amp;quot;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;Ryba basa (pangasius) je pro vás velmi škodlivá. Nekupujte ji!&amp;quot;&lt;/em&gt; a &lt;em&gt;&amp;ldquo;Je pangasius zdravý?&amp;quot;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/oOTTyHRHj0HYY/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Nebýt toho, že se mi zobrazil i odkaz na stránky &lt;a href=&#34;http://www.hoax.cz/hoax/pangasius---je-to-k-jidlu/&#34;&gt;hoax.cz (CZ)&lt;/a&gt;, asi by bylo rozhodnuto. Mluvčí úřadů pro kontrolu potravin (Státní veterinární dozor, Státní zemědělské a potravinářské inspekce) píšou, že v podstatě o nic nejde. Rozhodl jsem se volit metodu paní přes jádro, říct, že všechno je v pořádku a věřit jim.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;drabova.jpg&#34; alt=&#34;Paní přes jádro&#34;&gt;
+&lt;em&gt;Paní přes jádro, zdroj: &lt;a href=&#34;https://zpravy.aktualne.cz/domaci/kdo-ma-vetsi-duveru-nez-milos-zeman-tvar-jaderne-energetiky/r~e71d3fa0475011e68d00002590604f2e/&#34;&gt;aktualne.cz&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;No a tak jsme se obětovali, v mrazáku udělali trochu místa a mentálně se připravili, že do konce života už nic jiného jíst nebudeme.Ryba k snídani, obědu a večeři. Jupí!&lt;/p&gt;
+&lt;p&gt;Asi po dvou dnech jsme dojedli uvařené jídlo a přišla řada na první zkušební degustaci. Z nedostatku času jsme zvolili jednoduchý postup - jen trochu podusit na pánvi, okořenit, zakápnout citrónem a přihodit cereální bagetu (jako moc se to nehodí, ale ony byly čerstvé a fakt krásně voněly). Výsledek trochu připomínal jídla ze školní jídelny. Tím bych se asi neměl moc chlubit, co?&lt;/p&gt;
+&lt;p&gt;Už po prvním soustu bylo jasný, že pangasius je něco spešl. Neříkám lepšího, ale neobvyklého určitě. Nemá kosti a na nesmrdí po rybině. Rozhodně ale nechutnal &lt;a href=&#34;https://ekonomika.idnes.cz/pangasius-zdravi-neuskodi-ukazal-test-dhy-/test.aspx?c=A091030_1281335_test_vem&#34;&gt;jako kuře (CZ)&lt;/a&gt; a jestli jo, tak jsem celý život jedl nějaký divný kuřata. Nejblíž, k čemu bych to přirovnal bylo volský oko. Na vajíčkové chuti jsme se shodli oba. Pokud nešlo o nějakou výjimku, mohl jsem si ušetřit práci a koupit si ty vejce. Vyšlo by to levnějš.&lt;/p&gt;
+&lt;p&gt;Tady bych normálně končil. S ponaučením, že je asi fakt lepší prvně koupit trochu&amp;hellip; stravitelnější množství, než se člověk takhle utrhne ze řetězu. Pokud Vás ale zajímá, jako to je s Pangasem a &amp;ldquo;nebezpečností&amp;rdquo;, pokračujte.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/xTiN0NZZsYXkGwbcJ2/source.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Nedalo mi to a začal jsem hledat, jak to tedy je. Je to opravdu odpadní ryba, ktará se kupuje kvůli ceně? Na českém rybníčku jsem příliš ozdrojovaných článků nenašel. Jediný, který si trochu vybavuju je na &lt;a href=&#34;https://www.vylectese.cz/tato-oblibena-ryba-vas-velmi-skodliva-nekupujte/&#34;&gt;vylectese.cz (CZ)&lt;/a&gt;. Kromě bulvárního titulku mě zaujalo i to, že měl nějaký odkaz na zdroj. Každý další odkaz vedl na podobně laděný text (bulvární nadpis, stejná struktura i obsah). Po několika proklicích jsem se dostal až na &lt;a href=&#34;https://web.archive.org/web/20160304031237/http://cbtelevision.com.mx/no-consumas-este-pescado-es-muy-peligroso/&#34;&gt;cbtelevison (ESP)&lt;/a&gt;. Zde byl jako zdroj uvedený server cambio21, kde jsem ale článek už nedohledal. Tude cesta nevede.&lt;/p&gt;
+&lt;p&gt;Většina českých článků pouze papouškuje tu stejnou informaci. Jde o vietnamskou rybu. Chová se ve špatných podmínkách. Používají špinavou vodu, kterou berou z řeky, do které tečou splašky, myjí se v ní atd. Taková vietnamská Ganga.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/3o7TKAqccE1aEOP2H6/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Dost se hraje na city, všude spousta vykřičníků, capslocku a výzev ke sdílení. Odkazy na zdroje aby člověk pohledal. Když už, cesta vede k německému dokumentu zachycujícímu &amp;ldquo;pangasí pravdu&amp;rdquo;. Co mě hodně překvapilo, byla až bulvární úroveň &lt;a href=&#34;https://www.svscr.cz/nekoho_strasi_pangas_jineho_santa_klaus/&#34;&gt;příspěvků (CZ)&lt;/a&gt; na stránkách Státní veterinární správy.&lt;/p&gt;
+&lt;p&gt;Tak jsem zkusil hledat anglicky. A ejhle, relevantní výsledky se rázem objevily. Začnu trochu nesouvisející &lt;a href=&#34;https://www.aquaculturealliance.org/wp-content/uploads/2017/06/Day1_RagnarTveteras.pdf&#34;&gt;prezentací (EN)&lt;/a&gt; o produkci. Data od 12. slajdu více méně potvrzují to, co se dalo dohledat na českých stránkách. Velká část produkce pochází z Vietnamu a vývoz této ryby jak do USA tak do EU (potažmo ČR) rok od roku roste.&lt;/p&gt;
+&lt;p&gt;Dál jsem narazil na výborně ozdrojovaný &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4867760/&#34;&gt;rozbor (EN)&lt;/a&gt; několika vzorků pangase. Ve třiceti případech byly do ryb přidány polyfosfáty. Mají za úkol držet v mase vodu, což se projeví na váze a vy pak kupujete mraženou vodu, která se na pánvi vypeče. Nutno podotknout, že je to &lt;a href=&#34;https://cs.wikipedia.org/wiki/E_452&#34;&gt;plně legální (CZ)&lt;/a&gt;. Co mi osobně přijde hroší je zvýšené množství rtuti (50% vzorků). Vyšší přítomnost amoniaku (dokonce v 80% vzorků) zase ukazuje na nezvládnutou přepravu a chlazení, protože doprovází &amp;ldquo;rozklad&amp;rdquo; masa. Na horší kvalitu masa poukazují i další hodnoty, například zvýšené množství &lt;a href=&#34;https://cs.wikipedia.org/wiki/Malondialdehyd&#34;&gt;MDA (CZ)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Poznámka:&lt;/strong&gt; Limity některých &amp;ldquo;kontaminujících&amp;rdquo; látek lze dohledat &lt;a href=&#34;https://eur-lex.europa.eu/legal-content/CS/TXT/PDF/?uri=CELEX:02006R1881-20180319&amp;amp;qid=1528229496480&amp;amp;from=EN&#34;&gt;zde (CZ)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ještě jste tu? Tak pokračujeme.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/d3pWRIVRiBjLOOkw/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Z další &lt;a href=&#34;https://www.omicsonline.org/comparative-characterization-of-lipids-and-nutrient-contents-of-pangasius-pangasius-and-pangasius-sutchi-available-in-bangladesh-2155-9600.1000130.pdf&#34;&gt;studie (EN)&lt;/a&gt; zabývající se obsahem tuků a minerálů v mase jsem pobral více-méně jen závěr. Co se studie samotné týče a jejího provedení, tolik jsem si z chemie na střední neodnesl. Občas narazím na zdánlivě &amp;ldquo;známý&amp;rdquo; výrazivo, ale nic si pod ním nepředstavím. Tak či tak, studie hodnotí pangase jako vhodného k jídlu a přípravě dalších odvozených potravin (např. rybí prsty, burgery atd.). Maso samo o sobě tedy špatné není.&lt;/p&gt;
+&lt;p&gt;Výsledek krásně shrnuje tato &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/pdf/10.1111/raq.12151&#34;&gt;poslední studie&lt;/a&gt;. Zabývá se přesně tím, jaký je vztah mezi &amp;ldquo;mediálním humbukem&amp;rdquo; a reálnou škodlivostí ryby. Pokud se vám to nechce číst, autoři natočili i krátké video:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/ZSYaR8EeM7k?rel=0&amp;amp;controls=0&amp;amp;showinfo=0&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;Ve zkratce: Říkají, že v pangasovi je tak malé množství škodlivých látek, že zdravý člověk ho může bez zdravotního rizika konzumovat. To, že se pangasius chová ve vodě pochybné kvality nemá na chemické složení až takový vliv, jaký mu připisují média. Pokud tedy nebudete papčit kilogramy denně, nejspíš se nic nestane. Je ale dobré myslet na to, že se, vzhledem k rizikovémů původu, může kdykoliv něco pokazit.&lt;/p&gt;
+&lt;p&gt;Tak dobrou chuť.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/xT9DPCzZ27RaN2SRIQ/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Vikingové v Ancestors Legacy</title>
+      <link>https://jan.malcak.cz/vikingove-v-ancestors-legacy/</link>
+      <pubDate>Sun, 27 May 2018 00:06:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/vikingove-v-ancestors-legacy/</guid>
+      <description>Ne, že bych zrovna na strojárně uplatnil znalost severské mytologie. Ale dejme tomu, že studuji historii zpracování a využití kovu v přímém přenosu.
+Ancestors je relativně nová hra - vyšla terpve 22. května. Podle těch pár dostupných videí na Youtube vypadá trochu jako Battle for the Middle Earth. Tedy hra, u které jsem s kamarády trávil čas před maturitou, a ke které se velice rád vracím. Sice tu chybí lore Středozemě, zato jsou tu Vikingové!</description>
+      <content>&lt;p&gt;Ne, že bych zrovna na strojárně uplatnil znalost severské mytologie. Ale dejme tomu, že studuji historii zpracování a využití kovu v přímém přenosu.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ancestors_legacy_01.jpg&#34; alt=&#34;Ancestors Legacy&#34; title=&#34;Ancestors Legacy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Ancestors je relativně nová hra - vyšla terpve 22. května. Podle těch pár dostupných videí na Youtube vypadá trochu jako Battle for the Middle Earth. Tedy hra, u které jsem s kamarády trávil čas před maturitou, a ke které se velice rád vracím. Sice tu chybí lore Středozemě, zato jsou tu Vikingové! Kdo by mohl takovému pokušení říct ne?&lt;/p&gt;
+&lt;p&gt;Během stahování (ze Steamu, kapišto) jsem slintal nad kráskou grafikou a hrozně se těšil, až přijdu ze školy a konečně vyplundruju nějakou britskou vesnici.&lt;/p&gt;
+&lt;p&gt;Přivítala mě krásná úvodní obrazovka s kreslenou animací s výjevy z bitevní vřavy doplněná epickým vikingským zpěvem.&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/3Tk0uNwm5qI?controls=0&amp;amp;showinfo=0&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;Protože mě všichni kamarádi nechali na holičkách a neměl jsem nikoho, s kým bych si zarhál multiplayer, sáhl jsem po kampani. Můžete hrát za Vikingy, Anglosasy, Němce a Poláky (v tomhle pořadí). Zatím jsem dohrál jen kampaň za Vikingy (a pár sólových her proti počítači) a z ní budu v dalším hodnocení vycházet. Myslím, že jsem se hrou strávil dostatek času, abych si mohl udělat obrázek (doslova).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ancestors_legacy_02.png&#34; alt=&#34;Výběr kampaně&#34; title=&#34;Výběr kampaně&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Prvních několik misí je v podstatě tutoriál. A za sebe můžu říct, že výborný. Nenutí vás posouvat kamerou, označovat jednotky a procházet cesty označené červeným křížkem. Od první minuty máte pod kontrolou jednotky, bojujete a zabijíte.&lt;/p&gt;
+&lt;p&gt;Jste v roli Vikingů, kteří se původně vydali vyplenit opatství Lindisfarne. Před odjezdem málo upláceli Aegira a tak jejich lodě přistály u silně bráněného města Bamburgh. Během několika okamžiků se z &amp;ldquo;vem si co chceš, chlapíci s vyholenou hlavou ti fakt bránit nebudou&amp;rdquo; zájezdu stala krvavá řež. Vikingové i přes četné úspěchy (&lt;em&gt;samozřejmě čistě velitelského rázu&lt;/em&gt;) dostanou co proto. Uprchnou do lesů a vašim úkolem coby velitele je dát je dohromady. V nepřátelském prostředí sehnat dostatek jídla, shromáždit roztroušené Vikingy a dát sasíkům za vyučenou.&lt;/p&gt;
+&lt;p&gt;Jednotlivé mise jsou nápadité. Obsahuje záškodnické &amp;ldquo;stealth&amp;rdquo; mise s několika málo vojáky, úpěnlivé bránění pevnosti do posledního muže nebo monumentální (s jedním a to prosím cizím katapultem) obléhání pevnosti. Při tom jste provedeni celou hrou, takže v posledních několika kapitolách už hru ovládáte jako svoje boty.&lt;/p&gt;
+&lt;h2 id=&#34;jak-se-to-hraje&#34;&gt;Jak se to hraje&lt;/h2&gt;
+&lt;p&gt;Ancestors jsou v jádru kovanou RTS. Stavíte základnu, těžíte suroviny a snažíte se umlátit nepřítele. Nic co by vás mělo překvapit. Každý z těchto prvků ale v sobě má určitou část originality.&lt;/p&gt;
+&lt;p&gt;Tak prvně, ve své základně nestavíte budovy jen tak, hala bala kam se vám z rozmaru (nebo strategie) zachce, ale jsou pro ně předem určené pozice. Kliknutím na ikonu stavby se budova sama postaví. Vesničany nijak přímo neovládáte.&lt;/p&gt;
+&lt;p&gt;Jakmile máte dostatek vojáků, abyste vyrazili na dobyvačné výpravy, musíte se porozhlédnout po okolí. Na mapě jsou rozmístěné vesnice, jejichž zabráním si přivlastníte suroviny a nevolníky. Ty pak můžete poslat těžit kámen, sbírat jídlo nebo kácet přilehlé lesy. Ne v každé vesnici jsou všechny suroviny což přináší jistý prvek strategie do jejich výběru.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ancestors_legacy_03.png&#34; alt=&#34;Sousední vesnice&#34; title=&#34;Sousední vesnice&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Plundrováním vesnic a hlavně zabíjením nepřátel vaše jednotky získávají zkušenosti. Když jich mají dostatek, přejdou na vyšší úroveň a vy můžete vybrat jedno ze tří zaměření. To se liší dle typu jednotky. Například pro kopiníky jde o rychlost, útok a obranu. Jednotek můžete mít jen deset. Ztráta i jedné &amp;ldquo;naskillené&amp;rdquo; jednotky dost zabolí. Často se budete stahovat, jednotky doplňovat a opět posílat zpět do boje.&lt;/p&gt;
+&lt;h2 id=&#34;co-se-povedlo&#34;&gt;Co se povedlo&lt;/h2&gt;
+&lt;p&gt;Psal jsem to už v úvodu a napíšu to pro jistotu ještě jednou. Grafika je krásná. Jasný, není to ten druh grafiky, kdy si s wow výrazem ve tváři sednete na zadek (za předpokladu že u hry stojíte). To u strategie tak trochu čekám. Jde přesně o tu grafiku, která nezestárne. Age of Empires, Battle for the Middle Earth a určitě spousta dalších her jsou zářným příkladem.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ancestors_legacy_04.png&#34; alt=&#34;Okolí základny&#34; title=&#34;Okolí základny&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Třešničku na dortu je Akční kamera, kdy si hru můžete přiblížit až k jednotkám a sledovat jak se řežou takřka jako byste stáli vedle nich. (Což jako správný velitel co? Neděláme.)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ancestors_legacy_05.png&#34; alt=&#34;Zbyněk a jeho milice&#34; title=&#34;Zbyněk a jeho milice&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Výborně je na tom i optimalizace. Celou dobu jsem hrál na ultra nastavení a jediná chvíle, kdy se hra trochu zadýchala byla při videích načítací obrazovky. Jinak vše běží velice plynule i na starším počítači.&lt;/p&gt;
+&lt;p&gt;Jako poslední bych rád vyzdvihl dolní panel. Z něho máte přístup ke všem jednotkám a vesnicím. Nemusíte je procházet jednu po druhé. Vše zařídíte klávesovými zkratkami, zatímco sledujete své jednotky v týlu nepřítele.&lt;/p&gt;
+&lt;h2 id=&#34;co-se-nepovedlo&#34;&gt;Co se nepovedlo&lt;/h2&gt;
+&lt;p&gt;Ancestors stejně jako ostatní strategie doprovází nešvary s AI. Jasně, jde o strategii, takže mozek operace mám být já. Nemůžu být všude. A trochu bych očekával, že v nové hře nebudou štítonoši ostřelovaní lukostřelcemi stát jako tvrdé Y, koukat do (na) blba a nechávat se pomalu odkráglovat. Stačila by nějaká volba - agresivní (zkusili by štěstí a zaútočili) - pasivní (stáhli by se z dostřelu). Jasně, přineslo by to spoustu dalších problémů (ústup směrem k nepříteli, dál od mé základny, nebo by se při agresivním postupu nechali zabít atd.). Ale stále by šlo o lepší řešení, než tohle.&lt;/p&gt;
+&lt;p&gt;Dalším příkladem je situace vzniklá při dobývání pevnosti v kampani za Vikingy. Drsným Vikingům už bylo zatěžko se plahočit lesy a loukami a štrádali si to na férovku po cestě těsně před palisádami nepřítele. Kde na ně samozřejmě dostřelili lukostřelci. Asi jsem nedostal ty nejostřejší pastelky v penálu.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ancestors_legacy_06.png&#34; alt=&#34;2018.05.26-13.07&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Hlavní a největší problém Ancestors je pro mě nemožnost plně ovládat jednotky v boji. Jakmile se jednou přiblíží k nepříteli, začnou bojovat a jediný příkaz na nějž reagují je stáhnout se. To zamrzí o to víc, když hra obsahuje prvky jako je přepadení, útok zezadu a obklíčení, které mají efekt na morálku.&lt;/p&gt;
+&lt;p&gt;Kdykoliv jsem chtěl vpadnotu něpříteli do zad, musel jsem jednotku opatrně manévrovat oklikou kolem nepřítele. Snažit se ji držet z dosahu, aby se nepřidala do vřavy a já nad ní neztratil kontrolu. Do poslední chvíle držet bersekery vzadu, aby mohli zaútočit vyrazit na nechráněné lukostřelce, zatímco se moje armáda v jednom velkém chumlu řezala s tou nepřátelskou.&lt;/p&gt;
+&lt;p&gt;Možná to zní malicherně, ale pro mě šlo o extrémně flustrující zážitek. V základně krom naklikání pár budov není co dělat a neposlouchající jednotky mi vzaly i tu poslední radost - z boje.&lt;/p&gt;
+&lt;h2 id=&#34;ragnarok&#34;&gt;Ragnarok&lt;/h2&gt;
+&lt;p&gt;Celkově je Ancestors relativně dobrá hra. Má pěknou grafiku, dobrou hudbu a kampaň. Map je dostatek, jsou členité a různorodé. Ve čtyřech hratelných národech si asi každý najde to svoje. Co trochu pokulhává je hratelnost. Jakmile naklikáte jednu kasárnu jde už jen o co nejrychlejší &amp;ldquo;spawnování&amp;rdquo; jednotek. V boji jim ve správný čas aktivujete některou ze schopností a pak čekáte. Koukáte na houf vojáků, ve kterém bojují první tři řady a říkáte si, že tu &amp;ldquo;Palbu do vlastních řad&amp;rdquo;, kterou sem tam způsobí vaši šikovní lukosřelci si snad i zaslouží.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>PHP: Validace bankovního čísla</title>
+      <link>https://jan.malcak.cz/php-validace-bankovniho-cisla/</link>
+      <pubDate>Thu, 31 Aug 2017 22:14:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/php-validace-bankovniho-cisla/</guid>
+      <description></description>
+      <content>&lt;script src=&#34;https://gist.github.com/malja/4fbe9b69878fc81dd2dd77c57fc059a9.js&#34;&gt;&lt;/script&gt;</content>
+    </item>
+    
+    <item>
+      <title>Sbohem a šáteček</title>
+      <link>https://jan.malcak.cz/sbohem-a-satecek/</link>
+      <pubDate>Sat, 11 Jun 2016 01:05:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/sbohem-a-satecek/</guid>
+      <description>Hlavním důvodem bylo, že jsem utekl ze základky, kde se mi v té době vůbec nelíbilo (kvůli spolužákům). Druhým byl slíbený počítač. Pro mladého hráče snad nemůže být lepší motivace :). A třetím, v té době úplně zanedbávaným, dnes velmi podstatným důvodem byla vzdálenost - pět minut svižnější chůzí. A tak jsem se na zkoušky snad dva měsíce poctivě připravoval. Dělal jsem SCIO testy (ty se používaly pro přijímačky), počítal příklady a podobně.</description>
+      <content>&lt;p&gt;Hlavním důvodem bylo, že jsem utekl ze základky, kde se mi v té době vůbec nelíbilo (kvůli spolužákům). Druhým byl slíbený počítač. Pro mladého hráče snad nemůže být lepší motivace :). A třetím, v té době úplně zanedbávaným, dnes velmi podstatným důvodem byla vzdálenost - pět minut svižnější chůzí. A tak jsem se na zkoušky snad dva měsíce poctivě připravoval. Dělal jsem SCIO testy (ty se používaly pro přijímačky), počítal příklady a podobně. Dokonce jsem některé testy přinesl na popud třídní do školy, aby si je mohli spolužáci vyzkoušet také. Museli mě tehdy asi hodně milovat.&lt;/p&gt;
+&lt;p&gt;Přes všechnu přípravu jsem šel na přijímací testy ohromě nervní. (Tohle prokletí mám bohužel dodnes.) Usadili mě do první lavice v pravé řadě, za mnou seděla spolužačka ze základky. S tou se ihned dala do řeči moje mamka. Bohužel si nepamatuji, o čem přesně mluvily. Živě si ale vybavuji, jak jsem celý zrudl. Takže asi tak&amp;hellip;. Samotný test si přiliš nevybavuji. Jen, že u prvních pár otázek jsem musel výsledky zaškrtávat obouruč, abych se vůbec trefil do čtverečků. Až tak jsem z toho byl v háji. Pak jsem se ale uklidnil, vše dopsal a spokojeně odešel domů.&lt;/p&gt;
+&lt;p&gt;Na výsledky se čekalo snad čtrnáct dní. Navíc v den, kdy měly být zveřejněny nefungoval školní web. Tehdy jsme se s rodiči dost divili. (Dnes bych vám celkem s jistotou ukázal na člověka, který za to pravděpodobně mohl.) Nezbylo nám tak nic jiného, než si dojít pro výsledky do školy. Po chvilkovém hledání kódu, pod kterým se skrývá můj výsledek (Jak já, tak taťka jsme nepovažovali za důležité si informace podobného rázu udržovat v paměti déle jak pět minut) jsme zjistili, že mě s rezervou přijali. Dokonce jsem byl mezi prvními. Celou zpáteční cestu jsem s úsměvem od ucha k uchu vesele proskákal. Doslova.&lt;/p&gt;
+&lt;p&gt;A tak jsem si mohl s hrdostí začít řikat gymplák (byť jsem jím fakticky ještě nebyl). Před záříovým nástupem jsem ještě navštěvoval týdenní kurz angličtiny. Nemůžu říct, že by mi něco dal. Spíš jsem zjistil, že nic neumím. A to jako vůbec! To byla celkem rána, protože na základce jsem platil za jednoho z nejlepších. Na druhou stranu, ostatní také nevypadali, že by na tom byli o mnoho líp.&lt;/p&gt;
+&lt;p&gt;První třída byl trochu porod. Nejenom, že si člověk musel zvykat na nový systém, více učení, ale hlavně nové lidi. A pro mě, introverta, to byl asi ten hlavní problém. Dal jsem to dohromady s Kubou - jediným spolužákem, který se (asi z 5 hlásících se) na gympl dostal. Paradoxní bylo, že do té doby jsme spolu ani nepromluvili. Ale gympl z nás udělal velmi dobré přátele. Abych ale nevypadal jako úplný asociál - hned na seznamováku jsem se dal dohromady s Matějem a Martinem. Tahle parta, obohacená ještě o Davida vydržela až do konce.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;P1080967.jpg&#34; alt=&#34;Fotka řady malých, bílo-hnědých dřevěných chatiček. Jedna pro čtveřici.&#34;&gt;
+&lt;em&gt;Na těchto chatkách jsme trávili seznamovací týden.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Ve druháku jsme vymeňovali učitele matematiky. S paní S. celá třída nevycházela. Zahnaná do kouta dotazy na látku nechápajícími studenty na nás křičela. Za to jsme se jí odměňovali po svém - mazali tabule jarem (nešlo na ně pak psát), namáčeli křídy, schovávali houbu a jednou (a to bych si nerad vymýšlel) jí snad někdo dal na židli připínáček. To samozřemě vyvolávalo další křik a odpor z její strany. Skončilo to až nahrazením za pana Hanuše.&lt;/p&gt;
+&lt;p&gt;Následující roky se nesly ve znamení ulejvání, kecání a boji s matematikou, Sedával jsem tehdá v zadních lavicích s Davidem. Razili jsme teorii, že čím dál od učitele tím lépe. Nezajímavé hodiny (kterých samozřejmě byla většina) jsme trávili kecáním, hraním piškvorek a kreslením do učebnic. Bylo jasné, že pokud se máme začít učit, musíme od sebe. To bylo jasné i učitelům a tak nás rádi rozsazovali. Dopadlo to tak, že jsme spolu seděli asi na jedné hodině. Proto jsem si další rok přesednul (dost jsem to střídal, až jsem zakotvil opět u Kuby) a vše šlo rázem lépe.&lt;/p&gt;
+&lt;p&gt;Další změnou byl přechod na velký gympl. Alespoň nás tím strašili - že bude víc učení, horší známkování atd. Nemyslím si, že by tomu tak bylo. Ale možná jsem si jen zvyknul. Zpětně šlo o nejlepší roky života - obzvláště poslední dva roky. Člověk byl (téměř, posléze plně) plnoletý, měl řidičák, škola šla sama a byla spousta volného času. Následovala tvrdá rána - Maturita - ale o tom někdy jindy.&lt;/p&gt;
+&lt;p&gt;Osobně považuji roky na gymplu za ty nejlepší. Měl jsem neuvěřitelné štěstí na spolužáky i kantory a jen těžko se mi bude odcházet. Rozhodně ale budu vzpomínat .. a v dobrém.&lt;/p&gt;
+&lt;h1 id=&#34;jak-to-na-gymplu-vypadá&#34;&gt;Jak to na gymplu vypadá&lt;/h1&gt;
+&lt;p&gt;Gympl má své probémy - osobně si myslím že jde hlavně o neangažované vedení. Například základka v Lánově, kde se ředitelka viditelně snaží, využívá různých fondů a školu zvelebuje se na gymplu nic podobného neděje. S nadsázkou můžu říct, že jedinou změnou za osm let je přidání hodin do každé třídy. Odpovědí na všechny nápady bylo: &amp;ldquo;Škola nemá finance&amp;rdquo;. A tak nebyly ani zájezdy do zahraničí, ani vícedenní třídní výlety. A exkurzí bylo pomálu.&lt;/p&gt;
+&lt;p&gt;Učebny vzhledem bohužel také neosloví, ač se učitelé snaží sebevíc, pěkné nástěnky to nezachrání. Zastaralé vybavení - meotary, CRT televizory, mapy, pomůcky. Prostě se šetří a pokud daná věc funguje, není důvod ji měnit. Nejhorší jsou šatny - malé kovové (často rezaté, počmárané, polepené, zohýbané) skřínky, zašedlé a špinavé stěny a do nedávna viditelné trubky na stropě. Vypadalo to spíše jako v kotelně než v šatně.&lt;/p&gt;
+&lt;h2 id=&#34;ty-internety&#34;&gt;Ty internety&lt;/h2&gt;
+&lt;p&gt;Popravdě, s technikou to na škole není tak špatné. Téměř každá třída má promítačku a počítač na obsluhu (pro učitele). Nově je (opět téměř) po celé škole rozvedena WiFi síť a díky dotacím přibyla ke dvoum již existujícím zcela rekonstruovaná třída vybavená notebooky. Smutné ale je, že většina učitelstva neumí s počítači pracovat, natož aby je nějak smysluplně využila při výuce. Mnohdy tak do těchto učeben chodí jen z nutnosti (není volná jiná třída) a notebooky/počítače se nevyužijí. Příkladem může být e-learningový systém Moodle, kam učitelé mohou zapisovat úkoly, vkládat dodatečné materiály a dokonce vytvářet testy. Kolik učitelů jej aktivně využívá? Tři!&lt;/p&gt;
+&lt;p&gt;Není se tak čemu divit, že výuka práce s počítačem - zkratka IVT - je také bídné úrovni. V podstatě se projde psaní všemi deseti (několik lekcí, než se zjistí, že to žáky nebaví), Excel (jak spočítat A1 * A2 a vše vložit do A3), Word (třeba jak vložit obsah). Vrcholem je tvorba Hello world v TurboPascalu viz &lt;a href=&#34;https://www.gymvr.cz/skola2/?p=142#more-142&#34;&gt;maturita&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;sportovní-vyžití&#34;&gt;Sportovní vyžití&lt;/h2&gt;
+&lt;p&gt;Co by možná člověk ve škole nečekal je vlastní &lt;strong&gt;bazén&lt;/strong&gt;. Ten možná bude zmiňován jako jeden z taháků školy. Nenechte se ale ošálit. Bazén je ve stavu, kdy se žáci raději napíší marod, nebo od doktora seženou potvrzení o vyrážce/alergii, aby nemuseli plavat. Ve sprchách je na stropu plíseň a všechno vybavení vypadá jak z dob K. Gottwalda. To je ale rys celé školy. O bazénu se toho na škole také hodně traduje. Od krys, které si přes léto (kdy je bazén nepoužívaný) užívají chladivých koupelí, až po paní S. koupající se v něm v rouše Evině. Abych ale jen nekritizoval, proslýchá se o rekonstrukci. Zda jde o planné řeči, nebo o skutečný záměr ukáže až čas.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;bazen.jpg&#34; alt=&#34;Fotka dvacetimetrového baznénu ve školním suterénu&#34; title=&#34;Fotka dvacetimetrového baznénu ve školním suterénu&#34;&gt;
+&lt;em&gt;Školní bazné v celé své kráse. Na levé straně (mimo snímek) jsou ony sprchy&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tělocvična&lt;/strong&gt; byla očividně stavěna v době, kdy se nedělalo nic jiného než gymnastika. Na jedné straně má do prosturu zasahující výklenek na duchny a &amp;ldquo;kozy&amp;rdquo;. Ten dělá tělocvičnu asymetrickou a tudíž nevhodnou pro hraní jakýchkoli sportů. To nicméně nezabránilo v pověšení basketballových košů. Osobně, jako tělesnou aktivitu nevyhledávajícího člověka, mám nejhorší vzpomínky na hrazdu. Ta vešla ve známost jako kulodrtič, neb žákům, kteří nebyli sto udělat výmyk, bylo pomoženo. Ze strany učitele nešlo rozhodně o úmysl, ale my jsme byli trdla a vždycky se v té rychlosti praštili.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;telocvicna2.jpg&#34; alt=&#34;Nalevo je vidět kousek výklenku, který krásně zúží celou tělocvičnu a utopí koš na basket&#34; title=&#34;Nalevo je vidět kousek výklenku, který krásně zúží celou tělocvičnu a utopí koš na basket.&#34;&gt;
+&lt;em&gt;Nalevo je vidět kousek výklenku, který krásně zúží celou tělocvičnu a utopí koš na basket.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aikido&lt;/strong&gt; je mistnůstka v podzemní části gymplu. Skrývá v sobě malou posilovnu a nově také lezeckou stěnu. Právě na příkladu stěny je vidět, že když se chce, peníze jsou - šlo totiž o projekt jednoho z učitelů tělocviku.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;P1120046.jpg&#34; alt=&#34;Ukázka asi dvou metrů vysoké boulderové stěny natažené podél tří stěn malé místnosti&#34; title=&#34;Ukázka asi dvou metrů vysoké boulderové stěny natažené podél tří stěn malé místnosti.&#34;&gt;
+&lt;em&gt;Boulderová stěna v celé své kráse se svým stvořitelem (sedící pán). V zadu jsou dveře do posilovny.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Venkovní sportovní areál zahrnuje dvě hřiště na volejbal, basket, skok do dálky, trasu na sprint, hod do dálky a hřiště na fotbal (rozměry spíše na házenou). Právě na posledním jmenovaném jsme jako třída (tedy naše klučičí část - tělocvik je rozdělen na dvě skupiny podle pohlaví) trávili nejvíce času. Poslední dva roky jsme k našemu nadšení prakticky nedělali nic jiného. Nebyl bych to já, kdybych si nerýpnul. Hlavní probém je povrch - hrubozrnný asfalt - při sebemenším pádu to znamená v nejlepším případě sedřenou kůži. Navíc se na nerovném povrchu tvoří kaluže a fotbal po deštivých nocích končil promočenými botami. Někteří střelci si je nechávali ve skřínkách a takový puch, který se linul druhý den po šatnách bych vám nepřál zažít. A konečně třetím problémem je dvojce kanálů na hrací ploše. Po dešti jsou enormě kluzké&amp;hellip; a jak už jsem říkal, všude kolem asfalt.&lt;/p&gt;
+&lt;h1 id=&#34;je-na-škole-něco-dobrého&#34;&gt;Je na škole něco dobrého?&lt;/h1&gt;
+&lt;p&gt;Když to po sobě čtu, zdá se, jako by škola neměla co nabídnout a nic na ní nefungovalo. Pokud se budete dívat jen po tom, jak škola vypadá a jaké má pomůcky, může to tak vypadat. Vše to ale mění lidé, kteří na ní učí. Věřím že by se mnou všichni moji spolužáci nesouhlasili, ale já si za svým názorem stojím. Stejně jako kdekoliv jinde i zde můžete narazit na debila. Ale většina učitelů je velice pohodová, milá a vstřícná. Nebudu se vyjadřovat ke všem učitelům, snad jen k těm, kteří mi nejvíce přirostli k srdci.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pan Klika&lt;/strong&gt; - učitel fyziky, matematiky. Podle mě největší pohodář školy. Několikrát do roka zapomene, že má zrovna hodinu a vůbec nepřijde. O to hůř, když má suplování. Na druhou stranu jeho hodiny patří mezi ty, o něž nechcete přijít a tak jsme ho vždy naháněli. Má neuvěřitelný dar zjednodušit věci až na holou podstatu a vysvětlit i složitá témata tak, že je pochopí i dítě. Látku podává barvitě, doplňuje ji o náčrtky, ukazuje videa, obrázky atd. Jako správný učitel si je schopný sjednat pořádek - pamatuji si, že v první třídě jsem za ústavičné kecání musel do kouta. Většinou však stačí jedno okřiknutí a třída mlčí. Za rok píše tak čtyři testy (plus případné opravky) a opraví je ihned ve škole. Nemusí si nic tahat domů a má klid. A to nejlepší přijde, když nahodí oblek, protože v něm vypadá jak Bond.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pan Hanuš&lt;/strong&gt; - učitel matematiky, fyziky. Jeho největší nevýhodou je, že nemá autoritu. V hodinách často musel překřikovat žvanící žáky, zvyšovat hlas atd. Díky tomu se o něm dlouhou dobu říkalo, že není schopen naučit. To je ale lež, kterou rozšiřují ti, které musí překřikovat. Hanuš má nastavené vlastní známkování, ve kterém má žák stejnou šanci na získání každé známky (normálně je na jedničku jen 1 - 1.59, kdežto na dvojku 1.5 - 2.49 -&amp;gt; dvojnásobný rozsah). Navíc dává možnost získat jedničky za domácí úkoly. Kdo dává při hodinách pozor a dělá úkoly nemůže mít hůř jak za tři. Zpětně ho lituji, za to jak se k němu všichni chovali (občas včetně mě), protože až časem člověku dojde, jak hodný, férový a snaživý učitel to je. Obzvlášť na hodinách fyzikálního kroužku/semináře je vidět, jak ho učení baví, když ho žáci poslouchají a zajímají se o látku.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pan Rychtr&lt;/strong&gt; - učitel matematiky a tělocviku. Na začátku působil autoritativně a přísně. Patří mezi ty lidi, u kterých není možné poznat, co se jim právě honí hlavou. Hodiny tělocviku byly i přes jeho přísné vzezření velice pohodové a postupně se zvrhávali v hraní fotbalu. I z původně nastavených norem se postupně upouštělo. Před tím ale stihl splnit svůj slib, který mi dal na začátku: &amp;ldquo;To rozběháme&amp;rdquo; říkal, když jsem nebyl sto dokončit abecedu. Abych to vysvětlil, když jsem přišel na gympl, byl jsem asi nejtlustší z celé třídy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paní Vajová&lt;/strong&gt; -  učitelka hudebky a dějepisu. Děják s paní Vajovou, to nebyla hodina, to bylo vyprávění pohádky. Do dveří vešla vkusně ustrojená starší paní, napůl se posadila se na první lavici a spustila. Během celé hodiny by bylo slyšet spadnout na zem špendlík, jak všichni seděli ani nedutali a sledovali barvitý výklad. Ne nadarmo se traduje, že to vše paní zažila, protože jinak by to tak popsat nesvedla. Bohužel asi bude tento rok opravdu (již to slibovala několikrát) končit a nové generace ji už nepotkají.
+&lt;img src=&#34;vajova.jpg&#34; alt=&#34;Vajová&#34; title=&#34;Vajová&#34;&gt;
+&lt;em&gt;Paní Vajová&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paní Vaňková&lt;/strong&gt; - učitelka angličtiny a občanky. Velice laskavá a milá paní, která mě naučila anglicky. Hodiny na vyšším gymnáziu s jinou učitelkou mi daly širší slovní zásobu a možnost víc mluvit. Ale stále jsem stavěl na základech, které jsem získal od p. Vaňkové. Stejně jako p. Vajová i ona školu už několik let nazpět opustila.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;vankova-e1465614114335.jpg&#34; alt=&#34;Vaňková&#34; title=&#34;Vaňková&#34;&gt;
+&lt;em&gt;Paní Vaňková&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paní Rogoňová&lt;/strong&gt; - učitelka biologie. Mladá paní, kterou jsme měli jen asi dva roky, než odešla na mateřskou. I to stačilo, aby se stala velice oblíbenou. Látku podávala zábavně (takže bavila i mě, člověka, který nyní biologii nesnáší), dlouho a barvitě vyprávěla, vše měla uspořádané a seřazené. Po ní jsme dostali dvě další učitelky, ale žádná se jí už nevyrovnala.&lt;/p&gt;
+&lt;p&gt;Zmínit by si zasloužili i další, protože pohodářů a dobrých učitelů je na škole dost. Ty ale potkáte jen když se přihlásíte ke studiu!&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Arduino: Programování Attiny85</title>
+      <link>https://jan.malcak.cz/arduino-programovani-attiny85/</link>
+      <pubDate>Sat, 26 Mar 2016 22:50:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/arduino-programovani-attiny85/</guid>
+      <description>Teď, možná po roce či dvou, jsem je vyhrabal z krabice. Stále jsem přesně netušil, co s nimi, ale v hlavě se mi pár nápadů rýsovalo.
+Z mých posledních pokusů jsem si pamatoval, že standardní USBisp, které jsem si koupil na programování čipů ATmega328 nejde použít. Nejjednodušší náhradou se mi jevilo využít Arduino Uno. Na internetu jsem našel velké množství tutoriálů, navíc jde o celkem jednoduchou záležitost.
+Prvně je třeba přidat podporu pro čipy rodiny ATtiny do Arduino IDE.</description>
+      <content>&lt;p&gt;Teď, možná po roce či dvou, jsem je vyhrabal z krabice. Stále jsem přesně netušil, co s nimi, ale v hlavě se mi pár nápadů rýsovalo.&lt;/p&gt;
+&lt;p&gt;Z mých posledních pokusů jsem si pamatoval, že standardní USBisp, které jsem si koupil na programování čipů ATmega328 nejde použít. Nejjednodušší náhradou se mi jevilo využít Arduino Uno. Na internetu jsem našel velké množství tutoriálů, navíc jde o celkem jednoduchou záležitost.&lt;/p&gt;
+&lt;p&gt;Prvně je třeba přidat podporu pro čipy rodiny ATtiny do Arduino IDE. Od posledně se situace radikálně zlepšila a není třeba ručně cokoliv stahovat, rozbalovat a kopírovat na správné místo.&lt;/p&gt;
+&lt;p&gt;V Arduino IDE otevřete &lt;strong&gt;Nastavení&lt;/strong&gt; -&amp;gt; &lt;strong&gt;File&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Preferences&lt;/strong&gt; a do kolonky &lt;em&gt;Additional Boards Manager URLs&lt;/em&gt; vložte jednu z následujících adres:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json&#34;&gt;https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://drazzy.com/package_drazzy.com_index.json&#34;&gt;http://drazzy.com/package_drazzy.com_index.json&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;První z nich přidává podporu jen pro ATtiny 44/45/84/85. Druhá je mnohem rozsáhlejší. Pro mé potřeby až zbytečně.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;AddAttinySupport.gif&#34;  alt=&#34;Přidání podpory pro Attiny&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Přidání podpory pro Attiny&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Nyní v &lt;strong&gt;Tools&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Board&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Boards Manager&lt;/strong&gt; vyberte a nainstalujeme ATtiny.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;AddAttinySupport2.gif&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Výše popsaný postup pro přidání podpory Attiny do Arduino IDE&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Tím jsme naučili Arduino IDE hovořit jazykem ATtiny kmene. Už stačí jen udělat z Arduina programátor. Po připojení Arduina k počítači v IDE stačí vybrat vzorový příklad &lt;strong&gt;ArduinoISP&lt;/strong&gt;
+(&lt;strong&gt;File&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Examples&lt;/strong&gt; -&amp;gt; &lt;strong&gt;ArduinoISP&lt;/strong&gt; -&amp;gt; &lt;strong&gt;ArduinoISP&lt;/strong&gt;) a nahrát ho. Tím se z Arduina stal programátor, který propojíme s ATtiny a můžeme začít.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;attiny85-pinout-simplified.png&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Popis pinů. Počítáno z levé horní strany po řádcích: (1) Reset (8) VCC, (2) A3 (7) Pin D2, (3) Pin A2 (6) Pin D1, (4) GND (5) Pin D0&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Propojení je následující:&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;http://highlowtech.org/wp-content/uploads/2011/06/Screen-shot-2011-06-06-at-1.46.39-PM.png&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Zapojení Arduina UNO a Attiny85 pro programování. Vypůjčeno z http://highlowtech.org/?p=1706&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;ATtiny pin &lt;strong&gt;2&lt;/strong&gt; do Arduino pinu &lt;strong&gt;13&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;ATtiny pin &lt;strong&gt;1&lt;/strong&gt; do Arduino pinu &lt;strong&gt;12&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;ATtiny pin &lt;strong&gt;0&lt;/strong&gt; do Arduino pinu &lt;strong&gt;11&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;ATtiny pin &lt;strong&gt;Reset&lt;/strong&gt; do Arduino pinu &lt;strong&gt;10&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Teď už jen stačí otevřít Sketch, vybrat čip, který budete programovat a nastavit jako programátor &lt;strong&gt;Arduino as ISP&lt;/strong&gt; a vše nahrát.&lt;/p&gt;
+&lt;p&gt;A ještě krátká poznámka na konec. Pokud stejně jako já, budete mít trable s nastavením exsterního oscilátoru, doporučuji před nahráním Sketche vypálit &lt;em&gt;Bootloader&lt;/em&gt; (&lt;strong&gt;Tools&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Burn Bootloader&lt;/strong&gt;)&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Kam s ní</title>
+      <link>https://jan.malcak.cz/kam-s-ni/</link>
+      <pubDate>Thu, 04 Feb 2016 01:50:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/kam-s-ni/</guid>
+      <description>Já jsem řešil kam bezpečně a trvale uložit zálohu rodinných fotek a ostatních digitálních cenností. A to je, považte, úplně jiný šálek kávy. Už jen z důvodu nepřeberného množství nabízených možnosti.
+Optická media Asi vím, co si teď myslíte. A popravdě si to myslím také. Optická média mají svůj nejlepší čas za sebou. Nicméně po starších zálohách (kterých jsem se z valné většiny při zimním úklidu zbavil) mi zbylo několik kvalitnějších dvouvrstvých DVD.</description>
+      <content>&lt;p&gt;Já jsem řešil kam bezpečně a trvale uložit zálohu rodinných fotek a ostatních digitálních cenností. A to je, považte, úplně jiný šálek kávy. Už jen z důvodu nepřeberného množství nabízených možnosti.&lt;/p&gt;
+&lt;h1 id=&#34;optická-media&#34;&gt;Optická media&lt;/h1&gt;
+&lt;p&gt;Asi vím, co si teď myslíte. A popravdě si to myslím také. Optická média mají svůj nejlepší čas za sebou. Nicméně po starších zálohách (kterých jsem se z valné většiny při zimním úklidu zbavil) mi zbylo několik kvalitnějších dvouvrstvých DVD. Myšlenka je znovu po několika letech znovu vytáhnout na světlo mi rozhodně probleskla hlavou. Ale jen na chvilku. Přísahám!&lt;/p&gt;
+&lt;p&gt;Už teď se mechaniky moc nenosí a do budoucna bude ještě hůř. Vše to završila představa procházení starých placek a přehrávání na nové, abych o nějaká data vlivem stárnutí materiálu nepřišel. No fuj!&lt;/p&gt;
+&lt;h1 id=&#34;flashky-paměťové-karty&#34;&gt;Flashky, paměťové karty&lt;/h1&gt;
+&lt;p&gt;Abych pravdu řekl, o flash pamětních jsem popravdě jako o trvalém úložišti dat nikdy příliš nepřemýšlel. Minimálně od doby, kdy jsem četl, že stačí relativně malý elektromagnetický puls a data jsou v pánu. Na přenesení prezentace do školy dobrý, ale 18 let svého života zachyceného na fotkách jim prostě nesvěřím.&lt;/p&gt;
+&lt;h1 id=&#34;a-co-další-disk&#34;&gt;A co další disk?&lt;/h1&gt;
+&lt;p&gt;Hodit data na externí disk se mi líbilo už od začátku. Některé zálohy jsem tak již měl řešené a osvědčilo se mi to. Vím že disky mají svou životnost (hlavně co se pohyblivých částí týče), ale dostat data z rozbitého disku je dle mého jednodušší než z odporoučené flashky. Nicméně to hledání správného drátu v šuplíku, nutnost jednou za čas disk zkontrolovat a možnost, že si ho některý člen mě rodiny vezme a zálohy přehraje filmy mě přiměla hledat dál.&lt;/p&gt;
+&lt;h1 id=&#34;disk-na-síti-či-rovnou-vlastní-mráček&#34;&gt;Disk na síti či rovnou vlastní mráček?&lt;/h1&gt;
+&lt;p&gt;NAS (network attached disc) není mezi běžnými uživateli tak rozšířený. Rozdíl mezi ním a cloudem (který asi většina bude znát) je v tom, že NAS většinou budete mít doma. Máte tak maximální kontrolu nad tím, kdo má k datům přístup a co se na serveru děje. Rozhodně něco pro paranoika jako jsem já.&lt;/p&gt;
+&lt;p&gt;Doma se mi poflakoval jeden starší počítač, který jsem ukořistil při školním přechodu na lepší HW. Určitě si umíte představit, jak starý byl, když se ho i škola zbavovala :). Nicméně pro začátek by určité stačil. Povzbuzen pocitem, že budu hrozný geek jsem se pustil do stavby. Posbíral jsem po domě nevyužité disky, ramky a celé to sestavil do relativně funkční sestavy. Protože se mi hodně líbila představa vlastního cloudu, začal jsem hledat software jako alternativu k Google Drive, který jsem do té doby používal. Co mě ale překvapilo byl celkem omezený výběr open source alternativ.&lt;/p&gt;
+&lt;p&gt;Většina byla běžící na webovém serveru, což se mi vůbec nelíbilo. Apache je občas úzké hrdlo i webovým stránkám. Jako první jsem narazil na &lt;a href=&#34;https://owncloud.org&#34;&gt;ownCloud&lt;/a&gt;. Instalace byla jednoduchá, funkce vyhovující (dokonce má vlastní &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.owncloud.android&amp;amp;hl=cs&#34;&gt;Andoidí aplikaci&lt;/a&gt;) a vše vypadalo, že jsem u konce hledání. Zkusil jsem prostor přidělit kamarádovi a začal testovat sdílení souborů a pokročilejší funkce. Už druhy den jámě ale narazili na podivný problém. Sdílení souborů občas fungovalo jen chvíli a sem tam zmizel dokonce celý soubor. Uznávám, že mě to celkem vyděsilo. Představa že bych tímto způsobem měl přijít o zálohy se mi ani trochu nelíbil. Uznávám, že to pravděpodobně bylo zapříčiněno špatným nastavením, nicméně jsem nepřišel na to jak problém vyřešit. OwnCloud jsem tedy uložil k ledu.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pyd.io&#34;&gt;Pydio&lt;/a&gt; jsem zavrhl bez testování kvůli rané fázi vývoje. &lt;a href=&#34;https://www.seafile.com/en/home/&#34;&gt;Seafile&lt;/a&gt; nenabízí v free verzi některé požadované funkce. &lt;a href=&#34;https://cozy.io/en/&#34;&gt;Cozy&lt;/a&gt;, který se mi původně hodně líbil, se mi nezdařil nainstalovat. Navíc se mi nelíbí že soubory ukládá do databáze.&lt;/p&gt;
+&lt;p&gt;Při hledání jsem narazil i na nástroje pro synchronizaci souborů mezi více zařízeními - &lt;a href=&#34;https://www.getsync.com&#34;&gt;BitTorrent Sync&lt;/a&gt;, &lt;a href=&#34;https://syncthing.net&#34;&gt;SyncThing&lt;/a&gt; a další. Netestoval jsem je, protože pro zálohování jsem chtěl jeden centrální server. Opravdu nepotřebuji mít stovky GB fotek nasdileno do mobilu.&lt;/p&gt;
+&lt;h2 id=&#34;hotové-vs-podomácku-vytvořené-řešení&#34;&gt;Hotové vs. podomácku vytvořené řešení&lt;/h2&gt;
+&lt;p&gt;Během testování software mi odešel jeden disk a já si plně uvědomil, že kromě software jsem limitován i HW. Problém je, že jako student mám celkem malý rozpočet. Počítač, který by odpovídal požadavkům stál okolo osmi tisíc. Disky by stály dalších pět až deset tisíc (podle počtu). Suma sumárum trochu mimo mé možnosti. Za pár let bych je navíc musel vyměnit.&lt;/p&gt;
+&lt;p&gt;Zkusil jsem se poohlédnout po hotových řešeních. Z velkých hráčů na trhu bych jmenoval QNAP, WD a Synology. Líbilo se mi řešení od WD -  disky v ceně, vlastní aplikace pro android, dostatek funkcí, pěkná krabička (ano i to je hledisko :D).&lt;/p&gt;
+&lt;p&gt;Mým problémem je, že když už něco kupuji, snažím se, aby věc uměla něco nad rámec mých požadavků. Člověk se tím vyhne tomu, že zrovna ta funkce, o které si při koupi říkal, že ji rozhodně nikdy potřebovat nebude, chybí. U levnějších řešení jde vlastně o disky doplněné nějakým uzavřeným balast OS. Což mi vadí asi nejvíc. Chybí mi volnost doinstalovat si co budu chtít, mít plnou kontrolu nad tím, kam se do odesílá.&lt;/p&gt;
+&lt;h1 id=&#34;přicházejí-mračna&#34;&gt;Přicházejí mračna&lt;/h1&gt;
+&lt;p&gt;Po výtkách k uzavřeným systémům hotových NAS řešení může moje rozhodutí působit trochu divně. Jelikož jsem s mávnutím ruky odmítnul téměř veškerá nabízená řešení a ofrňoval, zbyla jen hotová cloudová řešení velkých hráčů. Velkých proto, že mají servery po celém světě a je větší pravděpodobnost, že bude rychlost nahrávání a stahování vyšší.&lt;/p&gt;
+&lt;h2 id=&#34;microsoft-onecloud&#34;&gt;Microsoft OneCloud&lt;/h2&gt;
+&lt;p&gt;První padl los na řešení od Microsoftu. Popravdě jsem provedl jen povrchní srovnání a Microsoft za stejnou cenu nabízel navíc Microsoft Office 365. Celkem mě unavovalo neustále řešit problémy nekompatibility s OpenOffice ve škole. Navíc mi přišlo jako dobrý nápad necpat všechna má osobní data Googlu do chřtánu - mám od něj prohlížeč, vyhledávač, mail a OS v mobilu.&lt;/p&gt;
+&lt;p&gt;Až na hrozné UI se vše zdálo OK. Oproti Googlu má Microsoft hodně co dohánět hlavně po stránce použitelnosti. Brzy jsem ale narazil na problém. Nejde sdílet soubory s někým, kdo nemá Microsoft účet. Tím se pro mě cloud stal nepoužitelný.&lt;/p&gt;
+&lt;h2 id=&#34;google-gdrive&#34;&gt;Google GDrive&lt;/h2&gt;
+&lt;p&gt;Google Drive používám už nějaký ten pátek na školní zápisky a sdílení souborů po internetu celkově. Byl jsem spokojený, takže po fiasku u Microsoftu šlo o druhého adepta.&lt;/p&gt;
+&lt;p&gt;I zde se ale brzy dostavily problémy. Desktopová aplikace je super na nahrávání obrázků a malých souborů. Rychlost se ale rapidně snižuje s velikostí souborů. A protože mou hlavní motivací pro tohle vše byla záloha 100gb rodinných fotek, je to celkem problém. Už přes dva týdny se snažím nahrát zálohy, ani jeden je stále nenahrál.&lt;/p&gt;
+&lt;p&gt;Hledání pokračuje&amp;hellip;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Arduino: Odpojení při nahrávání programu</title>
+      <link>https://jan.malcak.cz/arduino-odpojeni-pri-nahravani-programu/</link>
+      <pubDate>Sat, 14 Mar 2015 22:49:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/arduino-odpojeni-pri-nahravani-programu/</guid>
+      <description>Při experimentování s Arduinem jsem narazil na podivný problém. Po několika malých úpravách kódu mi editor při nahrávání programu hlásil
+Error opening serial port &#39;/dev/ttyACM1&#39;  To vše doplněné dlouhým výpisem kde se chyba vyskytla.
+Jako by to nestačilo, Arduino se poté odpojí. Pro připojení bylo nutné vytáhnout a opět zastrčit napájecí USB kabel. Tím se bohužel problém s odpojováním nevyřešil. Obšírným nahlédnutím do složky /dev jsem zjistil, že soubor ttyACM1 existuje.</description>
+      <content>&lt;p&gt;Při experimentování s Arduinem jsem narazil na podivný problém. Po několika malých úpravách kódu mi editor při nahrávání programu hlásil&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Error opening serial port &#39;/dev/ttyACM1&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To vše doplněné dlouhým výpisem kde se chyba vyskytla.&lt;/p&gt;
+&lt;p&gt;Jako by to nestačilo, Arduino se poté odpojí. Pro připojení bylo nutné vytáhnout a opět zastrčit napájecí USB kabel. Tím se bohužel problém s odpojováním nevyřešil. Obšírným nahlédnutím do složky &lt;code&gt;/dev&lt;/code&gt; jsem zjistil, že soubor &lt;code&gt;ttyACM1&lt;/code&gt; existuje. Příkaz &lt;code&gt;lsusb&lt;/code&gt; Arduino našel. Problém tedy musel být někde jinde.&lt;/p&gt;
+&lt;p&gt;Problém přetrvával i po změně zdrojového kódu či načtení některého z příkladů. Nezbylo mi tak, než použít Google. Dle všeho šlo o přepsání hodnoty:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Serial.begin(9600);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;na&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Serial.begin(14400);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nová hodnota se uloží do uživatelského nastavení. Z nějakého mě neznámého důvodu zůstane tato hodnota v nastavení &amp;ldquo;zadrblá&amp;rdquo; i po opětovné úpravě zdrojáků. Je tedy nutné smazat soubor s nastavením (u mě &lt;code&gt;~/arduino/preferences.txt&lt;/code&gt; a restartovat editor.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>SDL2: Snímek obrazovky</title>
+      <link>https://jan.malcak.cz/sdl2-snimek-obrazovky/</link>
+      <pubDate>Wed, 19 Mar 2014 20:57:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/sdl2-snimek-obrazovky/</guid>
+      <description>SDL s sebou ve druhé verzi přinesl i změnu vykreslování na obrazovku. Místo v RAM uložených SDL_Surface je v SDL2 použita SDL_Texture uložená na video RAM, kde je plně v jurisdikci GPU. Krom citelných změn na rychlost vykreslování se také změnil způsob, jakým lze zachytit snímek obrazovky.
+Při použití textur se SDL_Surface okna neaktualizuje, pokud bychom použili dřívější způsob, dostali bychom prázdný snímek. Bohužel standardní funkce SDL_SaveBMP (ani její nedokumentovaná obdoba v rozšíření SDL_image - IMG_SavePNG) nepodporuje uložení SDL_Texture.</description>
+      <content>&lt;p&gt;SDL s sebou ve druhé verzi přinesl i změnu vykreslování na obrazovku. Místo v RAM uložených &lt;a href=&#34;https://wiki.libsdl.org/SDL_Surface&#34;&gt;SDL_Surface&lt;/a&gt; je v SDL2 použita &lt;a href=&#34;https://wiki.libsdl.org/SDL_Texture&#34;&gt;SDL_Texture&lt;/a&gt; uložená na video RAM, kde je plně v jurisdikci GPU. Krom citelných změn na rychlost vykreslování se také změnil způsob, jakým lze zachytit snímek obrazovky.&lt;/p&gt;
+&lt;p&gt;Při použití textur se &lt;code&gt;SDL_Surface&lt;/code&gt; okna neaktualizuje, pokud bychom použili dřívější způsob, dostali bychom prázdný snímek. Bohužel standardní funkce &lt;a href=&#34;https://wiki.libsdl.org/SDL_SaveBMP&#34;&gt;SDL_SaveBMP&lt;/a&gt; (ani její nedokumentovaná obdoba v rozšíření &lt;code&gt;SDL_image&lt;/code&gt; - &lt;code&gt;IMG_SavePNG&lt;/code&gt;) nepodporuje uložení &lt;code&gt;SDL_Texture&lt;/code&gt;. Je proto nejprve nutná konverze z &lt;code&gt;SDL_Texture&lt;/code&gt; na &lt;code&gt;SDL_Surface&lt;/code&gt;. Teprve pak je možné snímek obrazovky uložit.&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/malja/2193bd656fe50c203f264ce554919976.js&#34;&gt;&lt;/script&gt;
+&lt;h1 id=&#34;použité-funkce&#34;&gt;Použité funkce&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.libsdl.org/SDL_RenderGetViewport&#34;&gt;SDL_RenderGetViewport&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.libsdl.org/SDL_CreateRGBSurface&#34;&gt;SDL_CreateRGBSurface&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.libsdl.org/SDL_GetError&#34;&gt;SDL_GetError&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.libsdl.org/SDL_RenderReadPixels&#34;&gt;SDL_RenderReadPixels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.libsdl.org/SDL_FreeSurface&#34;&gt;SDL_FreeSurface&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Android: Horizontální čára</title>
+      <link>https://jan.malcak.cz/android-horizontalni-cara/</link>
+      <pubDate>Wed, 28 Aug 2013 15:03:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/android-horizontalni-cara/</guid>
+      <description>V Androidu neexistuje (alespoň o tom nevím) žádná nativní cesta jak vytvořit horizontální čáru. Naštěstí si jde vypomoci i jinak:
+&amp;lt;View android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;1dip&amp;#34; android:background=&amp;#34;#000000&amp;#34;&amp;gt; </description>
+      <content>&lt;p&gt;V Androidu neexistuje (alespoň o tom nevím) žádná nativní cesta jak vytvořit horizontální čáru. Naštěstí si jde vypomoci i jinak:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;View&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;android:layout_width=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;match_parent&amp;#34;&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;android:layout_height=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1dip&amp;#34;&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;android:background=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#000000&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+    </item>
+    
+    <item>
+      <title>Generování HTML z PHP polí</title>
+      <link>https://jan.malcak.cz/generovani-html-z-php-poli/</link>
+      <pubDate>Wed, 28 Aug 2013 10:53:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/generovani-html-z-php-poli/</guid>
+      <description>Při výpisu objemných PHP polí byli mými nejlepšími společníky funkce print_r() a var_dump(). Výpis z nich se navíc musí dále obalit přinejmenším do tagů pre, aby výstup byl alespoň trochu čitelný. Navíc postup, který jsem k tomu používal:
+echo &amp;#34;&amp;lt;pre&amp;gt;&amp;#34;;print_r($promenna);echo &amp;#34;&amp;lt;/pre&amp;gt;&amp;#34;; se mi v kódu vůbec nelíbil. Proto jsem si vytvořil třídu, která formátování obstará za mě. Tak vznikla třída Tabletizer. Díky ní je vytvoření pěkné tabulky otázkou pár řádků:</description>
+      <content>&lt;p&gt;Při výpisu objemných PHP polí byli mými nejlepšími společníky funkce &lt;code&gt;print_r()&lt;/code&gt; a &lt;code&gt;var_dump()&lt;/code&gt;. Výpis z nich se navíc musí dále obalit přinejmenším do tagů &lt;code&gt;pre&lt;/code&gt;, aby výstup byl alespoň trochu čitelný. Navíc postup, který jsem k tomu používal:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;lt;pre&amp;gt;&amp;#34;&lt;/span&gt;;&lt;span style=&#34;color:#a6e22e&#34;&gt;print_r&lt;/span&gt;($promenna);&lt;span style=&#34;color:#66d9ef&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;lt;/pre&amp;gt;&amp;#34;&lt;/span&gt;;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;se mi v kódu vůbec nelíbil. Proto jsem si vytvořil třídu, která formátování obstará za mě. Tak vznikla třída &lt;code&gt;Tabletizer&lt;/code&gt;. Díky ní je vytvoření pěkné tabulky otázkou pár řádků:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;$table &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Tabletizer&lt;/span&gt;();
+&lt;span style=&#34;color:#66d9ef&#34;&gt;echo&lt;/span&gt; $table&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fromArray&lt;/span&gt;($promenna);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Jasně, řádky neušetřím, ale vypadá to o mnoho lépe.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Poznámka z roku 2018:&lt;/strong&gt; Zpětně by bylo vhodnější využít kratší název třídy a metodu &lt;code&gt;fromArray&lt;/code&gt; udělat statickou.&lt;/p&gt;
+&lt;p&gt;A to je vše. Výstupem může být třeba i takováto tabulka.&lt;/p&gt;
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;https://github.com/malja/archive/blob/master/php/Tabletizer/website/img/tabletizer.png?raw=true&#34;  alt=&#34;Tabletizer&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Tabletizer&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Díky tomu, že hlavní tabulce je přiřazena třída &lt;code&gt;.tabletizer&lt;/code&gt;, je velice jednoduché vytvořit si jakýkoli styl, který sedí do okolního &amp;ldquo;prostředí&amp;rdquo;. Vzhled tabulky si je možné jakkoli přizpůsobit.&lt;/p&gt;
+&lt;p&gt;Odkaz ke stažení, spolu s návodem a seznamem změn je možné najít na &lt;a href=&#34;https://github.com/malja/archive/tree/master/php/Tabletizer&#34;&gt;této stránce&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;: Existuje soubor?</title>
+      <link>https://jan.malcak.cz/cpp-existuje-soubor/</link>
+      <pubDate>Thu, 04 Jul 2013 14:20:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/cpp-existuje-soubor/</guid>
+      <description>Pokud bych chtěl jsen přečíst data, jde o problém celkem triviální. Stačí se pokusit tento soubor otevřít. Cest je opět několik:
+ Takový postup bude ve většině případů plně dostačující. Pro úplnost uvedu ještě příklad s využitím funkce access
+ Co ale dělat v případě, že chceme o souboru zjistit více informací? Je soubor spustitelný? Jaká je jeho velikost? Jaké je ID vlastníka? V takovém případě se můžeme opřít o funkci stat</description>
+      <content>&lt;p&gt;Pokud bych chtěl jsen přečíst data, jde o problém celkem triviální. Stačí se pokusit tento soubor otevřít. Cest je opět několik:&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/malja/6d8ce3dbe39af056e0e690f8cdac3719.js?file=file_exists_open.cpp&#34;&gt;&lt;/script&gt;    
+&lt;p&gt;Takový postup bude ve většině případů plně dostačující. Pro úplnost uvedu ještě příklad s využitím funkce &lt;code&gt;access&lt;/code&gt;&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/malja/6d8ce3dbe39af056e0e690f8cdac3719.js?file=file_exists_access.cpp&#34;&gt;&lt;/script&gt;
+&lt;p&gt;Co ale dělat v případě, že chceme o souboru zjistit více informací? Je soubor spustitelný? Jaká je jeho velikost? Jaké je ID vlastníka? V takovém případě se můžeme opřít o funkci &lt;code&gt;stat&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// Funkce bere jako parametr jméno souboru a ukazatel na strukturu do které má doplnit data
+int stat(const char *filename, struct stat *buf);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Obsah struktury jde vyčíst třeba na &lt;a href=&#34;http://en.wikipedia.org/wiki/Stat_(system_call)&#34;&gt;Wiki&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;st_dev&lt;/strong&gt; - ID zařízení, na kterém je soubor uložen&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_ino&lt;/strong&gt; - Číslo &lt;a href=&#34;http://cs.wikipedia.org/wiki/Inode&#34;&gt;inode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_mode&lt;/strong&gt; -Obsahuje práva k souboru&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_nlink&lt;/strong&gt; - Počet &lt;a href=&#34;%22http://cs.wikipedia.org/wiki/Pevn%C3%BD_odkaz&#34;&gt;pevných odkazů&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_uid&lt;/strong&gt; - ID vlastníka&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_gid&lt;/strong&gt; - ID skupiny ve, které je vlastník&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_size&lt;/strong&gt; - Celková velikost v bytech&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_atime&lt;/strong&gt; - Čas posledního přístupu k souboru&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_mtime&lt;/strong&gt; - Čas poslední změny&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;st_ctime&lt;/strong&gt; - Poslední změna statusu (= změna čísla inode)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pro další využití bude nejdůležitější obsah &lt;code&gt;st_mode&lt;/code&gt;. Pro testování jeho obsahu jsou zavedeny mimo jiné &lt;a href=&#34;http://pubs.opengroup.org/onlinepubs/7908799/xsh/sysstat.h.html&#34;&gt;mimo jiné&lt;/a&gt; tyto masky:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;S_IFREG&lt;/strong&gt; - Jde o soubor&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_IFLNK&lt;/strong&gt; - Jde o symbolický odkaz&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_IFDIR&lt;/strong&gt; - Jde o adresář&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_IRUSR&lt;/strong&gt; - Práva pro čtení vlastníkem&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_IWUSR&lt;/strong&gt; - Práva pro zápis vlastníkem&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_IXUSR&lt;/strong&gt; - Práva pro spuštění vlastníkem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Krom masek existuje ještě několik maker. Jako jediný parametr &lt;code&gt;m&lt;/code&gt; se jim předává &lt;code&gt;st_mode&lt;/code&gt;. Návratovou hodnotou maker je buď 0, v případě že test neuspěl nebo nenulová hodnota pokud test uspěl.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;S_ISDIR(m)&lt;/strong&gt; - Jde o adresář&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_ISFIFO(m)&lt;/strong&gt; - Jde o &lt;a href=&#34;http://cs.wikipedia.org/wiki/Roura_(Unix)&#34;&gt;rouru&lt;/a&gt; nebo speciální soubor &lt;a href=&#34;%22https://cs.wikipedia.org/wiki/Metoda_FIFO&#34;&gt;FIFO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_ISREG(m)&lt;/strong&gt; - Jde o soubor&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S_ISLNK(m)&lt;/strong&gt; - Jde o symbolický adresář&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Konečně je čas na ukázku použití funkce &lt;code&gt;stat&lt;/code&gt; v akci:&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/malja/6d8ce3dbe39af056e0e690f8cdac3719.js?file=file_exists_stat.cpp&#34;&gt;&lt;/script&gt;</content>
+    </item>
+    
+    <item>
+      <title>Debian: Problém s LC_MESSAGES</title>
+      <link>https://jan.malcak.cz/debian-problem-s-lc_messages/</link>
+      <pubDate>Tue, 07 May 2013 21:33:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/debian-problem-s-lc_messages/</guid>
+      <description>Po dlouhé době spokojeného používání Debianu jsem dnes po troše šťourání se v systémových knihovnách znovu instaloval. Při apt-get dist-upgrade jsem ale narazil na následující chybovou hlášku:
+locale: Cannot set LC_CTYPE to default locale: No such file or directory locale: Cannot set LC_MESSAGES to default locale: No such file or directory locale: Cannot set LC_COLLATE to default locale: No such file or directory  Řešením nakonec bylo nainstalovat balík locales a locales-all a spustit příkaz:</description>
+      <content>&lt;p&gt;Po dlouhé době spokojeného používání Debianu jsem dnes po troše šťourání se v systémových knihovnách znovu instaloval. Při &lt;code&gt;apt-get dist-upgrade&lt;/code&gt; jsem ale narazil na následující chybovou hlášku:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+locale: Cannot set LC_COLLATE to default locale: No such file or directory
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Řešením nakonec bylo nainstalovat balík &lt;code&gt;locales&lt;/code&gt; a &lt;code&gt;locales-all&lt;/code&gt; a spustit příkaz:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;locale-gen
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Při hledání řešení jsem také narazil na možnost, že není uveden seznam lokalizací, ze kterých se má vybírat. V takovém případě editujte soubor &lt;code&gt;/etc/locale.gen&lt;/code&gt; a odkomentujte (odstraňte znak # na začátku řádku) řádky s vaší lokalizací. Například v mém případě to je:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cs_CZ.UTF-8 UTF-8
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Teprve pak je možné spustit příkaz &lt;code&gt;locale-gen&lt;/code&gt;.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Mnemotechnická pomůcka pro periodickou tabulku</title>
+      <link>https://jan.malcak.cz/mnemotechnicka-pomucka-pro-periodickou-tabulku/</link>
+      <pubDate>Sun, 17 Feb 2013 19:50:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/mnemotechnicka-pomucka-pro-periodickou-tabulku/</guid>
+      <description>I.A Prvky: H Li Na K Rb Cs Fr
+Helenu Libal Na Krk Robustní Cestář Franc.
+II. A Prvky: Be Mg Ca Ba Sr Ra
+Bežela Magda Caňonem, Srážela Balvany Ramenem.
+III. A Prvky: B Al Ga In Tl
+Boxer Ali Galantně Inkasoval Tlapou.
+IV. A Prvky: C Si Ge Sn Pb
+Co si Getrůdo Snědla Proboha?
+V. A Prvky: N P As Sb Bi
+Náš Pan Asistent Sboural Biograf.</description>
+      <content>&lt;h1 id=&#34;ia&#34;&gt;I.A&lt;/h1&gt;
+&lt;p&gt;Prvky: H Li Na K Rb Cs Fr&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;H&lt;/strong&gt;elenu &lt;strong&gt;Li&lt;/strong&gt;bal &lt;strong&gt;Na&lt;/strong&gt; &lt;strong&gt;K&lt;/strong&gt;rk &lt;strong&gt;R&lt;/strong&gt;o&lt;strong&gt;b&lt;/strong&gt;ustní &lt;strong&gt;C&lt;/strong&gt;e&lt;strong&gt;s&lt;/strong&gt;tář &lt;strong&gt;Fr&lt;/strong&gt;anc.&lt;/p&gt;
+&lt;h1 id=&#34;ii-a&#34;&gt;II. A&lt;/h1&gt;
+&lt;p&gt;Prvky: Be Mg Ca Ba Sr Ra&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Be&lt;/strong&gt;žela &lt;strong&gt;M&lt;/strong&gt;a&lt;strong&gt;g&lt;/strong&gt;da &lt;strong&gt;Ca&lt;/strong&gt;ňonem, &lt;strong&gt;Sr&lt;/strong&gt;ážela &lt;strong&gt;Ba&lt;/strong&gt;lvany &lt;strong&gt;Ra&lt;/strong&gt;menem.&lt;/p&gt;
+&lt;h1 id=&#34;iii-a&#34;&gt;III. A&lt;/h1&gt;
+&lt;p&gt;Prvky: B Al Ga In Tl&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bo&lt;/strong&gt;xer &lt;strong&gt;Al&lt;/strong&gt;i &lt;strong&gt;Ga&lt;/strong&gt;lantně &lt;strong&gt;In&lt;/strong&gt;kasoval &lt;strong&gt;Tl&lt;/strong&gt;apou.&lt;/p&gt;
+&lt;h1 id=&#34;iv-a&#34;&gt;IV. A&lt;/h1&gt;
+&lt;p&gt;Prvky: C Si Ge Sn Pb&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C&lt;/strong&gt;o si &lt;strong&gt;Ge&lt;/strong&gt;trůdo &lt;strong&gt;Sn&lt;/strong&gt;ědla &lt;strong&gt;P&lt;/strong&gt;roboha?&lt;/p&gt;
+&lt;h1 id=&#34;v-a&#34;&gt;V. A&lt;/h1&gt;
+&lt;p&gt;Prvky: N P As Sb Bi&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;N&lt;/strong&gt;áš &lt;strong&gt;P&lt;/strong&gt;an &lt;strong&gt;As&lt;/strong&gt;istent &lt;strong&gt;Sb&lt;/strong&gt;oural &lt;strong&gt;Bi&lt;/strong&gt;ograf.&lt;/p&gt;
+&lt;h1 id=&#34;vi-a&#34;&gt;VI. A&lt;/h1&gt;
+&lt;p&gt;Prvky: O S Se Te Po&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;O&lt;/strong&gt; &lt;strong&gt;S&lt;/strong&gt;lečno, &lt;strong&gt;Se&lt;/strong&gt;jměte &lt;strong&gt;Te&lt;/strong&gt;ž &lt;strong&gt;Po&lt;/strong&gt;dprsenku.&lt;/p&gt;
+&lt;h1 id=&#34;vii-a&#34;&gt;VII. A&lt;/h1&gt;
+&lt;p&gt;Prvky: F Cl Br I At&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;F&lt;/strong&gt;ilip &lt;strong&gt;Cl&lt;/strong&gt;oumal &lt;strong&gt;Br&lt;/strong&gt;adou &lt;strong&gt;In&lt;/strong&gt;dického &lt;strong&gt;At&lt;/strong&gt;aše.&lt;/p&gt;
+&lt;h1 id=&#34;viii-a&#34;&gt;VIII. A&lt;/h1&gt;
+&lt;p&gt;Prvky: He Ne Ar Kr Xe Ra&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;He&lt;/strong&gt;ktor &lt;strong&gt;Ne&lt;/strong&gt;chtěl &lt;strong&gt;Ar&lt;/strong&gt;mádní &lt;strong&gt;Kr&lt;/strong&gt;asavici &lt;strong&gt;Xe&lt;/strong&gt;nu &lt;strong&gt;Ra&lt;/strong&gt;nit.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Hledám cestu k cíly: A* algoritmus</title>
+      <link>https://jan.malcak.cz/hledam-cestu-k-cily-a-algoritmus/</link>
+      <pubDate>Sat, 14 Jul 2012 15:26:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/hledam-cestu-k-cily-a-algoritmus/</guid>
+      <description>V nejjednodušším případě bude mapa jen obyčejná louka, bez jakýchkoli nástrah a překážek. Vaše družina se v takovém případě postupně přesune přímo k cíli po nejkratší možné cestě - přímce. Pro její výpočet může posloužit třeba Bresenhamův algoritmus (EN). Pokud by se na cestě přeci jen objevila nějaká překážka, hrdinové by se (pokud programátor při průchodu cesty nebude ignorovat neprůchodná místa) zastavili. Na další cestu by jim takto jednoduchý algoritmus zřejmě nestačil.</description>
+      <content>&lt;p&gt;V nejjednodušším případě bude mapa jen obyčejná louka, bez jakýchkoli nástrah a překážek. Vaše družina se v takovém případě postupně přesune přímo k cíli po nejkratší možné cestě - přímce. Pro její výpočet může posloužit třeba &lt;a href=&#34;http://en.wikipedia.org/wiki/Bresenham&#39;s_line_algorithm&#34;&gt;Bresenhamův algoritmus (EN)&lt;/a&gt;. Pokud by se na cestě přeci jen objevila nějaká překážka, hrdinové by se (pokud programátor při průchodu cesty nebude ignorovat neprůchodná místa) zastavili. Na další cestu by jim takto jednoduchý algoritmus zřejmě nestačil.&lt;/p&gt;
+&lt;p&gt;Na řešení těchto problémů existuje několik řešení - algoritmů. Mezi ty známější patří například &lt;a href=&#34;http://cs.wikipedia.org/wiki/Dijkstr%C5%AFv_algoritmus&#34;&gt;Dijkstrův algoritmus&lt;/a&gt;. Zjednodušeně řečeno, hledání se šíří na všechny strany od počátečního bodu bez ohledu na to, kterým směrem je cíl. Tak prohledá daleko větší část mapy, než by prohledal, pokud by mířil alespoň přibližným směrem k cíli.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;dijkstruv_algoritmus.png&#34;  alt=&#34;Dijkstrův algoritmus&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Tmavě zelené pole uprostřed je výchozí. Algoritmus se snažít najít cestu k červenému poli. Výsledná cesta je vyznačena žlutě.&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;a_star_algoritmus.png&#34;  alt=&#34;A* algoritmus&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Vyhledávací algoritmus A* naopak míří (alespoň přibližně) k cíli a proto prohledá daleko menší plochu.&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;h1 id=&#34;zjednodušení-vyhledávací-oblasti&#34;&gt;Zjednodušení vyhledávací oblasti&lt;/h1&gt;
+&lt;p&gt;Před samotným vyhledáváním je dobré si vyhledávací oblast trochu zjednodušit - rozdělit ji do menších celků. Nejjednodušší je použití čtverců tak, jak to vidíte na obrázkách výše. Krom toho se často využívají &lt;a href=&#34;http://en.wikipedia.org/wiki/Hex_map&#34;&gt;hexy (en)&lt;/a&gt; (kdo by neznal sérii HoMaM) nebo trojúhelníků. Je ale jen na vás, jaký tvar využijete.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Poznámka:&lt;/strong&gt; Pro jakýkoliv tvar, do kterého se oblast zjednoduší se v angličtině užívá pojem &lt;strong&gt;node&lt;/strong&gt;. V tomto článku budu krom toho používat také pojem pole, který bude znamenat to samé.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Technická poznámka:&lt;/strong&gt; Díky rozdělení do čtverců - nodů, je velice jednoduché vytvořit 2D mapu z dlaždic (anglicky tiles). Postačí dvourozměrné pole.&lt;/p&gt;
+&lt;h1 id=&#34;otevřený-a-uzavřený-seznam&#34;&gt;Otevřený a uzavřený seznam&lt;/h1&gt;
+&lt;p&gt;Celý princip vyhledávacího algoritmu A* je založen na dvou seznamech - &lt;em&gt;uzavřeném&lt;/em&gt; (anglicky closed list) a &lt;em&gt;otevřeném&lt;/em&gt; (anglicky opened list). Do &lt;em&gt;uzavřeného&lt;/em&gt; se ukládají už prozkoumané nody, ke kterým se už nebudeme vracet. Do &lt;em&gt;otevřeného seznamu&lt;/em&gt; se vloží ta pole, která se ještě musí projít.&lt;/p&gt;
+&lt;h1 id=&#34;ohodnocení&#34;&gt;Ohodnocení&lt;/h1&gt;
+&lt;p&gt;Stejně jako v reálném světě i na herní mapě nebude všude stejný povrch. Můžou zde být potoky, písčité duny, silnice, neprostupná skaliska atd. Je jasné, že na silnici se nám půjde lépe a rychleji, než v potoku nebo po skalním masivu. Proto je dobré do mapy zavést ohodnocení jednotlivých políček. Čim lepší a rychlejší schůdnost, tím menší ohodnocení. Podle této analogie bude mít silnice ohodnocení nejmenší a skály největší. Vaše postavy si pak budou moci jednoduše vybrat cestu, která bude tvořená nody s nejmenším ohodnocením. Taková cesta pro ně bude nejrychlejší a nejsnazší.&lt;/p&gt;
+&lt;p&gt;V A* pathfindingu se na ohodnocení jednotlivých polí používá následující vzorec:&lt;/p&gt;
+&lt;p&gt;\[ F = H + G \]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$ G $ je součet $ G $ jednotlivých nodů, ze kterých je tvořena nejkratší možná cesta ze startovního pole do toho aktuálního&lt;/li&gt;
+&lt;li&gt;$ H $ je odhadovaná vzdálenost od aktuálního pole do cíle.&lt;/li&gt;
+&lt;li&gt;$ F $ je součet předchozích dvou hodnot. Výsledná cesta se skládá z nodů, které mají toto číslo nejmenší.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pokud budete ve vzorci chtít použít i ohodnocení terénu (voda, bažiny, cesta, hory), vzorec může vypadat nějak následovně:&lt;/p&gt;
+&lt;p&gt;\[ F = \Big(H + (T + G)\Big) \]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$ T $ zastupuje průchodnost aktuálního terénu (čim nižší hodnota, tím lepší průchodnost).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;výpočet-hodnoty-g&#34;&gt;Výpočet hodnoty G&lt;/h2&gt;
+&lt;p&gt;Hodnota $ G $ se počítá jako součet hodnot $ G $ všech políček, kterými musíte projít, abyste se na aktuální políčko mohli dostat. Například z prvního pole ($ G = 0 $) přejdete na druhé ($ G = 5 $), třetí ($ G=10 $) atd. $ G $ aktuálního pole se vypočítá z $ G $ rodičovského node (odkud jsme na aktuální node přišli) + korekce.&lt;/p&gt;
+&lt;h3 id=&#34;korekce-diagonálního-pohybu&#34;&gt;Korekce diagonálního pohybu&lt;/h3&gt;
+&lt;p&gt;Při ohodnocování jednotlivých políček můžete narazit na jeden problém. Pokud se postavy přesunou o políčko umístěné šikmo od aktuálního, urazí větší vzdálenost, než kdyby šly vodorovně nebo svisle. Tato hodnota je přesně $ \sqrt{2} $ (=1,414213562) krát větší. Aby se nemuselo počítat s desetinnými čísly (operace s desetinnými čísly jsou obecně pomalejší než s celými čísly), zaokrouhlíme hodnotu na 1,4 a vynásobíme deseti. Vyjde nám číslo 14. To budeme přičítat při pohybu šikmo. Aby zůstalo ohodnocení vyrovnané i pro pohyb vodorovně a svisle (šikmá políčka by vždy měla podstatně větší ohodnocení a proto by se nikdy nepoužila.) bude se při tomto pohybu přičítat číslo 10.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Poznámka:&lt;/strong&gt; Číslo deset vzniklo z poměru délky cesty vodorovně nebo svisle a délky cesty šikmo. Základní poměr je 1:1,414213562. Protože nechceme počítat s desetinnými čísly (důvod je popsán výše), zaokrouhlíme poměr na jedno desetinné číslo 1 ku 1,4 a vynásobíme 10. Vznikne poměr 10:14. Samozřejmě je možné čísla ještě vydělit dvěma (vyjdou nám čísla 5 a 7), aby nevycházela tak vysoká čísla.&lt;/p&gt;
+&lt;h2 id=&#34;výpočet-hodnoty-h&#34;&gt;Výpočet hodnoty H&lt;/h2&gt;
+&lt;p&gt;Hodnota $ H $ není před vytvořením finální cesty nikdy přesně známá. Proto se tato hodnota vypočítává heuresticky (=odhadem). Dopředu totiž nevíte, zda se v cestě neobjeví neprostupná skála, příliš divoká řeka nebo bezedná jáma. Pro tento výpočet existuje několik možných postupů, zde uvedu dva nejznámější.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Poznámka:&lt;/strong&gt; Pokud by hodnota $ H $ byla rovna nule, algoritmus by se proměnil v &lt;a href=&#34;http://cs.wikipedia.org/wiki/Dijkstr%C5%AFv_algoritmus&#34;&gt;Dijkstrův&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;manhattanská-metrika&#34;&gt;Manhattanská metrika&lt;/h3&gt;
+&lt;p&gt;Manhattanská metrika je postup, kterým lze zjistit nejkratší možnou vzdálenost z bodu $ A $ do bodu $ B $. Zjednodušený vzorec pro dva body:&lt;/p&gt;
+&lt;p&gt;\[ H = T \cdot \Big( |start.X - cil.X| + |start.Y - cil.Y| \Big) \]&lt;/p&gt;
+&lt;p&gt;$ X $ a $ Y $ jsou souřadnice startu a cíle. Podmínkou použití Manhattanské metriky je, že se pohybujete ve čtvercové síti a to jen do čtyř hlavních směrů - nahoru, doprava, dolů a doleva. Písmeno $ T $ reprezentuje nejmenší ohodnocení terénu.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Poznámka:&lt;/strong&gt; Manhattanskou metriku je jednoduše možné použít i pro &lt;a href=&#34;http://3dmdesign.com/development/hexmap-coordinates-the-easy-way&#34;&gt;hexagonální mapu (EN)&lt;/a&gt;. Není tedy nutné používat zrovna čtvercovou síť.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;start_a_cil.png&#34;  alt=&#34;Start a cíl&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Start a cíl&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Na obrázku jsou dvě pole, start (zelené) a cíl (červené). Vzdálenost mezi těmito dvěma body Manhattanskou metrikou vypočítá následovně:&lt;/p&gt;
+&lt;p&gt;\[ H = |6 - 2| + |2 - 9| = 11 \]&lt;/p&gt;
+&lt;p&gt;Manhattanská metrika má ale jednu hlavní nevýhodu. Tou je její omezení pohybu na čtyři hlavní směry.&lt;/p&gt;
+&lt;h3 id=&#34;chebyshevova-vzdálenost-diagonální-pohyb&#34;&gt;Chebyshevova vzdálenost (Diagonální pohyb)&lt;/h3&gt;
+&lt;p&gt;Pokud chcete postavám umožnit i diagonální pohyb, je potřeba vzore trochu upravit:&lt;/p&gt;
+&lt;p&gt;\[ dx = |start.x - cil.x| \]
+\[ dy = |start.y - cil.y| \]&lt;/p&gt;
+&lt;p&gt;\[ H = D \cdot max(dx + dy) \]&lt;/p&gt;
+&lt;p&gt;Pokud používáte korekci pro pohyb diagonálně, použijte tento vzorec:&lt;/p&gt;
+&lt;p&gt;\[ H = D_1 \cdot (dx + dy) + (D_2 - 2 * D_1) \cdot min(dx, dy) \]&lt;/p&gt;
+&lt;p&gt;Čísla $ D_1 $ a $ D_2 $ je nutné nahradit za korekci pohybu diagonálně. Např. $ D_1 = 5 $ a $ D_2 = 7 $&lt;/p&gt;
+&lt;h1 id=&#34;vyhledávací-algoritmus-a&#34;&gt;Vyhledávací algoritmus A*&lt;/h1&gt;
+&lt;p&gt;Konečně nastala ta pravá chvíle, aby jsme si ukázali, jak tento vyhledávací algoritmus funguje v akci. Začneme vybráním startovního (zelený čtvereček) a cílového (červený čtvereček) pole. Šedivá pole jsou neprostupná.&lt;/p&gt;
+&lt;h2 id=&#34;pohyb-ve-čtyřech-směrech&#34;&gt;Pohyb ve čtyřech směrech&lt;/h2&gt;
+&lt;p&gt;Nejprve si ukážeme pohyb ve čtyřech hlavních směrech - nahoru, doprava, dolů a doleva. Jako heuristika nám v tomto případě bohatě poslouží Manhattanská metrika.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Poznámka:&lt;/strong&gt; V tomto případě nemusíte používat opravu pro pohyb šikmo. Jako cenu přechodu tak můžeme použít číslo 1.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;algoritmus_01.png&#34;  alt=&#34;První krok&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;1. krok - Výběr startovního a cílového pole&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Prvním krokem je výpočet ohodnocení pro startovní pole.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$ G = 0 $ – Startovní pole je první node, neušli jsme zatím žádnou cestu.&lt;/li&gt;
+&lt;li&gt;$ H = 1 \cdot \Big( |2 - 10| + |4 – 2| \Big) = 10 $&lt;/li&gt;
+&lt;li&gt;$ F = 0 + 10 = 10 $&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Když má pole své ohodnocení, můžeme ho přidat na otevřený seznam. Z otevřeného seznamu vybereme node s nejnižším $ F $ – protože na otevřeném seznamu je aktuálně jen jeden node, je jasné, který to bude – start. Vybraný node (budeme mu pro přehlednost říkat &lt;strong&gt;aktuální&lt;/strong&gt;) odebereme z otevřeného seznamu a přidáme do seznamu uzavřeného. Pro všechna sousedící pole (v našem případě jde jen o pole nad, vpravo, pod a vlevo od startu):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pokud je pole na uzavřeném seznamu, budeme ho ignorovat.&lt;/li&gt;
+&lt;li&gt;Pokud je pole neprostupné, budeme ho ignorovat&lt;/li&gt;
+&lt;li&gt;Pokud node není na otevřeném seznamu
+&lt;ul&gt;
+&lt;li&gt;Nastavte tomuto node rodiče na &lt;strong&gt;aktuální&lt;/strong&gt; node (start)&lt;/li&gt;
+&lt;li&gt;Vypočítejte všechny hodnoty, $ G $, $ H $ a $ F $&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Pokud sousedící node již je na otevřeném seznamu
+&lt;ul&gt;
+&lt;li&gt;Zkontrolujte, zda $ G $ sousedícího node je větší než $ G $ aktuálního node + korekce.
+&lt;ul&gt;
+&lt;li&gt;Pokud hodnota $ G $ souseda je menší než $ G $ aktuálního node + korekce pro přestup z aktuálního na souseda (Například pokud soused má $ G = 20 $, aktuální node $ G = 10 $ a cena přechodu je 5, bude tato podmínka platit.
+&lt;ul&gt;
+&lt;li&gt;Nastavte rodiče souseda na &lt;strong&gt;aktuální&lt;/strong&gt; node a přepočítejte všechny hodnoty ($ G $, $ H $, $ F $). Pokud udržujete otevřený seznam sežazený podle hodnty $ F $, nezapomeňte ho znovu seřadit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;S hledáním končíme když je cíl na uzavřeném seznamu (cíl byl nalezen) nebo když je otevřený seznam prázdný (cesta neexistuje). Nyní si postup demonstrujeme na obrázku:&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;algoritmus_02.png&#34;  alt=&#34;Druhý krok&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;2. krok - Ohodnocení sousedních nodů&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Na obrázku se objevilo několik nových hodnot. V levém dolním rohu jsou hodnoty $ G $. V pravém dolním rohu je hodnota $ H $. Vypočítaná je pomocí Manhattanské metriky. Poslední a nejdůležitější hodnotou je $ F $, tedy celkové ohodnocení pole, která je vypsána v horním levém rohu.&lt;/p&gt;
+&lt;p&gt;Algoritmus by normálně vybral pole s nejmenší hodnotou $ F $. Zde jsou taková pole ale dvě. Které z nich vybrat? To je více-méně jedno. Obecně je rychlejší vybrat to pole, které bylo později přidané na otevřený seznam. Další možností je prohledat obě dvě možné cesty a nakonec vybrat tu kratší. Musíte ovšem počítat s vyšší časovou a paměťovou náročností.&lt;/p&gt;
+&lt;p&gt;Dejme tomu, že vybereme pole napravo od zeleného. Na šedivá pole vstoupit nelze, proto je budeme ignorovat. To samé platí pro výchozí bod (zelený čtverec), který je na uzavřeném seznamu. Zbyla nám dvě pole (nad a pod azurovým polem), pro které musíme vypočítat nové ohodnocení.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;algoritmus_03.png&#34;  alt=&#34;Třetí krok&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;3. krok algoritmu - posunuli jsme se o jedno pole&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Opět nastal problém, kdy máme dvě stejně ohodnocená pole. Ještě jednou tedy vybereme později přidaný node (tedy ten nad azurovým). Po přesunu zjistíme, že všechna pole jsou buď na uzavřeném seznamu (start, azurové pole), na otevřeném seznamu (pole nad startem) nebo jde o zdi. V úvahu tak připadá jen jedno pole – to nad startem.&lt;/p&gt;
+&lt;p&gt;Protože již je na otevřeném seznamu, zkontrolujeme, jestli jeho $ G \gt G_aktualni + \text{korekce} $:&lt;/p&gt;
+&lt;p&gt;\[ 1 \lt 2 + 1 \]&lt;/p&gt;
+&lt;p&gt;To samozřejmě platí, proto budeme pokračovat, aniž bychom něco měnili. Konečně tedy náš algoritmus nalezl (už od pohledu jasně viditelný) správný směr. Následující postup bude jen opakování již popsaného.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;cil_nalezen_manhattan.png&#34;  alt=&#34;Manhattanská metrika - Cíl nalezen&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Ukázka cesty za pomocí pohybu do čtyř stran&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;h2 id=&#34;pohyb-ve-více-směrech&#34;&gt;Pohyb ve více směrech&lt;/h2&gt;
+&lt;p&gt;Rozdílů oproti pohybu do čtyř stran je jen několik. Zaprvé, jako heuristika se používá Chebyshevova vzdálenost. Ta vrací lepší výsledky. Zadruhé, je dobré použít korekci pro pohyb diagonálně.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;cil_nalezen_chebyshev.png&#34;  alt=&#34;Chebyshevova metrika - Cíl nalezen&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Ukázka cesty při využití pohybu do všech stran&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;h1 id=&#34;nevýhody-a&#34;&gt;Nevýhody A*&lt;/h1&gt;
+&lt;p&gt;Stejně tak jako cokoli jiného, i A* pathfinding není dokonalý a má své mouchy. Na velkých mapách může algoritmus vyžadovat velké množství položek v uzavřeném (closed list) i otevřeném (opened list) seznamu. Jejich uložení může zabrat příliš místa, obzvláště, pokud se hledá několik cest souběžně. I kdyby bylo dostatek místa pro uložení, práce s jednotlivými seznamy může být kvůli velkému množství položek neefektivní.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Použití příkazu chmod</title>
+      <link>https://jan.malcak.cz/pouziti-prikazu-chmod/</link>
+      <pubDate>Sat, 05 Mar 2011 23:06:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/pouziti-prikazu-chmod/</guid>
+      <description>chmod je linuxový příkaz, který změní přístupová práva k souboru nebo adresáři. Přístupová práva jsou jakési pravidla, která systému říkají, co kdo smí se souborem nebo adresářem dělat. chmod rozlišuje právo na spouštění, právo na zápis a právo na čtení a jejich vzájemné mutace (o tom za chvíli). Každé právo má své číselné označení:
+ 0 - bez práva 1 - právo na spuštění 2 - právo na zápis 4 - právo na čtení  Aby se rozlišilo, pro koho dané pravidlo platí, zadávají se v trojmístném čísle: XXX, kde první místo znamená práva uživatele, který soubor vlastní, druhé místo jsou práva skupiny, ve které uživatel je a třetí jsou práva ostatních.</description>
+      <content>&lt;p&gt;&lt;code&gt;chmod&lt;/code&gt; je linuxový příkaz, který změní přístupová práva k souboru nebo adresáři. Přístupová práva jsou jakési pravidla, která systému říkají, co kdo smí se souborem nebo adresářem dělat. &lt;code&gt;chmod&lt;/code&gt; rozlišuje právo na spouštění, právo na zápis a právo na čtení a jejich vzájemné mutace (o tom za chvíli). Každé právo má své číselné označení:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;0&lt;/strong&gt; - bez práva&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1&lt;/strong&gt; - právo na spuštění&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2&lt;/strong&gt; - právo na zápis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;4&lt;/strong&gt; - právo na čtení&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aby se rozlišilo, pro koho dané pravidlo platí, zadávají se v trojmístném čísle: XXX, kde první místo znamená &lt;strong&gt;práva uživatele&lt;/strong&gt;, který soubor vlastní, druhé místo jsou &lt;strong&gt;práva skupiny&lt;/strong&gt;, ve které uživatel je a třetí jsou &lt;strong&gt;práva ostatních&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Nyní se vrátím k tomu, že &lt;code&gt;chmod&lt;/code&gt; používá mutace výše uvedených práv. Je to víc než logické, protože jinak by nešlo zapsat to, aby uživatel měl právo jak zapisovat tak číst. Proto se číselná označení práv sčítají:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;1 (právo ke spuštění) + 2 (právo na zápis) = 3 (uživatel může jak číst, tak zapisovat)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nyní už víte vše, co je potřeba a tak doplním plně funkční příklad. Mějme soubor &lt;em&gt;test.txt&lt;/em&gt;, kterému budeme chtít nastavit:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;uživatel může číst, zapisovat i spouštět (4 + 2 + 1)&lt;/li&gt;
+&lt;li&gt;skupina může číst a zapisovat (4 + 2)&lt;/li&gt;
+&lt;li&gt;ostatní mohou jen číst (4)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Příkaz:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;chmod 764 test.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A to je celé.&lt;/p&gt;
+&lt;h1 id=&#34;další-příkazy&#34;&gt;Další příkazy&lt;/h1&gt;
+&lt;p&gt;Nastaví souboru &lt;em&gt;soubor2&lt;/em&gt; stejná práva, jako má &lt;em&gt;soubor:&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;chmod --reference=soubor soubor2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nastaví práva rekurzivně (tedy bude procházet všechny podadresáře):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;chmod -r 700 ./
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Změní vlastníka souboru:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;chown root file.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Změní vlastníka i skupinu:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;chown petr:uzivatele file.txt
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Linux: Snímek obrazovky</title>
+      <link>https://jan.malcak.cz/linux-snimek-obrazovky/</link>
+      <pubDate>Sun, 09 Aug 2009 21:43:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/linux-snimek-obrazovky/</guid>
+      <description>Applet do panelu Asi nejdednoduším způsobem je aplet, který si velice jednoduše vložíte do panelu. Po přidání se objeví ikonka která po stisku zachytí požadovaný obrázek. Tato varianta nemá mnoho nastavení a možností, zato však stojí nejméně práce a je funkčí skoro ihned.
+Přidání apletu Pravým tlačítkem myši klikněte na panel, kam chcete aplet přidat. Po kliknutí se objeví malé okénko - klikněte na Přidat nové položky. Po otevření okna najděte plet jménem Snímek obrazovky a klikněte na Přidat.</description>
+      <content>&lt;h1 id=&#34;applet-do-panelu&#34;&gt;Applet do panelu&lt;/h1&gt;
+&lt;p&gt;Asi nejdednoduším způsobem je aplet, který si velice jednoduše vložíte do panelu. Po přidání se objeví ikonka která po stisku zachytí požadovaný obrázek. Tato varianta nemá mnoho nastavení a možností, zato však stojí nejméně práce a je funkčí skoro ihned.&lt;/p&gt;
+&lt;h2 id=&#34;přidání-apletu&#34;&gt;Přidání apletu&lt;/h2&gt;
+&lt;p&gt;Pravým tlačítkem myši klikněte na panel, kam chcete aplet přidat. Po kliknutí se objeví malé okénko - klikněte na &lt;strong&gt;Přidat nové položky&lt;/strong&gt;. Po otevření okna najděte plet jménem &lt;strong&gt;Snímek obrazovky&lt;/strong&gt; a klikněte na &lt;strong&gt;Přidat&lt;/strong&gt;. Po přidání si musíte aplet nastavit - vše je čistě na vás (Nastavení jde později neomezeně měnit).&lt;/p&gt;
+&lt;h2 id=&#34;použití-apletu&#34;&gt;Použití apletu&lt;/h2&gt;
+&lt;p&gt;Pokud budete není potřebovat aplet použít, stačí kliknout na ikonku fotoaparátu.&lt;/p&gt;
+&lt;h1 id=&#34;gimp&#34;&gt;Gimp&lt;/h1&gt;
+&lt;p&gt;Na pořízení snímku lze také použít grafický editor Gimp. Pořízení snímku provedete následovně: Klikněte na položku &lt;em&gt;Soubor&lt;/em&gt;  -&amp;gt; &lt;em&gt;Create (Vytvořit)&lt;/em&gt; a vyberte &lt;em&gt;Snímek obrazovky&lt;/em&gt;. Vše si nastavte dle libosti.&lt;/p&gt;
+&lt;h1 id=&#34;příkaz-import&#34;&gt;Příkaz &lt;code&gt;import&lt;/code&gt;&lt;/h1&gt;
+&lt;p&gt;Snímek můžete pořídit i tak, že do konzole zadáte příkaz:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import -window root obrazek.png
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Samozřejmě si musíte upravit adresu kam se soubor uloží (v tomto případě je to složka &lt;code&gt;root&lt;/code&gt;) a také jméno souboru (v tomto případě je to &lt;code&gt;obrazek.png&lt;/code&gt;). Pro správný běh musíte nainstalovat balíček &lt;code&gt;imagemagic&lt;/code&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;příkaz-xwd&#34;&gt;Příkaz &lt;code&gt;xwd&lt;/code&gt;&lt;/h1&gt;
+&lt;p&gt;Postup je skoro totožný jako u příkazu &lt;code&gt;import&lt;/code&gt;. Po zapnutí konzole napište příkaz:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;xwd &amp;gt; obrazek.xwd
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Zachycený obrázek bude ve formátu xwd – ten si musíte převést na něco známějšího (např. jpg), k tomu může posloužit třeba Gimp.&lt;/p&gt;
+&lt;h1 id=&#34;klávesa-printscreen&#34;&gt;Klávesa PrintScreen&lt;/h1&gt;
+&lt;p&gt;Pokud máte prostředí Gnome a na vaší klávesnici je tlačítko PrintScreen (nebo PrtScr) můžete si jejím stiskem vytvořit snímek obrazovky. Není zde žádné nastavení,ale tato možnost nepotřebuje žádný program a je asi nejrychlejší že všech popsaných možností.&lt;/p&gt;
+&lt;h1 id=&#34;screengrab&#34;&gt;Screengrab&lt;/h1&gt;
+&lt;p&gt;Screengrab je rozšíření pro Firefox, které umožňuje pořídit snímek celé (opravdu celé, ne jen části kterou vidíte) stránky, který si následně uložíte. Screengrab si jde stáhnout &lt;a href=&#34;https://addons.mozilla.org/cs/firefox/addon/screengrab-fix-version/&#34;&gt;zde&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;snímek-konzole&#34;&gt;Snímek konzole&lt;/h1&gt;
+&lt;p&gt;Pokud nemáte grafické prostředí (nastavujete systém, apod.) můžete si pořídit snímek pomocí příkazu:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;fbgrab -s 5 obrazek.png
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Tento příkaz počká 5 vteřin, a pak zachytí snímek jménem &lt;code&gt;obrazek.png&lt;/code&gt;.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Regnum Online</title>
+      <link>https://jan.malcak.cz/regnum-online/</link>
+      <pubDate>Sat, 11 Jul 2009 11:50:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/regnum-online/</guid>
+      <description>Poznámka z roku 2018: Tento článek byl součástí plánované série na Linuxové hry zdarma. Z toho nakonec sešlo a tak zůstal jen první díl. Před dalším čtením bych rád upozornil, že článek je původně z roku 2009. Najít hru, která alespoň trochu držela graficky krok s dobou, neobsahovala Tuxe a byla ke všemu ještě zábavná bylo na Linuxu peklo. Jasně, existovalo pár provařených pecek (Enemy Territory, Wesnoth, Quake, atd), ale bylo jich jako šafránu.</description>
+      <content>&lt;p&gt;&lt;strong&gt;Poznámka z roku 2018:&lt;/strong&gt; Tento článek byl součástí plánované série na Linuxové hry zdarma. Z toho nakonec sešlo a tak zůstal jen první díl.
+Před dalším čtením bych rád upozornil, že článek je původně z roku 2009. Najít hru, která alespoň trochu držela graficky krok s dobou, neobsahovala &lt;a href=&#34;http://tuxracer.sourceforge.net/screenshots.html&#34;&gt;Tuxe&lt;/a&gt; a byla ke všemu ještě zábavná bylo na Linuxu peklo. Jasně, existovalo pár provařených pecek (Enemy Territory, Wesnoth, Quake, atd), ale bylo jich jako šafránu. Pro mě coby třináctiletého teenagera naprosto nedostačující počet. Těžko by někdo na Windows pochopil, jak jsem byl rád za každou novou vlaštovku, která se objevila.&lt;/p&gt;
+&lt;p&gt;Doba postoupila a za ty roky se toho příliš nezměnilo. To a nepochopitelný nedostatek questů na vyšších levelech pravděpodobně zapřičinilo pomalý úpadek. Pokaždé, když jsem se po nějaké době vrátil, bylo na serverech méně a méně hráčů. NGD se pokusilo odliv hráčů zastavit, ale estetické změny a pár nových questů už rozjetý vlak zbrdit nedokázalo. Postupně byl zrušen anglicky mluvící server (zůstal jen španělský) a z původních hráčů zůstali jen ti nejskalnější fandové. Já jsem mezi nimi nebyl.&lt;/p&gt;
+&lt;h1 id=&#34;regnum-online&#34;&gt;Regnum online&lt;/h1&gt;
+&lt;p&gt;Regnum online je MMORPG hra. Je dostupná ve verzi pro Linux, Windows a Mac. Velikou předností je, že si Regnum můžete zahrát i bez toho aby jste colikov zaplatili. Postačí si stáhnout klienta a vytvořit si nový účet.&lt;/p&gt;
+&lt;h1 id=&#34;instalace&#34;&gt;Instalace&lt;/h1&gt;
+&lt;p&gt;Z internetové &lt;a href=&#34;https://www.championsofregnum.com/index.php?l=1&amp;amp;sec=6&#34;&gt;stránky projektu&lt;/a&gt; si stáhneme klienta, pomocí něhož se připojíte ke hře. Po stažení hru jednoduše nainstalujeme a spustíme.&lt;/p&gt;
+&lt;h1 id=&#34;první-seznámení&#34;&gt;První seznámení&lt;/h1&gt;
+&lt;p&gt;Před samotným hraním si budeme muset vybrat za který z 3 národů: &lt;strong&gt;Syrtis&lt;/strong&gt; - země lesů, &lt;strong&gt;Alsius&lt;/strong&gt; - země sněhu a &lt;strong&gt;Ignis&lt;/strong&gt; - země pouští. Po výběru frakce, si budete muset vytvořit avatara, za kterého budete později hrát. Většinu nastavení budete mocí později změnit, proto se nemusíte trápit, když se Vám avatar nevyvede dle vašeho gusta. Pro Vaši postavu (avatara) si také můžete vybrat povolání (mág, lukoštřelec a bojovník). Po vytvoření avatara se již můžete bez obav pustit do hry.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.championsofregnum.com/images/gallery/003.jpg&#34; alt=&#34;Regnum online&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Celá hra se točí kolem tří věcí questy, mlácení potvor a nákupy (později na to přijde každý sám). Většinu času budete trávit plněním questů (úkolů), mlácením potvor, za které dostanete XP (zkušenosti) a nákupy lepšího vybavení.&lt;/p&gt;
+&lt;h1 id=&#34;hra&#34;&gt;Hra&lt;/h1&gt;
+&lt;p&gt;Jako každý jiný hráč začnete plněním jednoduchých questů, od kterých se dostanete k těm složitějším. Za splnění budete dostávat peníze, vybavení a zkušenosti. Ve hře jsou (jak jsem již zmínil) tři frakce které proti sobě neustále válčí, zabírají si hrady atd. Vás jako nováčka chrání před útokem nepřátel veliká zeď, která vpustí jen přátele (toto pravidlo má i své vyjímky, ale o tom třeba někdy jindy). Po dosažení 10 levelu si budete mocí upravit povolání.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mág&lt;/strong&gt; - Conjurer, Warlock&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bojovník&lt;/strong&gt; - Barbarian, Knight&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lučištník&lt;/strong&gt; - Hunter, Marksman&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Každé z povolání má jiné výhody a jiné nevýhody. Sám jsem vyzkoušel jen mága a proto jsem si pomohl překladem z Wiki hry:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Poznámka z roku 2018:&lt;/strong&gt; A když mé mladší já mluvilo o překladu, mělo opravdu na mysli doslovný překlad Google Translatorem. Proto ty kostrbaté výrazy. :)&lt;/p&gt;
+&lt;h2 id=&#34;conjurer---mág-léčitel&#34;&gt;Conjurer - Mág léčitel&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Healing:&lt;/strong&gt; Používá bílou magii k uzdravení nebo zmrtvývstání svých spojenců&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sorcery:&lt;/strong&gt; Vlastní ochraná kouzla, kterými chrání sebe a své spojence&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Summoning:&lt;/strong&gt; Umí na určitou dobu povolat pomocníka&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;warlock---mág-bojovník&#34;&gt;Warlock - Mág bojovník&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Arcaria:&lt;/strong&gt; Zníčení nepřítele pomocí magické síly materiálu na světě&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Necromancy:&lt;/strong&gt; Magie použitá k ubrání many a životů&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Elements&lt;/strong&gt;: Řešení pro zníčení více nepřátel pomocí elementární síly, jako oheň nebo led&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;barbarian---barbar&#34;&gt;Barbarian - Barbar&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Warcries&lt;/strong&gt;: Oblast účinku na spojence a oblast v níž jsou poškozeni nepřátelé&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Two handed mastery&lt;/strong&gt;: Barbar může nést v každé ruce zbraň&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Poznámka z roku 2018:&lt;/strong&gt; Pojďme si zahrát hru. Kdo uhodne, co mohlo přibližně stát v originálním popisku schopnosti Warcries, dostane zlatého bludišťáka.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;effects a barbarian&amp;rsquo;s damage and other abilities such as speed. Some skills also aid allies and de-buff enemies.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Pro mě už je pozdě, ale vy, děti, prosím, učte se na základce angličtinu, ať nedopadnete takhle!&lt;/p&gt;
+&lt;h2 id=&#34;knight---rytíř&#34;&gt;Knight - Rytíř&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Vanguard:&lt;/strong&gt;  Spojenec chránící Rytíře a dobrý komik&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shields:&lt;/strong&gt; Zvyšuje šance spolubojovníků na vykrytí nepřátelských útoků.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;marksman---střelec&#34;&gt;Marksman - střelec&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Aiming Mastery:&lt;/strong&gt; Zvyšuje střelcovu schopnost útoku&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Arrow Mastery:&lt;/strong&gt; Vystřeluje specíální šipky, které mají zvláštní útok nebo jsou jedovaté&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;hunter---lovec&#34;&gt;Hunter - Lovec&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tracking:&lt;/strong&gt; Lovec může detekovat monstra spojenců i nepřátel.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pets:&lt;/strong&gt; Lovec si může ochočit potvory, které mu pomáhají v boji.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;kódy&#34;&gt;Kódy&lt;/h1&gt;
+&lt;p&gt;Hra obsahuje několik kódů které se zapisují přímo do chatovací konzole, příkaz (pokud je správně napsaný) se potvrdí a spustí pomocí stisknutí klávesy ENTER.&lt;/p&gt;
+&lt;h2 id=&#34;soukromý-chat&#34;&gt;Soukromý chat&lt;/h2&gt;
+&lt;p&gt;Pokud chcete s někým chatovat bez toho aby o tom někdo jiný věděl napište do chatové konzole: &lt;code&gt;/chat &amp;lt;jmenohrace&amp;gt;&lt;/code&gt;. Tedy pokud budete chít napsat mě, zadáte: &lt;code&gt;/chat Lord John&lt;/code&gt; (&lt;strong&gt;Poznámka z roku 2018:&lt;/strong&gt; Na tuhle přezdívku si opravdu nepamatuju. Mám za to, že šlo o jméno postavy. Tak či tak, narcismus tam byl už za mlada.)&lt;/p&gt;
+&lt;h2 id=&#34;resetování-nastavení&#34;&gt;Resetování nastavení&lt;/h2&gt;
+&lt;p&gt;Pokud Vám nevyhovují vaše kouzla/zvláštní schopnosti můžete si je pomomocí jednoduchého kódu vynulovat a u trenéra opět nastavit. Toto nastavení je prospěšné od 10 levelu, pro hráče na levelu nižším tento kód nemá valný smisl protože mají omezenou úroveň kouzel/zvláštních schopností.&lt;/p&gt;
+&lt;p&gt;Resetovat pomocí příkazu &lt;code&gt;/reset_powers&lt;/code&gt; můžete neomezeně a je jen na vás, jak si vše nastavíte.&lt;/p&gt;
+&lt;h1 id=&#34;plusy&#34;&gt;Plusy&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;3 velké světy kde můžete hrát&lt;/li&gt;
+&lt;li&gt;9 charakterů postav&lt;/li&gt;
+&lt;li&gt;Velké množství úkolů, zbraní, a jiných předmětů&lt;/li&gt;
+&lt;li&gt;Dobývání nepřátelských pevností a hradů&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;mínusy&#34;&gt;Mínusy&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Poněkud starší grafika&lt;/li&gt;
+&lt;li&gt;Celkem časté bugy ve hře&lt;/li&gt;
+&lt;li&gt;Pouze anglicky nebo španělsky&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;závěrem&#34;&gt;Závěrem&lt;/h1&gt;
+&lt;p&gt;Až na starší grafiku a časté bugy ve hře (ale co bychom od zdarmové a přitom postarší hry chtěli) je to hra super. Je pravda, že po překročení 10 lvl začíná být hra stereotipní a nudná. Já s ní takřka seknul po dosažení 15 levelu, a docela se divím těm, kteří se dostali na 20 a vyššího levelu. Postarší grafiku kompenzuje jen to, že si tuto hru zahrajete vlastně kdekoli, kde máte připojení k internetu.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Poznámka z roku 2018:&lt;/strong&gt; Ať už na hru v závěru nadávám jakkoliv, zpětně musím říct, že mě bavila. A hodně. Potkal jsem spoustu (rozuměj asi deset) ohromě milých lidí a propařil nespočet večerů. Ke hře jsem přivedl i oba dva bratry, kteří pokračovali ve hraní ještě několik let poté. co jsem s ní já seknul. I oni na ní spoustakrát nadávali, ale hráli jí dál. A to už o něčem vypovídá, ne?&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Statistiky blogu 2009</title>
+      <link>https://jan.malcak.cz/blog/</link>
+      <pubDate>Tue, 30 Jun 2009 16:30:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/blog/</guid>
+      <description>V mém blogování se stal zlom když jsem si zakoupil hosting a doménu. Do té doby jsem používal statické HTML stranky, které mi ovšem vůbec nevyhovovaly. Asi dnes kolem 15:20 na můj web zabrousilo už přes 2000 lidí. Velký podíl na tom má můj kamarád John. Tímto bych mu chtěl srdečně poděkovat, za všechno co pro mě udělal. Když jsem se došel podívat na ranky.cz, zjistil jsem že již po jednom měsíci blogování mám Srank 10.</description>
+      <content>&lt;p&gt;V mém blogování se stal zlom když jsem si zakoupil hosting a doménu. Do té doby jsem používal statické HTML stranky, které mi ovšem vůbec nevyhovovaly. &lt;/p&gt;
+&lt;p&gt;Asi dnes kolem 15:20 na můj web zabrousilo už přes 2000 lidí. Velký podíl na tom má můj kamarád &lt;a href=&#34;http://johnblog.wz.cz&#34;&gt;John&lt;/a&gt;. Tímto bych mu chtěl srdečně poděkovat, za všechno co pro mě udělal. Když jsem se došel podívat na &lt;a href=&#34;http://ranky.cz/ranky/malcakov.cz&#34;&gt;ranky.cz&lt;/a&gt;, zjistil jsem že již po jednom měsíci blogování mám Srank 10. Není to mnoho, a tak doufám že to přes prázdniny zvednu na PR1 a SR50. I nynějších SR10 je pro mě úspěch.&lt;/p&gt;
+&lt;p&gt;Na můj web již vedou 2 pingbacky (odkazy z webů používající Wordpress). Celkově vedou na můj web 3 odkazy. Pokud se Vám můj web líbí, dejte si můj odkaz na Váš web. Pomůžete mi tím.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Poznámka z roku 2018&lt;/strong&gt;: Ještě jednou bych chtěl poděkovat Honzovi (viz odkaz, ne sobě) za pomoc v začátcích. Dost mi pomohl s některými záludnostmi, na které jsem v počátcích narazil. Po těch několika letech, co  vlastním tento web se mi úspěšně podařilo srazit tu malou původní návštěvnost na lopatky neaktivitou a teď ještě změnou redakčního systému. WP. (&lt;em&gt;clap&lt;/em&gt;)&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Sauerbraten</title>
+      <link>https://jan.malcak.cz/sauerbraten/</link>
+      <pubDate>Fri, 12 Jun 2009 17:26:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/sauerbraten/</guid>
+      <description>Jedná se o čistokrevnou 3D akci klasického rychlého typu, kde prostě běháte a „smažíte” to do nepřátel hlava nehlava. Pokud máte rádi Quake, Dooma a podobné hry, určitě se vám bude zamlouvat. Hra Sauerbraten jde hrát jak na Windows tak na Linuxu.
+Celá hra je pak šířena jako freeware a jednotlivé části (mapy, textury,…) mají různé licence, na což je potřeba si dát při případných úpravách a šíření dobrý pozor.</description>
+      <content>&lt;p&gt;Jedná se o čistokrevnou 3D akci klasického rychlého typu, kde prostě běháte a „smažíte” to do nepřátel hlava nehlava. Pokud máte rádi Quake, Dooma a podobné hry, určitě se vám bude zamlouvat. Hra Sauerbraten jde hrát jak na Windows tak na Linuxu.&lt;/p&gt;
+&lt;p&gt;Celá hra je pak šířena jako freeware a jednotlivé části (mapy, textury,…) mají různé licence, na což je potřeba si dát při případných úpravách a šíření dobrý pozor.&lt;/p&gt;
+&lt;p&gt;Z herních módů si můžete zvolit singleplayer a multiplayer. Obě varianty jsou si velmi podobné, ve hře pro jednoho hráče ale vaše „síťové” protivníky nahradí umělí boti. Boti se liší vzezřením, zbraněmi, výdrží ap. Vy máte k dispozici celkem sedm zbraní: pěst (motorovka), pistoli, brokovnici, samopal, raketomet, pušku a granátomet. Kromě zbraní budete v průběhu hry také získávat lékárničky, brnění a jiné pomůcky.&lt;/p&gt;
+&lt;p&gt;Co se týče hardwarových nároků, oficiálně uváděné minimum je procesor na 800 MHz, 128 MB paměti a akcelerovaná grafická karta s 32 MB video paměti. Pokud však máte něco rychlejšího, užijete si hru ještě lépe.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Aktualizace WordPressu</title>
+      <link>https://jan.malcak.cz/aktualizace-wordpressu/</link>
+      <pubDate>Fri, 12 Jun 2009 16:35:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/aktualizace-wordpressu/</guid>
+      <description>Poznámka z roku 2018: Tenhle článek je obsahem hodně za zenitem. Aktualizace WP je dnes otázkou dvou kliknutí. Všechno je automatizované a až na výjimky bezpečné (ve smyslu rozbití stránky a ztráty dat). Na druhou stranu jde o můj nejstarší zachovalý publikovaný článek. Krásně demonstruje dvě věci. Zaprvé vývoj mého psaného projevu (snad k lepšímu) a zadruhé posun v &amp;ldquo;přístupnosti&amp;rdquo; IT. Takže si zaslouží tu být :D.
+Nyní si povíme jak aktualizovat náš Wordpress, bez ztráty dat:</description>
+      <content>&lt;p&gt;&lt;strong&gt;Poznámka z roku 2018:&lt;/strong&gt; Tenhle článek je obsahem hodně za zenitem. Aktualizace WP je dnes otázkou dvou kliknutí. Všechno je automatizované a až na výjimky bezpečné (ve smyslu rozbití stránky a ztráty dat). Na druhou stranu jde o můj nejstarší zachovalý publikovaný článek. Krásně demonstruje dvě věci. Zaprvé vývoj mého psaného projevu (snad k lepšímu) a zadruhé posun v &amp;ldquo;přístupnosti&amp;rdquo; IT. Takže si zaslouží tu být :D.&lt;/p&gt;
+&lt;p&gt;Nyní si povíme jak aktualizovat náš Wordpress, bez ztráty dat:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Proveďte zálohu databáze přes PhpMyAdmin&lt;/li&gt;
+&lt;li&gt;Proveďte zálohu všech souborů&lt;/li&gt;
+&lt;li&gt;Deaktivujte všechny pluginy (pro případ nekompatibilit)&lt;/li&gt;
+&lt;li&gt;Smažte všechny soubory 	WordPressu, ale pozor, adesáře &lt;code&gt;wp-content&lt;/code&gt;, &lt;code&gt;wp-config.php&lt;/code&gt; a soubor &lt;code&gt;.htaccess&lt;/code&gt; (pokud ho máte). Ty nemažte, obsahují nastavení, obrázky, pluginy atd.&lt;/li&gt;
+&lt;li&gt;Nahrajte nejnovější verzi &lt;a href=&#34;http://acci.cz/wordpress&#34;&gt;Českého WordPressu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Nahrajte nejnovější verze používaných pluginů.&lt;/li&gt;
+&lt;li&gt;Pomocí prohlížeče přejďete 	na &lt;code&gt;http://vasweb.cz/wp-admin/upgrade.php&lt;/code&gt; a odklikněte upgrade databáze.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;S trochou štěstí by Váš web měl fungovat. Doporučuji si ještě zkontrolovat, zda je Váš vzhled kompatibilní s novou verzí Wordpressu.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

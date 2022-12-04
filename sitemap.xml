@@ -1,1 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>https://jan.malcak.cz/cs/sitemap.xml</loc><lastmod>2020-12-09T21:55:00+02:00</lastmod></sitemap><sitemap><loc>https://jan.malcak.cz/en/sitemap.xml</loc></sitemap></sitemapindex>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://jan.malcak.cz/cs/sitemap.xml</loc>
+    
+      <lastmod>2022-12-04T03:10:23+02:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://jan.malcak.cz/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>

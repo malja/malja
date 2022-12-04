@@ -1,15 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>php on Jan Malčák</title><link>https://jan.malcak.cz/tags/php/</link><description>Recent content in php on Jan Malčák</description><generator>Hugo -- gohugo.io</generator><copyright>Po nocích píše Honza</copyright><lastBuildDate>Thu, 31 Aug 2017 22:14:00 +0200</lastBuildDate><atom:link href="https://jan.malcak.cz/tags/php/index.xml" rel="self" type="application/rss+xml"/><item><title>PHP: Validace bankovního čísla</title><link>https://jan.malcak.cz/php-validace-bankovniho-cisla/</link><pubDate>Thu, 31 Aug 2017 22:14:00 +0200</pubDate><guid>https://jan.malcak.cz/php-validace-bankovniho-cisla/</guid><description/><content>&lt;!-- raw HTML omitted --></content></item><item><title>Generování HTML z PHP polí</title><link>https://jan.malcak.cz/generovani-html-z-php-poli/</link><pubDate>Wed, 28 Aug 2013 10:53:00 +0200</pubDate><guid>https://jan.malcak.cz/generovani-html-z-php-poli/</guid><description>Při výpisu objemných PHP polí byli mými nejlepšími společníky funkce print_r() a var_dump(). Výpis z nich se navíc musí dále obalit přinejmenším do tagů pre, aby výstup byl alespoň trochu čitelný. Navíc postup, který jsem k tomu používal:
-echo &amp;#34;&amp;lt;pre&amp;gt;&amp;#34;;print_r($promenna);echo &amp;#34;&amp;lt;/pre&amp;gt;&amp;#34;; se mi v kódu vůbec nelíbil. Proto jsem si vytvořil třídu, která formátování obstará za mě. Tak vznikla třída Tabletizer. Díky ní je vytvoření pěkné tabulky otázkou pár řádků:</description><content>&lt;p>Při výpisu objemných PHP polí byli mými nejlepšími společníky funkce &lt;code>print_r()&lt;/code> a &lt;code>var_dump()&lt;/code>. Výpis z nich se navíc musí dále obalit přinejmenším do tagů &lt;code>pre&lt;/code>, aby výstup byl alespoň trochu čitelný. Navíc postup, který jsem k tomu používal:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;pre&amp;gt;&amp;#34;&lt;/span>;&lt;span style="color:#a6e22e">print_r&lt;/span>($promenna);&lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;/pre&amp;gt;&amp;#34;&lt;/span>;
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>se mi v kódu vůbec nelíbil. Proto jsem si vytvořil třídu, která formátování obstará za mě. Tak vznikla třída &lt;code>Tabletizer&lt;/code>. Díky ní je vytvoření pěkné tabulky otázkou pár řádků:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">$table &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">new&lt;/span> &lt;span style="color:#a6e22e">Tabletizer&lt;/span>();
-&lt;span style="color:#66d9ef">echo&lt;/span> $table&lt;span style="color:#f92672">-&amp;gt;&lt;/span>&lt;span style="color:#a6e22e">fromArray&lt;/span>($promenna);
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Jasně, řádky neušetřím, ale vypadá to o mnoho lépe.&lt;/p>
-&lt;p>&lt;strong>Poznámka z roku 2018:&lt;/strong> Zpětně by bylo vhodnější využít kratší název třídy a metodu &lt;code>fromArray&lt;/code> udělat statickou.&lt;/p>
-&lt;p>A to je vše. Výstupem může být třeba i takováto tabulka.&lt;/p>
-&lt;figure class="left" >
-&lt;img src="https://github.com/malja/archive/blob/master/php/Tabletizer/website/img/tabletizer.png?raw=true" alt="Tabletizer" />
-&lt;figcaption class="center" >Tabletizer&lt;/figcaption>
-&lt;/figure>
-&lt;p>Díky tomu, že hlavní tabulce je přiřazena třída &lt;code>.tabletizer&lt;/code>, je velice jednoduché vytvořit si jakýkoli styl, který sedí do okolního &amp;ldquo;prostředí&amp;rdquo;. Vzhled tabulky si je možné jakkoli přizpůsobit.&lt;/p>
-&lt;p>Odkaz ke stažení, spolu s návodem a seznamem změn je možné najít na &lt;a href="https://github.com/malja/archive/tree/master/php/Tabletizer">této stránce&lt;/a>&lt;/p></content></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>php on Jan Malčák</title>
+    <link>https://jan.malcak.cz/tags/php/</link>
+    <description>Recent content in php on Jan Malčák</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Po nocích píše Honza</copyright>
+    <lastBuildDate>Thu, 31 Aug 2017 22:14:00 +0200</lastBuildDate><atom:link href="https://jan.malcak.cz/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PHP: Validace bankovního čísla</title>
+      <link>https://jan.malcak.cz/php-validace-bankovniho-cisla/</link>
+      <pubDate>Thu, 31 Aug 2017 22:14:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/php-validace-bankovniho-cisla/</guid>
+      <description></description>
+      <content>&lt;script src=&#34;https://gist.github.com/malja/4fbe9b69878fc81dd2dd77c57fc059a9.js&#34;&gt;&lt;/script&gt;</content>
+    </item>
+    
+    <item>
+      <title>Generování HTML z PHP polí</title>
+      <link>https://jan.malcak.cz/generovani-html-z-php-poli/</link>
+      <pubDate>Wed, 28 Aug 2013 10:53:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/generovani-html-z-php-poli/</guid>
+      <description>Při výpisu objemných PHP polí byli mými nejlepšími společníky funkce print_r() a var_dump(). Výpis z nich se navíc musí dále obalit přinejmenším do tagů pre, aby výstup byl alespoň trochu čitelný. Navíc postup, který jsem k tomu používal:
+echo &amp;#34;&amp;lt;pre&amp;gt;&amp;#34;;print_r($promenna);echo &amp;#34;&amp;lt;/pre&amp;gt;&amp;#34;; se mi v kódu vůbec nelíbil. Proto jsem si vytvořil třídu, která formátování obstará za mě. Tak vznikla třída Tabletizer. Díky ní je vytvoření pěkné tabulky otázkou pár řádků:</description>
+      <content>&lt;p&gt;Při výpisu objemných PHP polí byli mými nejlepšími společníky funkce &lt;code&gt;print_r()&lt;/code&gt; a &lt;code&gt;var_dump()&lt;/code&gt;. Výpis z nich se navíc musí dále obalit přinejmenším do tagů &lt;code&gt;pre&lt;/code&gt;, aby výstup byl alespoň trochu čitelný. Navíc postup, který jsem k tomu používal:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;lt;pre&amp;gt;&amp;#34;&lt;/span&gt;;&lt;span style=&#34;color:#a6e22e&#34;&gt;print_r&lt;/span&gt;($promenna);&lt;span style=&#34;color:#66d9ef&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;lt;/pre&amp;gt;&amp;#34;&lt;/span&gt;;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;se mi v kódu vůbec nelíbil. Proto jsem si vytvořil třídu, která formátování obstará za mě. Tak vznikla třída &lt;code&gt;Tabletizer&lt;/code&gt;. Díky ní je vytvoření pěkné tabulky otázkou pár řádků:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;$table &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Tabletizer&lt;/span&gt;();
+&lt;span style=&#34;color:#66d9ef&#34;&gt;echo&lt;/span&gt; $table&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fromArray&lt;/span&gt;($promenna);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Jasně, řádky neušetřím, ale vypadá to o mnoho lépe.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Poznámka z roku 2018:&lt;/strong&gt; Zpětně by bylo vhodnější využít kratší název třídy a metodu &lt;code&gt;fromArray&lt;/code&gt; udělat statickou.&lt;/p&gt;
+&lt;p&gt;A to je vše. Výstupem může být třeba i takováto tabulka.&lt;/p&gt;
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;https://github.com/malja/archive/blob/master/php/Tabletizer/website/img/tabletizer.png?raw=true&#34;  alt=&#34;Tabletizer&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Tabletizer&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Díky tomu, že hlavní tabulce je přiřazena třída &lt;code&gt;.tabletizer&lt;/code&gt;, je velice jednoduché vytvořit si jakýkoli styl, který sedí do okolního &amp;ldquo;prostředí&amp;rdquo;. Vzhled tabulky si je možné jakkoli přizpůsobit.&lt;/p&gt;
+&lt;p&gt;Odkaz ke stažení, spolu s návodem a seznamem změn je možné najít na &lt;a href=&#34;https://github.com/malja/archive/tree/master/php/Tabletizer&#34;&gt;této stránce&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

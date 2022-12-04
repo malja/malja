@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  
+    <title>SDL2: Snímek obrazovky :: Jan Malčák</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="SDL s sebou ve druhé verzi přinesl i změnu vykreslování na obrazovku. Místo v RAM uložených SDL_Surface je v SDL2 použita SDL_Texture uložená na video RAM, kde je plně v jurisdikci GPU. Krom citelných změn na rychlost vykreslování se také změnil způsob, jakým lze zachytit snímek obrazovky.
+Při použití textur se SDL_Surface okna neaktualizuje, pokud bychom použili dřívější způsob, dostali bychom prázdný snímek. Bohužel standardní funkce SDL_SaveBMP (ani její nedokumentovaná obdoba v rozšíření SDL_image - IMG_SavePNG) nepodporuje uložení SDL_Texture." />
+<meta name="keywords" content="SDL, screenshot, png, bmp, sdl_surface, sdl_texture, img_savepng" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://jan.malcak.cz/sdl2-snimek-obrazovky/" />
+
+
+
+
+<link rel="stylesheet" href="https://jan.malcak.cz/assets/style.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon" href="https://jan.malcak.cz/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="https://jan.malcak.cz/img/favicon/orange.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="Jan Malčák" />
+
+
+
+<meta property="og:locale" content="cs" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="SDL2: Snímek obrazovky">
+<meta property="og:description" content="SDL s sebou ve druhé verzi přinesl i změnu vykreslování na obrazovku. Místo v RAM uložených SDL_Surface je v SDL2 použita SDL_Texture uložená na video RAM, kde je plně v jurisdikci GPU. Krom citelných změn na rychlost vykreslování se také změnil způsob, jakým lze zachytit snímek obrazovky.
+Při použití textur se SDL_Surface okna neaktualizuje, pokud bychom použili dřívější způsob, dostali bychom prázdný snímek. Bohužel standardní funkce SDL_SaveBMP (ani její nedokumentovaná obdoba v rozšíření SDL_image - IMG_SavePNG) nepodporuje uložení SDL_Texture." />
+<meta property="og:url" content="https://jan.malcak.cz/sdl2-snimek-obrazovky/" />
+<meta property="og:site_name" content="Jan Malčák" />
+
+  
+    <meta property="og:image" content="https://jan.malcak.cz/img/favicon/orange.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2014-03-19 20:57:00 &#43;0200 &#43;0200" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="orange">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Hlavní stránka
+  </div>
+</a>
+
+    </div>
+    
+  </div>
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="https://jan.malcak.cz/sdl2-snimek-obrazovky/">SDL2: Snímek obrazovky</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2014-03-19
+        
+      </span>
+    
+    
+      <span class="post-author">:: Jan Malčák</span>
+    
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="https://jan.malcak.cz/tags/programov%C3%A1n%C3%AD/">programování</a>&nbsp;
+    
+    #<a href="https://jan.malcak.cz/tags/tutori%C3%A1l/">tutoriál</a>&nbsp;
+    
+    #<a href="https://jan.malcak.cz/tags/cpp/">cpp</a>&nbsp;
+    
+  </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>SDL s sebou ve druhé verzi přinesl i změnu vykreslování na obrazovku. Místo v RAM uložených <a href="https://wiki.libsdl.org/SDL_Surface">SDL_Surface</a> je v SDL2 použita <a href="https://wiki.libsdl.org/SDL_Texture">SDL_Texture</a> uložená na video RAM, kde je plně v jurisdikci GPU. Krom citelných změn na rychlost vykreslování se také změnil způsob, jakým lze zachytit snímek obrazovky.</p>
+<p>Při použití textur se <code>SDL_Surface</code> okna neaktualizuje, pokud bychom použili dřívější způsob, dostali bychom prázdný snímek. Bohužel standardní funkce <a href="https://wiki.libsdl.org/SDL_SaveBMP">SDL_SaveBMP</a> (ani její nedokumentovaná obdoba v rozšíření <code>SDL_image</code> - <code>IMG_SavePNG</code>) nepodporuje uložení <code>SDL_Texture</code>. Je proto nejprve nutná konverze z <code>SDL_Texture</code> na <code>SDL_Surface</code>. Teprve pak je možné snímek obrazovky uložit.</p>
+<script src="https://gist.github.com/malja/2193bd656fe50c203f264ce554919976.js"></script>
+<h1 id="použité-funkce">Použité funkce<a href="#použité-funkce" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<ul>
+<li><a href="https://wiki.libsdl.org/SDL_RenderGetViewport">SDL_RenderGetViewport</a></li>
+<li><a href="https://wiki.libsdl.org/SDL_CreateRGBSurface">SDL_CreateRGBSurface</a></li>
+<li><a href="https://wiki.libsdl.org/SDL_GetError">SDL_GetError</a></li>
+<li><a href="https://wiki.libsdl.org/SDL_RenderReadPixels">SDL_RenderReadPixels</a></li>
+<li><a href="https://wiki.libsdl.org/SDL_FreeSurface">SDL_FreeSurface</a></li>
+</ul>
+
+      </div></div>
+
+  
+
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "malja" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>Po nocích píše Honza</span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="https://jan.malcak.cz/assets/main.js"></script>
+<script src="https://jan.malcak.cz/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

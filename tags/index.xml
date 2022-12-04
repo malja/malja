@@ -1,1 +1,161 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Jan Malčák</title><link>https://jan.malcak.cz/tags/</link><description>Recent content in Tags on Jan Malčák</description><generator>Hugo -- gohugo.io</generator><copyright>Po nocích píše Honza</copyright><lastBuildDate>Wed, 09 Dec 2020 21:55:00 +0200</lastBuildDate><atom:link href="https://jan.malcak.cz/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>hry</title><link>https://jan.malcak.cz/tags/hry/</link><pubDate>Wed, 09 Dec 2020 21:55:00 +0200</pubDate><guid>https://jan.malcak.cz/tags/hry/</guid><description/><content/></item><item><title>recenze</title><link>https://jan.malcak.cz/tags/recenze/</link><pubDate>Wed, 09 Dec 2020 21:55:00 +0200</pubDate><guid>https://jan.malcak.cz/tags/recenze/</guid><description/><content/></item><item><title>blog</title><link>https://jan.malcak.cz/tags/blog/</link><pubDate>Wed, 24 Oct 2018 22:11:00 +0200</pubDate><guid>https://jan.malcak.cz/tags/blog/</guid><description/><content/></item><item><title>apple</title><link>https://jan.malcak.cz/tags/apple/</link><pubDate>Fri, 14 Sep 2018 11:03:00 +0200</pubDate><guid>https://jan.malcak.cz/tags/apple/</guid><description/><content/></item><item><title>jídlo</title><link>https://jan.malcak.cz/tags/j%C3%ADdlo/</link><pubDate>Wed, 06 Jun 2018 11:24:00 +0200</pubDate><guid>https://jan.malcak.cz/tags/j%C3%ADdlo/</guid><description/><content/></item><item><title>php</title><link>https://jan.malcak.cz/tags/php/</link><pubDate>Thu, 31 Aug 2017 22:14:00 +0200</pubDate><guid>https://jan.malcak.cz/tags/php/</guid><description/><content/></item><item><title>programování</title><link>https://jan.malcak.cz/tags/programov%C3%A1n%C3%AD/</link><pubDate>Thu, 31 Aug 2017 22:14:00 +0200</pubDate><guid>https://jan.malcak.cz/tags/programov%C3%A1n%C3%AD/</guid><description/><content/></item><item><title>tutoriál</title><link>https://jan.malcak.cz/tags/tutori%C3%A1l/</link><pubDate>Thu, 31 Aug 2017 22:14:00 +0200</pubDate><guid>https://jan.malcak.cz/tags/tutori%C3%A1l/</guid><description/><content/></item><item><title>škola</title><link>https://jan.malcak.cz/tags/%C5%A1kola/</link><pubDate>Sat, 11 Jun 2016 01:05:00 +0200</pubDate><guid>https://jan.malcak.cz/tags/%C5%A1kola/</guid><description/><content/></item><item><title>cpp</title><link>https://jan.malcak.cz/tags/cpp/</link><pubDate>Sat, 26 Mar 2016 22:50:00 +0200</pubDate><guid>https://jan.malcak.cz/tags/cpp/</guid><description/><content/></item><item><title>linux</title><link>https://jan.malcak.cz/tags/linux/</link><pubDate>Sat, 14 Mar 2015 22:49:00 +0200</pubDate><guid>https://jan.malcak.cz/tags/linux/</guid><description/><content/></item><item><title>android</title><link>https://jan.malcak.cz/tags/android/</link><pubDate>Wed, 28 Aug 2013 15:03:00 +0200</pubDate><guid>https://jan.malcak.cz/tags/android/</guid><description/><content/></item><item><title>web</title><link>https://jan.malcak.cz/tags/web/</link><pubDate>Fri, 12 Jun 2009 16:35:00 +0200</pubDate><guid>https://jan.malcak.cz/tags/web/</guid><description/><content/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Jan Malčák</title>
+    <link>https://jan.malcak.cz/tags/</link>
+    <description>Recent content in Tags on Jan Malčák</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Po nocích píše Honza</copyright>
+    <lastBuildDate>Sun, 04 Dec 2022 03:10:23 +0200</lastBuildDate><atom:link href="https://jan.malcak.cz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>web</title>
+      <link>https://jan.malcak.cz/tags/web/</link>
+      <pubDate>Sun, 04 Dec 2022 03:10:23 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/tags/web/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>business</title>
+      <link>https://jan.malcak.cz/tags/business/</link>
+      <pubDate>Mon, 15 Aug 2022 21:01:23 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/tags/business/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>rozhovor</title>
+      <link>https://jan.malcak.cz/tags/rozhovor/</link>
+      <pubDate>Mon, 15 Aug 2022 21:01:23 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/tags/rozhovor/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>hry</title>
+      <link>https://jan.malcak.cz/tags/hry/</link>
+      <pubDate>Wed, 09 Dec 2020 21:55:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/tags/hry/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>recenze</title>
+      <link>https://jan.malcak.cz/tags/recenze/</link>
+      <pubDate>Wed, 09 Dec 2020 21:55:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/tags/recenze/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://jan.malcak.cz/tags/blog/</link>
+      <pubDate>Wed, 24 Oct 2018 22:11:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/tags/blog/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>apple</title>
+      <link>https://jan.malcak.cz/tags/apple/</link>
+      <pubDate>Fri, 14 Sep 2018 11:03:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/tags/apple/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>jídlo</title>
+      <link>https://jan.malcak.cz/tags/j%C3%ADdlo/</link>
+      <pubDate>Wed, 06 Jun 2018 11:24:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/tags/j%C3%ADdlo/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>https://jan.malcak.cz/tags/php/</link>
+      <pubDate>Thu, 31 Aug 2017 22:14:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/tags/php/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>programování</title>
+      <link>https://jan.malcak.cz/tags/programov%C3%A1n%C3%AD/</link>
+      <pubDate>Thu, 31 Aug 2017 22:14:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/tags/programov%C3%A1n%C3%AD/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>tutoriál</title>
+      <link>https://jan.malcak.cz/tags/tutori%C3%A1l/</link>
+      <pubDate>Thu, 31 Aug 2017 22:14:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/tags/tutori%C3%A1l/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>škola</title>
+      <link>https://jan.malcak.cz/tags/%C5%A1kola/</link>
+      <pubDate>Sat, 11 Jun 2016 01:05:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/tags/%C5%A1kola/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>cpp</title>
+      <link>https://jan.malcak.cz/tags/cpp/</link>
+      <pubDate>Sat, 26 Mar 2016 22:50:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/tags/cpp/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://jan.malcak.cz/tags/linux/</link>
+      <pubDate>Sat, 14 Mar 2015 22:49:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/tags/linux/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>android</title>
+      <link>https://jan.malcak.cz/tags/android/</link>
+      <pubDate>Wed, 28 Aug 2013 15:03:00 +0200</pubDate>
+      
+      <guid>https://jan.malcak.cz/tags/android/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+  </channel>
+</rss>

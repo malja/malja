@@ -1,1 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://jan.malcak.cz/en/categories/</loc><xhtml:link rel="alternate" hreflang="cs" href="https://jan.malcak.cz/categories/"/><xhtml:link rel="alternate" hreflang="en" href="https://jan.malcak.cz/en/categories/"/></url><url><loc>https://jan.malcak.cz/en/tags/</loc><xhtml:link rel="alternate" hreflang="cs" href="https://jan.malcak.cz/tags/"/><xhtml:link rel="alternate" hreflang="en" href="https://jan.malcak.cz/en/tags/"/></url><url><loc>https://jan.malcak.cz/en/</loc><xhtml:link rel="alternate" hreflang="cs" href="https://jan.malcak.cz/"/><xhtml:link rel="alternate" hreflang="en" href="https://jan.malcak.cz/en/"/></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://jan.malcak.cz/en/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cs"
+                href="https://jan.malcak.cz/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jan.malcak.cz/en/categories/"
+                />
+  </url><url>
+    <loc>https://jan.malcak.cz/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cs"
+                href="https://jan.malcak.cz/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jan.malcak.cz/en/"
+                />
+  </url><url>
+    <loc>https://jan.malcak.cz/en/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cs"
+                href="https://jan.malcak.cz/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jan.malcak.cz/en/tags/"
+                />
+  </url>
+</urlset>

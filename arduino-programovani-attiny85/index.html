@@ -1,87 +1,175 @@
-<!doctype html><html lang=cs>
+<!DOCTYPE html>
+<html lang="cs">
 <head>
-<title>Arduino: Programování Attiny85 :: Jan Malčák</title>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=description content="Z nějakého důvodu mi kdysi přišlo jako opravdu cool nápad koupit si několik miniaturních čipů ATtiny85. Ne že bych věděl co s nimi, spíš pro sichr. Jak se říká, co je doma, to se počítá.">
-<meta name=keywords content="arduino,uno,attiny85,isp,programmer">
-<meta name=robots content="noodp">
-<link rel=canonical href=https://jan.malcak.cz/arduino-programovani-attiny85/>
-<link rel=stylesheet href=https://jan.malcak.cz/assets/style.css>
-<link rel=apple-touch-icon href=https://jan.malcak.cz/img/apple-touch-icon-192x192.png>
-<link rel="shortcut icon" href=https://jan.malcak.cz/img/favicon/orange.png>
-<meta name=twitter:card content="summary">
-<meta name=twitter:site content>
-<meta name=twitter:creator content="Jan Malčák">
-<meta property="og:locale" content="cs">
-<meta property="og:type" content="article">
+  
+    <title>Arduino: Programování Attiny85 :: Jan Malčák</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Z nějakého důvodu mi kdysi přišlo jako opravdu cool nápad koupit si několik miniaturních čipů ATtiny85. Ne že bych věděl co s nimi, spíš pro sichr. Jak se říká, co je doma, to se počítá." />
+<meta name="keywords" content="arduino, uno, attiny85, isp, programmer" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://jan.malcak.cz/arduino-programovani-attiny85/" />
+
+
+
+
+<link rel="stylesheet" href="https://jan.malcak.cz/assets/style.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon" href="https://jan.malcak.cz/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="https://jan.malcak.cz/img/favicon/orange.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="Jan Malčák" />
+
+
+
+<meta property="og:locale" content="cs" />
+<meta property="og:type" content="article" />
 <meta property="og:title" content="Arduino: Programování Attiny85">
-<meta property="og:description" content="Z nějakého důvodu mi kdysi přišlo jako opravdu cool nápad koupit si několik miniaturních čipů ATtiny85. Ne že bych věděl co s nimi, spíš pro sichr. Jak se říká, co je doma, to se počítá.">
-<meta property="og:url" content="https://jan.malcak.cz/arduino-programovani-attiny85/">
-<meta property="og:site_name" content="Jan Malčák">
-<meta property="og:image" content="https://jan.malcak.cz/img/favicon/orange.png">
+<meta property="og:description" content="Z nějakého důvodu mi kdysi přišlo jako opravdu cool nápad koupit si několik miniaturních čipů ATtiny85. Ne že bych věděl co s nimi, spíš pro sichr. Jak se říká, co je doma, to se počítá." />
+<meta property="og:url" content="https://jan.malcak.cz/arduino-programovani-attiny85/" />
+<meta property="og:site_name" content="Jan Malčák" />
+
+  
+    <meta property="og:image" content="https://jan.malcak.cz/img/favicon/orange.png">
+  
+
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
-<meta property="article:published_time" content="2016-03-26 22:50:00 +0200 +0200">
+
+
+  <meta property="article:published_time" content="2016-03-26 22:50:00 &#43;0200 &#43;0200" />
+
+
+
+
+
+
+
+
+
+
+
+
 </head>
-<body class=orange>
+<body class="orange">
+
+
 <div class="container center headings--one-size">
-<header class=header>
-<div class=header__inner>
-<div class=header__logo>
-<a href=/>
-<div class=logo>
-Jan Malčák
-</div>
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Hlavní stránka
+  </div>
 </a>
-</div>
-</div>
+
+    </div>
+    
+  </div>
+  
 </header>
-<div class=content>
-<div class=post>
-<h1 class=post-title>
-<a href=https://jan.malcak.cz/arduino-programovani-attiny85/>Arduino: Programování Attiny85</a></h1>
-<div class=post-meta>
-<span class=post-date>
-2016-03-26
-</span>
-<span class=post-author>:: Jan Malčák</span>
-</div>
-<span class=post-tags>
-#<a href=https://jan.malcak.cz/tags/tutori%C3%A1l/>tutoriál</a>&nbsp;
-#<a href=https://jan.malcak.cz/tags/programov%C3%A1n%C3%AD/>programování</a>&nbsp;
-#<a href=https://jan.malcak.cz/tags/cpp/>cpp</a>&nbsp;
-</span>
-<div class=post-content><div>
-<p>Teď, možná po roce či dvou, jsem je vyhrabal z krabice. Stále jsem přesně netušil, co s nimi, ale v hlavě se mi pár nápadů rýsovalo.</p>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="https://jan.malcak.cz/arduino-programovani-attiny85/">Arduino: Programování Attiny85</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2016-03-26
+        
+      </span>
+    
+    
+      <span class="post-author">:: Jan Malčák</span>
+    
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="https://jan.malcak.cz/tags/tutori%C3%A1l/">tutoriál</a>&nbsp;
+    
+    #<a href="https://jan.malcak.cz/tags/programov%C3%A1n%C3%AD/">programování</a>&nbsp;
+    
+    #<a href="https://jan.malcak.cz/tags/cpp/">cpp</a>&nbsp;
+    
+  </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>Teď, možná po roce či dvou, jsem je vyhrabal z krabice. Stále jsem přesně netušil, co s nimi, ale v hlavě se mi pár nápadů rýsovalo.</p>
 <p>Z mých posledních pokusů jsem si pamatoval, že standardní USBisp, které jsem si koupil na programování čipů ATmega328 nejde použít. Nejjednodušší náhradou se mi jevilo využít Arduino Uno. Na internetu jsem našel velké množství tutoriálů, navíc jde o celkem jednoduchou záležitost.</p>
 <p>Prvně je třeba přidat podporu pro čipy rodiny ATtiny do Arduino IDE. Od posledně se situace radikálně zlepšila a není třeba ručně cokoliv stahovat, rozbalovat a kopírovat na správné místo.</p>
-<p>V Arduino IDE otevřete <strong>Nastavení</strong> -> <strong>File</strong> -> <strong>Preferences</strong> a do kolonky <em>Additional Boards Manager URLs</em> vložte jednu z následujících adres:</p>
+<p>V Arduino IDE otevřete <strong>Nastavení</strong> -&gt; <strong>File</strong> -&gt; <strong>Preferences</strong> a do kolonky <em>Additional Boards Manager URLs</em> vložte jednu z následujících adres:</p>
 <ul>
-<li><a href=https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json>https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json</a></li>
-<li><a href=http://drazzy.com/package_drazzy.com_index.json>http://drazzy.com/package_drazzy.com_index.json</a></li>
+<li><a href="https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json">https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json</a></li>
+<li><a href="http://drazzy.com/package_drazzy.com_index.json">http://drazzy.com/package_drazzy.com_index.json</a></li>
 </ul>
 <p>První z nich přidává podporu jen pro ATtiny 44/45/84/85. Druhá je mnohem rozsáhlejší. Pro mé potřeby až zbytečně.</p>
-<figure class=center>
-<img src=AddAttinySupport.gif alt="Přidání podpory pro Attiny">
-<figcaption class=center>Přidání podpory pro Attiny</figcaption>
-</figure>
-<p>Nyní v <strong>Tools</strong> -> <strong>Board</strong> -> <strong>Boards Manager</strong> vyberte a nainstalujeme ATtiny.</p>
-<figure class=center>
-<img src=AddAttinySupport2.gif>
-<figcaption class=center>Výše popsaný postup pro přidání podpory Attiny do Arduino IDE</figcaption>
-</figure>
+
+  <figure class="center" >
+    <img src="AddAttinySupport.gif"  alt="Přidání podpory pro Attiny"   />
+    
+      <figcaption class="center" >Přidání podpory pro Attiny</figcaption>
+    
+  </figure>
+
+
+<p>Nyní v <strong>Tools</strong> -&gt; <strong>Board</strong> -&gt; <strong>Boards Manager</strong> vyberte a nainstalujeme ATtiny.</p>
+
+  <figure class="center" >
+    <img src="AddAttinySupport2.gif"   />
+    
+      <figcaption class="center" >Výše popsaný postup pro přidání podpory Attiny do Arduino IDE</figcaption>
+    
+  </figure>
+
+
 <p>Tím jsme naučili Arduino IDE hovořit jazykem ATtiny kmene. Už stačí jen udělat z Arduina programátor. Po připojení Arduina k počítači v IDE stačí vybrat vzorový příklad <strong>ArduinoISP</strong>
-(<strong>File</strong> -> <strong>Examples</strong> -> <strong>ArduinoISP</strong> -> <strong>ArduinoISP</strong>) a nahrát ho. Tím se z Arduina stal programátor, který propojíme s ATtiny a můžeme začít.</p>
-<figure class=center>
-<img src=attiny85-pinout-simplified.png>
-<figcaption class=center>Popis pinů. Počítáno z levé horní strany po řádcích: (1) Reset (8) VCC, (2) A3 (7) Pin D2, (3) Pin A2 (6) Pin D1, (4) GND (5) Pin D0</figcaption>
-</figure>
+(<strong>File</strong> -&gt; <strong>Examples</strong> -&gt; <strong>ArduinoISP</strong> -&gt; <strong>ArduinoISP</strong>) a nahrát ho. Tím se z Arduina stal programátor, který propojíme s ATtiny a můžeme začít.</p>
+
+  <figure class="center" >
+    <img src="attiny85-pinout-simplified.png"   />
+    
+      <figcaption class="center" >Popis pinů. Počítáno z levé horní strany po řádcích: (1) Reset (8) VCC, (2) A3 (7) Pin D2, (3) Pin A2 (6) Pin D1, (4) GND (5) Pin D0</figcaption>
+    
+  </figure>
+
+
 <p>Propojení je následující:</p>
-<figure class=center>
-<img src=http://highlowtech.org/wp-content/uploads/2011/06/Screen-shot-2011-06-06-at-1.46.39-PM.png>
-<figcaption class=center>Zapojení Arduina UNO a Attiny85 pro programování. Vypůjčeno z http://highlowtech.org/?p=1706</figcaption>
-</figure>
+
+  <figure class="center" >
+    <img src="http://highlowtech.org/wp-content/uploads/2011/06/Screen-shot-2011-06-06-at-1.46.39-PM.png"   />
+    
+      <figcaption class="center" >Zapojení Arduina UNO a Attiny85 pro programování. Vypůjčeno z http://highlowtech.org/?p=1706</figcaption>
+    
+  </figure>
+
+
 <ul>
 <li>ATtiny pin <strong>2</strong> do Arduino pinu <strong>13</strong></li>
 <li>ATtiny pin <strong>1</strong> do Arduino pinu <strong>12</strong></li>
@@ -89,44 +177,59 @@ Jan Malčák
 <li>ATtiny pin <strong>Reset</strong> do Arduino pinu <strong>10</strong></li>
 </ul>
 <p>Teď už jen stačí otevřít Sketch, vybrat čip, který budete programovat a nastavit jako programátor <strong>Arduino as ISP</strong> a vše nahrát.</p>
-<p>A ještě krátká poznámka na konec. Pokud stejně jako já, budete mít trable s nastavením exsterního oscilátoru, doporučuji před nahráním Sketche vypálit <em>Bootloader</em> (<strong>Tools</strong> -> <strong>Burn Bootloader</strong>)</p>
-</div></div>
-<div class=pagination>
-<div class=pagination__title>
-<span class=pagination__title-h>Další příspěvky</span>
-<hr>
+<p>A ještě krátká poznámka na konec. Pokud stejně jako já, budete mít trable s nastavením exsterního oscilátoru, doporučuji před nahráním Sketche vypálit <em>Bootloader</em> (<strong>Tools</strong> -&gt; <strong>Burn Bootloader</strong>)</p>
+
+      </div></div>
+
+  
+
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "malja" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
-<div class=pagination__buttons>
-<span class="button previous">
-<a href=https://jan.malcak.cz/sbohem-a-satecek/>
-<span class=button__icon>←</span>
-<span class=button__text>Sbohem a šáteček</span>
-</a>
-</span>
-<span class="button next">
-<a href=https://jan.malcak.cz/kam-s-ni/>
-<span class=button__text>Kam s ní</span>
-<span class=button__icon>→</span>
-</a>
-</span>
-</div>
-</div>
-<div id=disqus_thread></div>
-<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//malja.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
-<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
-<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
-</div>
-</div>
-<footer class=footer>
-<div class=footer__inner>
-<div class="copyright copyright--user">
-<span>Po nocích píše Honza</span>
-<span>:: Theme made by <a href=https://twitter.com/panr>panr</a></span>
-</div>
-</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>Po nocích píše Honza</span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
 </footer>
-<script src=https://jan.malcak.cz/assets/main.js></script>
-<script src=https://jan.malcak.cz/assets/prism.js></script>
+
+<script src="https://jan.malcak.cz/assets/main.js"></script>
+<script src="https://jan.malcak.cz/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
 </div>
+
 </body>
 </html>
