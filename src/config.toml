@@ -4,14 +4,16 @@ defaultContentLanguage = "cs"
 theme = "terminal"
 paginate = 5
 disqusShortname = 'malja'
+buildFuture = true
 
 [permalinks]
-  blog = "/:filename"
+  old_blog = "/:filename"
+  blog = "/blog/:filename"
 
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "blog"
+  contentTypeName = [ "blog", "old_blog" ]
 
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "orange"
@@ -47,20 +49,24 @@ disqusShortname = 'malja'
   # it's set to `true` by default
   # oneHeadingSize = false
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params.twitter]
   # set Twitter handles for Twitter cards
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
-  creator = ""
+  creator = "JMalcak"
   site = ""
 
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
-    subtitle = "A simple, retro theme for Hugo"
-    owner = ""
+    title = "Jan Malcak"
+    subtitle = "Personal website"
+    owner = "Jan Malcak"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
@@ -72,7 +78,7 @@ disqusShortname = 'malja'
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "Go to main"
       logoHomeLink = "/"
 
     [languages.en.menu]
@@ -101,5 +107,5 @@ disqusShortname = 'malja'
     missingBackButtonLabel = "Zpět na hlavní stránku"
 
     [languages.cs.params.logo]
-      logoText = "Jan Malčák"
+      logoText = "Hlavní stránka"
       logoHomeLink = "/"
