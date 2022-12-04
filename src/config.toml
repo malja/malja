@@ -61,7 +61,6 @@ buildFuture = true
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
   creator = "JMalcak"
-  site = ""
 
 [languages]
   [languages.en]
